@@ -42,18 +42,14 @@ private:
   void topic_callback(const std_msgs::msg::String & msg) const
   {
     geometry_msgs::msg::Twist result;
-    result.angular = geometry_msgs::msg::Vector3(rosidl_runtime_cpp::MessageInitialization::ZERO);
-    result.linear = geometry_msgs::msg::Vector3(rosidl_runtime_cpp::MessageInitialization::ZERO);
-    auto str = std::string(msg.data.c_str());
-    RCLCPP_INFO(this->get_logger(), "I heard: '%s'",str.data());
-
-    if (str=="turn_right")
+    RCLCPP_INFO(this->get_logger(), "I heard: '%s'",msg.data.c_str());
+    if (msg.data=="turn_right")
       result.angular.set__z(-1.5);
-    else if (str == "turn_left")
+    else if (msg.data == "turn_left")
       result.angular.set__z(-1.5);
-    else if (str == "move_forward")
+    else if (msg.data == "move_forward")
       result.linear.set__x(1);
-    else if (str == "move_backward")
+    else if (msg.data == "move_backward")
       result.linear.set__x(-1);
     
     publisher_->publish(result);
@@ -69,3 +65,4 @@ int main(int argc, char * argv[])
   rclcpp::shutdown();
   return 0;
 }
+
