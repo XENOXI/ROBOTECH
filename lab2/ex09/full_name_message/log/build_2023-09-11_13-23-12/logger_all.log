@@ -1,0 +1,116 @@
+[1.046s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'full_name_message']
+[1.047s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['full_name_message'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f15cfda9f60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f15d04da800>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f15d04da800>>)
+[1.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.206s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.287s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'full_name_message'
+[1.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.352s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.358s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /root/ros2_ws/install
+[1.362s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 283 installed packages in /opt/ros/humble
+[1.367s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.457s] Level 5:colcon.colcon_core.verb:set package 'full_name_message' build argument 'cmake_args' from command line to 'None'
+[1.458s] Level 5:colcon.colcon_core.verb:set package 'full_name_message' build argument 'cmake_target' from command line to 'None'
+[1.459s] Level 5:colcon.colcon_core.verb:set package 'full_name_message' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.460s] Level 5:colcon.colcon_core.verb:set package 'full_name_message' build argument 'cmake_clean_cache' from command line to 'False'
+[1.460s] Level 5:colcon.colcon_core.verb:set package 'full_name_message' build argument 'cmake_clean_first' from command line to 'False'
+[1.461s] Level 5:colcon.colcon_core.verb:set package 'full_name_message' build argument 'cmake_force_configure' from command line to 'False'
+[1.462s] Level 5:colcon.colcon_core.verb:set package 'full_name_message' build argument 'ament_cmake_args' from command line to 'None'
+[1.463s] Level 5:colcon.colcon_core.verb:set package 'full_name_message' build argument 'catkin_cmake_args' from command line to 'None'
+[1.463s] Level 5:colcon.colcon_core.verb:set package 'full_name_message' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.464s] DEBUG:colcon.colcon_core.verb:Building package 'full_name_message' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message', 'merge_install': False, 'path': '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message', 'symlink_install': False, 'test_result_base': None}
+[1.466s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.472s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.474s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message' with build type 'ament_cmake'
+[1.475s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message'
+[1.488s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.490s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.491s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.641s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message
+[59.284s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message
+[59.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message -- -j16 -l16
+[70.173s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message -- -j16 -l16
+[70.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message
+[100.906s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(full_name_message)
+[100.909s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message
+[100.914s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message' for CMake module files
+[101.677s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message' for CMake config files
+[102.311s] Level 1:colcon.colcon_core.shell:create_environment_hook('full_name_message', 'cmake_prefix_path')
+[102.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/hook/cmake_prefix_path.ps1'
+[102.353s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/hook/cmake_prefix_path.dsv'
+[102.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/hook/cmake_prefix_path.sh'
+[102.458s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib'
+[102.472s] Level 1:colcon.colcon_core.shell:create_environment_hook('full_name_message', 'ld_library_path_lib')
+[102.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/hook/ld_library_path_lib.ps1'
+[102.520s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/hook/ld_library_path_lib.dsv'
+[102.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/hook/ld_library_path_lib.sh'
+[102.611s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/bin'
+[102.615s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib/pkgconfig/full_name_message.pc'
+[102.623s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib/python3.10/site-packages'
+[102.630s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/bin'
+[102.637s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/package.ps1'
+[102.676s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/package.dsv'
+[102.715s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/package.sh'
+[102.755s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/package.bash'
+[102.794s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/package.zsh'
+[102.832s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/colcon-core/packages/full_name_message)
+[103.122s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(full_name_message)
+[103.126s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message' for CMake module files
+[103.957s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message' for CMake config files
+[104.577s] Level 1:colcon.colcon_core.shell:create_environment_hook('full_name_message', 'cmake_prefix_path')
+[104.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/hook/cmake_prefix_path.ps1'
+[104.628s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/hook/cmake_prefix_path.dsv'
+[104.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/hook/cmake_prefix_path.sh'
+[104.733s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib'
+[104.752s] Level 1:colcon.colcon_core.shell:create_environment_hook('full_name_message', 'ld_library_path_lib')
+[104.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/hook/ld_library_path_lib.ps1'
+[104.803s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/hook/ld_library_path_lib.dsv'
+[104.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/hook/ld_library_path_lib.sh'
+[104.892s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/bin'
+[104.896s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib/pkgconfig/full_name_message.pc'
+[104.902s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib/python3.10/site-packages'
+[104.907s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/bin'
+[104.913s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/package.ps1'
+[104.950s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/package.dsv'
+[104.990s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/package.sh'
+[105.028s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/package.bash'
+[105.069s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/package.zsh'
+[105.109s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/colcon-core/packages/full_name_message)
+[105.137s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[105.138s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[105.140s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[105.141s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[105.270s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[105.271s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[105.272s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[105.273s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[105.274s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/0/bus: No such file or directory
+[105.274s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[105.278s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/local_setup.ps1'
+[105.299s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/_local_setup_util_ps1.py'
+[105.319s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/setup.ps1'
+[105.340s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/local_setup.sh'
+[105.359s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/_local_setup_util_sh.py'
+[105.376s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/setup.sh'
+[105.396s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/local_setup.bash'
+[105.415s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/setup.bash'
+[105.434s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/local_setup.zsh'
+[105.450s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/setup.zsh'

@@ -1,0 +1,9 @@
+/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/build/axenox/CMakeFiles/uninstall.dir
+/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/build/axenox/CMakeFiles/axenox_uninstall.dir
+/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/build/axenox/CMakeFiles/test.dir
+/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/build/axenox/CMakeFiles/edit_cache.dir
+/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/build/axenox/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/build/axenox/CMakeFiles/list_install_components.dir
+/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/build/axenox/CMakeFiles/install.dir
+/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/build/axenox/CMakeFiles/install/local.dir
+/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/build/axenox/CMakeFiles/install/strip.dir

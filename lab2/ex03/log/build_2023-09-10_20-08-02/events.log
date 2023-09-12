@@ -1,0 +1,119 @@
+[0.000000] (-) TimerEvent: {}
+[0.001259] (axenox) JobQueued: {'identifier': 'axenox', 'dependencies': OrderedDict()}
+[0.002103] (axenox) JobStarted: {'identifier': 'axenox'}
+[0.036531] (axenox) JobProgress: {'identifier': 'axenox', 'progress': 'cmake'}
+[0.054096] (axenox) Command: {'cmd': ['/usr/bin/cmake', '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/axenox', '-DCMAKE_INSTALL_PREFIX=/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/install/axenox'], 'cwd': '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/build/axenox', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/root'), ('OLDPWD', '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex04'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'MEXERILY'), ('WSL_INTEROP', '/run/WSL/463_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/game_/.cargo/bin:/mnt/c/Users/game_/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/game_/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/game_/AppData/Roaming/cabal/bin:/mnt/c/tools/ghc-9.2.1/bin:/mnt/c/tools/msys64:/mnt/c/Users/game_/AppData/Roaming/local/bin:/mnt/c/Users/game_/.dotnet/tools:/mnt/c/Users/game_/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/root/ros2_ws/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/build/axenox'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/ros2_ws/build/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_executors:/root/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/root/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/turtlesim:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.095625] (-) TimerEvent: {}
+[0.196500] (-) TimerEvent: {}
+[0.297345] (-) TimerEvent: {}
+[0.398251] (-) TimerEvent: {}
+[0.499348] (-) TimerEvent: {}
+[0.600208] (-) TimerEvent: {}
+[0.701290] (-) TimerEvent: {}
+[0.790542] (axenox) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.801518] (-) TimerEvent: {}
+[0.903401] (-) TimerEvent: {}
+[1.004356] (-) TimerEvent: {}
+[1.105070] (-) TimerEvent: {}
+[1.205896] (-) TimerEvent: {}
+[1.306747] (-) TimerEvent: {}
+[1.408646] (-) TimerEvent: {}
+[1.509640] (-) TimerEvent: {}
+[1.610460] (-) TimerEvent: {}
+[1.711636] (-) TimerEvent: {}
+[1.812724] (-) TimerEvent: {}
+[1.914056] (-) TimerEvent: {}
+[1.987805] (axenox) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.014253] (-) TimerEvent: {}
+[2.115099] (-) TimerEvent: {}
+[2.215935] (-) TimerEvent: {}
+[2.317307] (-) TimerEvent: {}
+[2.418211] (-) TimerEvent: {}
+[2.519209] (-) TimerEvent: {}
+[2.620167] (-) TimerEvent: {}
+[2.640428] (axenox) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.720398] (-) TimerEvent: {}
+[2.821334] (-) TimerEvent: {}
+[2.922141] (-) TimerEvent: {}
+[3.022896] (-) TimerEvent: {}
+[3.123999] (-) TimerEvent: {}
+[3.224804] (-) TimerEvent: {}
+[3.326761] (-) TimerEvent: {}
+[3.427476] (-) TimerEvent: {}
+[3.528352] (-) TimerEvent: {}
+[3.629489] (-) TimerEvent: {}
+[3.731206] (-) TimerEvent: {}
+[3.782266] (axenox) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.826115] (axenox) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.828257] (axenox) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.830418] (axenox) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.832546] (-) TimerEvent: {}
+[3.925796] (axenox) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.932755] (-) TimerEvent: {}
+[4.033590] (-) TimerEvent: {}
+[4.134667] (-) TimerEvent: {}
+[4.235482] (-) TimerEvent: {}
+[4.336325] (-) TimerEvent: {}
+[4.437901] (-) TimerEvent: {}
+[4.539702] (-) TimerEvent: {}
+[4.640698] (-) TimerEvent: {}
+[4.741457] (-) TimerEvent: {}
+[4.843130] (-) TimerEvent: {}
+[4.944116] (-) TimerEvent: {}
+[5.019531] (axenox) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.044344] (-) TimerEvent: {}
+[5.063832] (axenox) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.066339] (axenox) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.068385] (axenox) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.144538] (-) TimerEvent: {}
+[5.167731] (axenox) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.244745] (-) TimerEvent: {}
+[5.345815] (-) TimerEvent: {}
+[5.375056] (axenox) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[5.446020] (-) TimerEvent: {}
+[5.546858] (-) TimerEvent: {}
+[5.647599] (-) TimerEvent: {}
+[5.748297] (-) TimerEvent: {}
+[5.849147] (-) TimerEvent: {}
+[5.950012] (-) TimerEvent: {}
+[6.050870] (-) TimerEvent: {}
+[6.151609] (-) TimerEvent: {}
+[6.252583] (-) TimerEvent: {}
+[6.354091] (-) TimerEvent: {}
+[6.455082] (-) TimerEvent: {}
+[6.555878] (-) TimerEvent: {}
+[6.656681] (-) TimerEvent: {}
+[6.757590] (-) TimerEvent: {}
+[6.858506] (-) TimerEvent: {}
+[6.959436] (-) TimerEvent: {}
+[7.060180] (-) TimerEvent: {}
+[7.160908] (-) TimerEvent: {}
+[7.261719] (-) TimerEvent: {}
+[7.362606] (-) TimerEvent: {}
+[7.463710] (-) TimerEvent: {}
+[7.564637] (-) TimerEvent: {}
+[7.644643] (axenox) StderrLine: {'line': b'CMake Error at CMakeLists.txt:10 (find_package):\n'}
+[7.647512] (axenox) StderrLine: {'line': b'  By not providing "Find[std_msgs,rclpy,rclcpp].cmake" in CMAKE_MODULE_PATH\n'}
+[7.649929] (axenox) StderrLine: {'line': b'  this project has asked CMake to find a package configuration file provided\n'}
+[7.652055] (axenox) StderrLine: {'line': b'  by "[std_msgs,rclpy,rclcpp]", but CMake did not find one.\n'}
+[7.654706] (axenox) StderrLine: {'line': b'\n'}
+[7.656697] (axenox) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[7.658770] (axenox) StderrLine: {'line': b'  "[std_msgs,rclpy,rclcpp]" with any of the following names:\n'}
+[7.660809] (axenox) StderrLine: {'line': b'\n'}
+[7.663922] (axenox) StderrLine: {'line': b'    [std_msgs,rclpy,rclcpp]Config.cmake\n'}
+[7.666167] (-) TimerEvent: {}
+[7.666727] (axenox) StderrLine: {'line': b'    [std_msgs,rclpy,rclcpp]-config.cmake\n'}
+[7.668992] (axenox) StderrLine: {'line': b'\n'}
+[7.671200] (axenox) StderrLine: {'line': b'  Add the installation prefix of "[std_msgs,rclpy,rclcpp]" to\n'}
+[7.673666] (axenox) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "[std_msgs,rclpy,rclcpp]_DIR" to a directory\n'}
+[7.675731] (axenox) StderrLine: {'line': b'  containing one of the above files.  If "[std_msgs,rclpy,rclcpp]" provides a\n'}
+[7.678080] (axenox) StderrLine: {'line': b'  separate development package or SDK, be sure it has been installed.\n'}
+[7.680541] (axenox) StderrLine: {'line': b'\n'}
+[7.682387] (axenox) StderrLine: {'line': b'\n'}
+[7.684786] (axenox) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[7.686733] (axenox) StdoutLine: {'line': b'See also "/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/build/axenox/CMakeFiles/CMakeOutput.log".\n'}
+[7.689325] (axenox) CommandEnded: {'returncode': 1}
+[7.766375] (-) TimerEvent: {}
+[7.867126] (-) TimerEvent: {}
+[7.933721] (axenox) JobEnded: {'identifier': 'axenox', 'rc': 1}
+[7.949792] (-) EventReactorShutdown: {}

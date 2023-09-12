@@ -1,0 +1,79 @@
+[0.000000] (-) TimerEvent: {}
+[0.001443] (full_name_message) JobQueued: {'identifier': 'full_name_message', 'dependencies': OrderedDict()}
+[0.002747] (full_name_message) JobStarted: {'identifier': 'full_name_message'}
+[0.074533] (full_name_message) JobProgress: {'identifier': 'full_name_message', 'progress': 'cmake'}
+[0.093503] (-) TimerEvent: {}
+[0.144720] (full_name_message) Command: {'cmd': ['/usr/bin/cmake', '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message', '-DCMAKE_INSTALL_PREFIX=/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message'], 'cwd': '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/srv'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'MEXERILY'), ('WSL_INTEROP', '/run/WSL/2439_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/game_/.cargo/bin:/mnt/c/Users/game_/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/game_/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/game_/AppData/Roaming/cabal/bin:/mnt/c/tools/ghc-9.2.1/bin:/mnt/c/tools/msys64:/mnt/c/Users/game_/AppData/Roaming/local/bin:/mnt/c/Users/game_/.dotnet/tools:/mnt/c/Users/game_/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/turtlesim:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/root/ros2_ws/build/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_executors:/root/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/turtlesim:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.193745] (-) TimerEvent: {}
+[0.295347] (-) TimerEvent: {}
+[0.315290] (full_name_message) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.395558] (-) TimerEvent: {}
+[0.496764] (-) TimerEvent: {}
+[0.598373] (-) TimerEvent: {}
+[0.699458] (-) TimerEvent: {}
+[0.739233] (full_name_message) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.771789] (full_name_message) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.776314] (full_name_message) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.799704] (-) TimerEvent: {}
+[0.901106] (-) TimerEvent: {}
+[1.002463] (-) TimerEvent: {}
+[1.104340] (-) TimerEvent: {}
+[1.205565] (-) TimerEvent: {}
+[1.220237] (full_name_message) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.305822] (-) TimerEvent: {}
+[1.407231] (-) TimerEvent: {}
+[1.508902] (-) TimerEvent: {}
+[1.611443] (-) TimerEvent: {}
+[1.712839] (-) TimerEvent: {}
+[1.744484] (full_name_message) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[1.748410] (full_name_message) StderrLine: {'line': b'  execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name\n'}
+[1.759218] (full_name_message) StderrLine: {'line': b'  full_name_message --arguments-file\n'}
+[1.762038] (full_name_message) StderrLine: {'line': b'  /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message/rosidl_adapter__arguments__full_name_message.json\n'}
+[1.765306] (full_name_message) StderrLine: {'line': b'  --output-dir\n'}
+[1.768122] (full_name_message) StderrLine: {'line': b'  /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message/rosidl_adapter/full_name_message\n'}
+[1.770648] (full_name_message) StderrLine: {'line': b'  --output-file\n'}
+[1.773132] (full_name_message) StderrLine: {'line': b'  /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message/rosidl_adapter/full_name_message.idls)\n'}
+[1.775798] (full_name_message) StderrLine: {'line': b'  returned error code 1:\n'}
+[1.778515] (full_name_message) StderrLine: {'line': b'\n'}
+[1.781179] (full_name_message) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[1.783744] (full_name_message) StderrLine: {'line': b'\n'}
+[1.786586] (full_name_message) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[1.789383] (full_name_message) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[1.792136] (full_name_message) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[1.794879] (full_name_message) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[1.797561] (full_name_message) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[1.800399] (full_name_message) StderrLine: {'line': b'      sys.exit(main())\n'}
+[1.803650] (full_name_message) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[1.806342] (full_name_message) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[1.808999] (full_name_message) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl\n'}
+[1.811708] (full_name_message) StderrLine: {'line': b'      return convert_srv_to_idl(\n'}
+[1.814456] (-) TimerEvent: {}
+[1.815292] (full_name_message) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl\n'}
+[1.817958] (full_name_message) StderrLine: {'line': b'      srv = parse_service_string(package_name, input_file.stem, content)\n'}
+[1.820761] (full_name_message) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 859, in parse_service_string\n'}
+[1.823676] (full_name_message) StderrLine: {'line': b'      request_message = parse_message_string(\n'}
+[1.826377] (full_name_message) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string\n'}
+[1.829083] (full_name_message) StderrLine: {'line': b'      msg = MessageSpecification(pkg_name, msg_name, fields, constants)\n'}
+[1.831772] (full_name_message) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__\n'}
+[1.834659] (full_name_message) StderrLine: {'line': b'      self.base_type = BaseType(\n'}
+[1.837423] (full_name_message) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__\n'}
+[1.844036] (full_name_message) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[1.846966] (full_name_message) StderrLine: {'line': b'\n'}
+[1.849716] (full_name_message) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'getFullName_Request' is an\n"}
+[1.853275] (full_name_message) StderrLine: {'line': b"  invalid message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[1.856600] (full_name_message) StderrLine: {'line': b'\n'}
+[1.860101] (full_name_message) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.863281] (full_name_message) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[1.866922] (full_name_message) StderrLine: {'line': b'  CMakeLists.txt:16 (rosidl_generate_interfaces)\n'}
+[1.870817] (full_name_message) StderrLine: {'line': b'\n'}
+[1.873465] (full_name_message) StderrLine: {'line': b'\x1b[0m\n'}
+[1.876225] (full_name_message) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.880172] (full_name_message) StdoutLine: {'line': b'See also "/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message/CMakeFiles/CMakeOutput.log".\n'}
+[1.885142] (full_name_message) CommandEnded: {'returncode': 1}
+[1.914686] (-) TimerEvent: {}
+[2.016155] (-) TimerEvent: {}
+[2.117389] (-) TimerEvent: {}
+[2.219128] (-) TimerEvent: {}
+[2.320388] (-) TimerEvent: {}
+[2.321719] (full_name_message) JobEnded: {'identifier': 'full_name_message', 'rc': 1}
+[2.347639] (-) EventReactorShutdown: {}

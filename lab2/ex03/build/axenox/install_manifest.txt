@@ -1,0 +1,15 @@
+/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/install/axenox/share/ament_index/resource_index/package_run_dependencies/axenox
+/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/install/axenox/share/ament_index/resource_index/parent_prefix_path/axenox
+/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/install/axenox/share/axenox/environment/ament_prefix_path.sh
+/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/install/axenox/share/axenox/environment/ament_prefix_path.dsv
+/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/install/axenox/share/axenox/environment/path.sh
+/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/install/axenox/share/axenox/environment/path.dsv
+/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/install/axenox/share/axenox/local_setup.bash
+/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/install/axenox/share/axenox/local_setup.sh
+/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/install/axenox/share/axenox/local_setup.zsh
+/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/install/axenox/share/axenox/local_setup.dsv
+/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/install/axenox/share/axenox/package.dsv
+/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/install/axenox/share/ament_index/resource_index/packages/axenox
+/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/install/axenox/share/axenox/cmake/axenoxConfig.cmake
+/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/install/axenox/share/axenox/cmake/axenoxConfig-version.cmake
+/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/install/axenox/share/axenox/package.xml

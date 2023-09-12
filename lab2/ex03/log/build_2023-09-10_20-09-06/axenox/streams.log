@@ -1,0 +1,22 @@
+[0.101s] Invoking command in '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/build/axenox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/axenox -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/install/axenox
+[0.176s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.377s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[2.379s]   By not providing "Find[std_msgs,rclpy,rclcpp].cmake" in CMAKE_MODULE_PATH
+[2.381s]   this project has asked CMake to find a package configuration file provided
+[2.383s]   by "[std_msgs,rclpy,rclcpp]", but CMake did not find one.
+[2.385s] 
+[2.387s]   Could not find a package configuration file provided by
+[2.389s]   "[std_msgs,rclpy,rclcpp]" with any of the following names:
+[2.391s] 
+[2.393s]     [std_msgs,rclpy,rclcpp]Config.cmake
+[2.395s]     [std_msgs,rclpy,rclcpp]-config.cmake
+[2.397s] 
+[2.400s]   Add the installation prefix of "[std_msgs,rclpy,rclcpp]" to
+[2.402s]   CMAKE_PREFIX_PATH or set "[std_msgs,rclpy,rclcpp]_DIR" to a directory
+[2.404s]   containing one of the above files.  If "[std_msgs,rclpy,rclcpp]" provides a
+[2.406s]   separate development package or SDK, be sure it has been installed.
+[2.408s] 
+[2.409s] [0m
+[2.411s] -- Configuring incomplete, errors occurred!
+[2.413s] See also "/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/build/axenox/CMakeFiles/CMakeOutput.log".
+[2.415s] Invoked command in '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/build/axenox' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/axenox -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/install/axenox

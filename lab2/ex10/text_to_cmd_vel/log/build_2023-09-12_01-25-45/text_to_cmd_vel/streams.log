@@ -1,0 +1,73 @@
+[0.597s] Invoking command in '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/build/text_to_cmd_vel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/install/text_to_cmd_vel:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/install/text_to_cmd_vel
+[3.100s] -- The C compiler identification is GNU 11.4.0
+[5.452s] -- The CXX compiler identification is GNU 11.4.0
+[6.537s] -- Detecting C compiler ABI info
+[10.721s] -- Detecting C compiler ABI info - done
+[10.797s] -- Check for working C compiler: /usr/bin/cc - skipped
+[10.801s] -- Detecting C compile features
+[10.805s] -- Detecting C compile features - done
+[10.990s] -- Detecting CXX compiler ABI info
+[15.511s] -- Detecting CXX compiler ABI info - done
+[15.577s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[15.580s] -- Detecting CXX compile features
+[15.583s] -- Detecting CXX compile features - done
+[16.004s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[20.498s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[24.126s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[26.402s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[26.749s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[27.106s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[27.481s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[28.011s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[29.862s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[30.047s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[36.843s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[40.800s] -- Found FastRTPS: /opt/ros/humble/include  
+[47.398s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[48.074s] -- Looking for pthread.h
+[51.750s] -- Looking for pthread.h - found
+[51.783s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[55.517s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[55.534s] -- Found Threads: TRUE  
+[56.756s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[65.477s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[65.480s] -- Configured cppcheck include dirs: 
+[65.483s] -- Configured cppcheck exclude dirs and/or files: 
+[67.571s] -- Added test 'lint_cmake' to check CMake code style
+[74.634s] -- Added test 'uncrustify' to check C / C++ code style
+[74.637s] -- Configured uncrustify additional arguments: 
+[75.350s] -- Added test 'xmllint' to check XML markup files
+[75.767s] -- Configuring done
+[76.753s] -- Generating done
+[77.013s] -- Build files have been written to: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/build/text_to_cmd_vel
+[77.027s] Invoked command in '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/build/text_to_cmd_vel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/install/text_to_cmd_vel:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/install/text_to_cmd_vel
+[77.060s] Invoking command in '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/build/text_to_cmd_vel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/install/text_to_cmd_vel:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/build/text_to_cmd_vel -- -j16 -l16
+[79.363s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[79.402s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[86.928s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[89.811s] [ 75%] Built target talker
+[93.474s] [100%] [32m[1mLinking CXX executable listener[0m
+[99.456s] [100%] Built target listener
+[99.834s] Invoked command in '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/build/text_to_cmd_vel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/install/text_to_cmd_vel:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/build/text_to_cmd_vel -- -j16 -l16
+[102.756s] Invoking command in '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/build/text_to_cmd_vel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/install/text_to_cmd_vel:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/build/text_to_cmd_vel
+[103.123s] -- Install configuration: ""
+[103.176s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/install/text_to_cmd_vel/lib/text_to_cmd_vel/talker
+[103.499s] -- Set runtime path of "/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/install/text_to_cmd_vel/lib/text_to_cmd_vel/talker" to ""
+[103.554s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/install/text_to_cmd_vel/lib/text_to_cmd_vel/listener
+[104.083s] -- Set runtime path of "/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/install/text_to_cmd_vel/lib/text_to_cmd_vel/listener" to ""
+[104.222s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/install/text_to_cmd_vel/share/ament_index/resource_index/package_run_dependencies/text_to_cmd_vel
+[104.597s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/install/text_to_cmd_vel/share/ament_index/resource_index/parent_prefix_path/text_to_cmd_vel
+[104.885s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/install/text_to_cmd_vel/share/text_to_cmd_vel/environment/ament_prefix_path.sh
+[105.076s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/install/text_to_cmd_vel/share/text_to_cmd_vel/environment/ament_prefix_path.dsv
+[105.273s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/install/text_to_cmd_vel/share/text_to_cmd_vel/environment/path.sh
+[105.469s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/install/text_to_cmd_vel/share/text_to_cmd_vel/environment/path.dsv
+[105.687s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/install/text_to_cmd_vel/share/text_to_cmd_vel/local_setup.bash
+[105.878s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/install/text_to_cmd_vel/share/text_to_cmd_vel/local_setup.sh
+[106.068s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/install/text_to_cmd_vel/share/text_to_cmd_vel/local_setup.zsh
+[106.264s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/install/text_to_cmd_vel/share/text_to_cmd_vel/local_setup.dsv
+[106.448s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/install/text_to_cmd_vel/share/text_to_cmd_vel/package.dsv
+[106.681s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/install/text_to_cmd_vel/share/ament_index/resource_index/packages/text_to_cmd_vel
+[106.946s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/install/text_to_cmd_vel/share/text_to_cmd_vel/cmake/text_to_cmd_velConfig.cmake
+[107.144s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/install/text_to_cmd_vel/share/text_to_cmd_vel/cmake/text_to_cmd_velConfig-version.cmake
+[107.349s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/install/text_to_cmd_vel/share/text_to_cmd_vel/package.xml
+[107.530s] Invoked command in '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/build/text_to_cmd_vel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/install/text_to_cmd_vel:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/build/text_to_cmd_vel

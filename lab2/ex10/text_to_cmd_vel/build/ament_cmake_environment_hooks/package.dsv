@@ -1,0 +1,4 @@
+source;share/text_to_cmd_vel/local_setup.bash
+source;share/text_to_cmd_vel/local_setup.dsv
+source;share/text_to_cmd_vel/local_setup.sh
+source;share/text_to_cmd_vel/local_setup.zsh

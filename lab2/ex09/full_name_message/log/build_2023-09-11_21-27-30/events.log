@@ -1,0 +1,2028 @@
+[0.000000] (-) TimerEvent: {}
+[0.001395] (full_name_message) JobQueued: {'identifier': 'full_name_message', 'dependencies': OrderedDict()}
+[0.001984] (full_name_message) JobStarted: {'identifier': 'full_name_message'}
+[0.038122] (full_name_message) JobProgress: {'identifier': 'full_name_message', 'progress': 'cmake'}
+[0.075820] (full_name_message) JobProgress: {'identifier': 'full_name_message', 'progress': 'build'}
+[0.084076] (full_name_message) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message', '--', '-j16', '-l16'], 'cwd': '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/srv'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'MEXERILY'), ('WSL_INTEROP', '/run/WSL/459_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/game_/.cargo/bin:/mnt/c/Users/game_/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/game_/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/game_/AppData/Roaming/cabal/bin:/mnt/c/tools/ghc-9.2.1/bin:/mnt/c/tools/msys64:/mnt/c/Users/game_/AppData/Roaming/local/bin:/mnt/c/Users/game_/.dotnet/tools:/mnt/c/Users/game_/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/turtlesim:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/root/ros2_ws/build/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_executors:/root/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/turtlesim:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.106132] (-) TimerEvent: {}
+[0.206834] (-) TimerEvent: {}
+[0.307771] (-) TimerEvent: {}
+[0.342540] (full_name_message) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.407907] (-) TimerEvent: {}
+[0.509187] (-) TimerEvent: {}
+[0.565322] (full_name_message) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.603880] (full_name_message) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.606133] (full_name_message) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.609288] (-) TimerEvent: {}
+[0.710067] (-) TimerEvent: {}
+[0.810888] (-) TimerEvent: {}
+[0.840110] (full_name_message) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.911070] (-) TimerEvent: {}
+[1.012196] (-) TimerEvent: {}
+[1.113391] (-) TimerEvent: {}
+[1.214803] (-) TimerEvent: {}
+[1.315790] (-) TimerEvent: {}
+[1.416770] (-) TimerEvent: {}
+[1.517776] (-) TimerEvent: {}
+[1.618714] (-) TimerEvent: {}
+[1.719588] (-) TimerEvent: {}
+[1.820940] (-) TimerEvent: {}
+[1.833730] (full_name_message) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.921102] (-) TimerEvent: {}
+[2.021935] (-) TimerEvent: {}
+[2.123541] (-) TimerEvent: {}
+[2.224357] (-) TimerEvent: {}
+[2.325144] (-) TimerEvent: {}
+[2.426305] (-) TimerEvent: {}
+[2.527408] (-) TimerEvent: {}
+[2.573147] (full_name_message) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.627648] (-) TimerEvent: {}
+[2.728584] (-) TimerEvent: {}
+[2.829602] (-) TimerEvent: {}
+[2.930685] (-) TimerEvent: {}
+[3.031744] (-) TimerEvent: {}
+[3.132637] (-) TimerEvent: {}
+[3.233680] (-) TimerEvent: {}
+[3.334765] (-) TimerEvent: {}
+[3.435857] (-) TimerEvent: {}
+[3.494832] (full_name_message) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.516405] (full_name_message) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.536069] (-) TimerEvent: {}
+[3.541225] (full_name_message) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.544179] (full_name_message) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.546032] (full_name_message) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.636260] (-) TimerEvent: {}
+[3.737320] (-) TimerEvent: {}
+[3.838160] (-) TimerEvent: {}
+[3.939382] (-) TimerEvent: {}
+[3.981140] (full_name_message) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.039698] (-) TimerEvent: {}
+[4.141396] (-) TimerEvent: {}
+[4.242076] (-) TimerEvent: {}
+[4.342873] (-) TimerEvent: {}
+[4.443777] (-) TimerEvent: {}
+[4.544585] (-) TimerEvent: {}
+[4.645569] (-) TimerEvent: {}
+[4.746597] (-) TimerEvent: {}
+[4.847409] (-) TimerEvent: {}
+[4.948230] (-) TimerEvent: {}
+[5.049223] (-) TimerEvent: {}
+[5.150110] (-) TimerEvent: {}
+[5.251020] (-) TimerEvent: {}
+[5.351929] (-) TimerEvent: {}
+[5.452816] (-) TimerEvent: {}
+[5.553639] (-) TimerEvent: {}
+[5.654550] (-) TimerEvent: {}
+[5.755527] (-) TimerEvent: {}
+[5.856305] (-) TimerEvent: {}
+[5.956991] (-) TimerEvent: {}
+[6.057702] (-) TimerEvent: {}
+[6.158556] (-) TimerEvent: {}
+[6.259637] (-) TimerEvent: {}
+[6.360691] (-) TimerEvent: {}
+[6.461654] (-) TimerEvent: {}
+[6.562434] (-) TimerEvent: {}
+[6.663193] (-) TimerEvent: {}
+[6.764117] (-) TimerEvent: {}
+[6.865009] (-) TimerEvent: {}
+[6.965812] (-) TimerEvent: {}
+[7.066705] (-) TimerEvent: {}
+[7.167598] (-) TimerEvent: {}
+[7.268505] (-) TimerEvent: {}
+[7.369479] (-) TimerEvent: {}
+[7.470729] (-) TimerEvent: {}
+[7.571949] (-) TimerEvent: {}
+[7.672791] (-) TimerEvent: {}
+[7.773790] (-) TimerEvent: {}
+[7.874628] (-) TimerEvent: {}
+[7.975393] (-) TimerEvent: {}
+[8.076256] (-) TimerEvent: {}
+[8.176944] (-) TimerEvent: {}
+[8.277753] (-) TimerEvent: {}
+[8.378620] (-) TimerEvent: {}
+[8.479354] (-) TimerEvent: {}
+[8.580136] (-) TimerEvent: {}
+[8.680959] (-) TimerEvent: {}
+[8.781670] (-) TimerEvent: {}
+[8.882407] (-) TimerEvent: {}
+[8.983183] (-) TimerEvent: {}
+[9.084055] (-) TimerEvent: {}
+[9.184836] (-) TimerEvent: {}
+[9.285927] (-) TimerEvent: {}
+[9.386656] (-) TimerEvent: {}
+[9.487394] (-) TimerEvent: {}
+[9.588224] (-) TimerEvent: {}
+[9.689072] (-) TimerEvent: {}
+[9.789803] (-) TimerEvent: {}
+[9.890495] (-) TimerEvent: {}
+[9.991391] (-) TimerEvent: {}
+[10.093543] (-) TimerEvent: {}
+[10.194607] (-) TimerEvent: {}
+[10.295526] (-) TimerEvent: {}
+[10.396591] (-) TimerEvent: {}
+[10.497457] (-) TimerEvent: {}
+[10.598187] (-) TimerEvent: {}
+[10.698956] (-) TimerEvent: {}
+[10.799763] (-) TimerEvent: {}
+[10.900676] (-) TimerEvent: {}
+[11.001347] (-) TimerEvent: {}
+[11.102291] (-) TimerEvent: {}
+[11.203074] (-) TimerEvent: {}
+[11.304141] (-) TimerEvent: {}
+[11.404878] (-) TimerEvent: {}
+[11.505756] (-) TimerEvent: {}
+[11.606536] (-) TimerEvent: {}
+[11.707313] (-) TimerEvent: {}
+[11.808118] (-) TimerEvent: {}
+[11.908885] (-) TimerEvent: {}
+[12.009701] (-) TimerEvent: {}
+[12.110740] (-) TimerEvent: {}
+[12.211807] (-) TimerEvent: {}
+[12.313045] (-) TimerEvent: {}
+[12.414243] (-) TimerEvent: {}
+[12.515370] (-) TimerEvent: {}
+[12.616160] (-) TimerEvent: {}
+[12.717081] (-) TimerEvent: {}
+[12.818000] (-) TimerEvent: {}
+[12.918902] (-) TimerEvent: {}
+[13.020188] (-) TimerEvent: {}
+[13.121389] (-) TimerEvent: {}
+[13.222561] (-) TimerEvent: {}
+[13.323732] (-) TimerEvent: {}
+[13.425127] (-) TimerEvent: {}
+[13.526248] (-) TimerEvent: {}
+[13.627199] (-) TimerEvent: {}
+[13.727958] (-) TimerEvent: {}
+[13.828885] (-) TimerEvent: {}
+[13.930168] (-) TimerEvent: {}
+[14.031252] (-) TimerEvent: {}
+[14.132473] (-) TimerEvent: {}
+[14.233637] (-) TimerEvent: {}
+[14.334705] (-) TimerEvent: {}
+[14.435613] (-) TimerEvent: {}
+[14.536702] (-) TimerEvent: {}
+[14.637559] (-) TimerEvent: {}
+[14.738395] (-) TimerEvent: {}
+[14.839467] (-) TimerEvent: {}
+[14.940994] (-) TimerEvent: {}
+[15.042354] (-) TimerEvent: {}
+[15.143105] (-) TimerEvent: {}
+[15.244132] (-) TimerEvent: {}
+[15.345126] (-) TimerEvent: {}
+[15.446668] (-) TimerEvent: {}
+[15.547553] (-) TimerEvent: {}
+[15.648574] (-) TimerEvent: {}
+[15.749424] (-) TimerEvent: {}
+[15.850147] (-) TimerEvent: {}
+[15.950933] (-) TimerEvent: {}
+[16.051741] (-) TimerEvent: {}
+[16.152551] (-) TimerEvent: {}
+[16.253434] (-) TimerEvent: {}
+[16.354172] (-) TimerEvent: {}
+[16.455111] (-) TimerEvent: {}
+[16.556104] (-) TimerEvent: {}
+[16.656964] (-) TimerEvent: {}
+[16.757843] (-) TimerEvent: {}
+[16.858649] (-) TimerEvent: {}
+[16.959361] (-) TimerEvent: {}
+[17.060380] (-) TimerEvent: {}
+[17.161316] (-) TimerEvent: {}
+[17.262098] (-) TimerEvent: {}
+[17.362873] (-) TimerEvent: {}
+[17.463584] (-) TimerEvent: {}
+[17.564475] (-) TimerEvent: {}
+[17.665389] (-) TimerEvent: {}
+[17.766137] (-) TimerEvent: {}
+[17.866868] (-) TimerEvent: {}
+[17.967728] (-) TimerEvent: {}
+[18.068640] (-) TimerEvent: {}
+[18.169446] (-) TimerEvent: {}
+[18.270232] (-) TimerEvent: {}
+[18.371033] (-) TimerEvent: {}
+[18.471766] (-) TimerEvent: {}
+[18.572489] (-) TimerEvent: {}
+[18.673360] (-) TimerEvent: {}
+[18.774221] (-) TimerEvent: {}
+[18.874962] (-) TimerEvent: {}
+[18.975807] (-) TimerEvent: {}
+[19.076681] (-) TimerEvent: {}
+[19.177472] (-) TimerEvent: {}
+[19.278441] (-) TimerEvent: {}
+[19.379242] (-) TimerEvent: {}
+[19.480034] (-) TimerEvent: {}
+[19.580780] (-) TimerEvent: {}
+[19.681548] (-) TimerEvent: {}
+[19.782296] (-) TimerEvent: {}
+[19.883196] (-) TimerEvent: {}
+[19.984027] (-) TimerEvent: {}
+[20.084859] (-) TimerEvent: {}
+[20.185594] (-) TimerEvent: {}
+[20.286359] (-) TimerEvent: {}
+[20.387236] (-) TimerEvent: {}
+[20.488060] (-) TimerEvent: {}
+[20.589211] (-) TimerEvent: {}
+[20.690029] (-) TimerEvent: {}
+[20.790837] (-) TimerEvent: {}
+[20.891590] (-) TimerEvent: {}
+[20.992382] (-) TimerEvent: {}
+[21.093121] (-) TimerEvent: {}
+[21.194315] (-) TimerEvent: {}
+[21.295183] (-) TimerEvent: {}
+[21.395930] (-) TimerEvent: {}
+[21.496711] (-) TimerEvent: {}
+[21.597378] (-) TimerEvent: {}
+[21.698211] (-) TimerEvent: {}
+[21.798974] (-) TimerEvent: {}
+[21.899770] (-) TimerEvent: {}
+[22.000558] (-) TimerEvent: {}
+[22.101319] (-) TimerEvent: {}
+[22.202268] (-) TimerEvent: {}
+[22.303422] (-) TimerEvent: {}
+[22.405381] (-) TimerEvent: {}
+[22.506091] (-) TimerEvent: {}
+[22.607096] (-) TimerEvent: {}
+[22.708112] (-) TimerEvent: {}
+[22.808867] (-) TimerEvent: {}
+[22.909885] (-) TimerEvent: {}
+[23.010573] (-) TimerEvent: {}
+[23.111307] (-) TimerEvent: {}
+[23.212044] (-) TimerEvent: {}
+[23.312881] (-) TimerEvent: {}
+[23.413653] (-) TimerEvent: {}
+[23.514353] (-) TimerEvent: {}
+[23.615288] (-) TimerEvent: {}
+[23.716055] (-) TimerEvent: {}
+[23.816808] (-) TimerEvent: {}
+[23.917570] (-) TimerEvent: {}
+[24.018294] (-) TimerEvent: {}
+[24.119112] (-) TimerEvent: {}
+[24.219778] (-) TimerEvent: {}
+[24.320468] (-) TimerEvent: {}
+[24.421504] (-) TimerEvent: {}
+[24.522316] (-) TimerEvent: {}
+[24.623210] (-) TimerEvent: {}
+[24.725358] (-) TimerEvent: {}
+[24.826092] (-) TimerEvent: {}
+[24.926835] (-) TimerEvent: {}
+[25.027578] (-) TimerEvent: {}
+[25.128369] (-) TimerEvent: {}
+[25.229509] (-) TimerEvent: {}
+[25.330614] (-) TimerEvent: {}
+[25.431650] (-) TimerEvent: {}
+[25.532518] (-) TimerEvent: {}
+[25.633459] (-) TimerEvent: {}
+[25.734327] (-) TimerEvent: {}
+[25.835170] (-) TimerEvent: {}
+[25.936083] (-) TimerEvent: {}
+[26.036833] (-) TimerEvent: {}
+[26.137623] (-) TimerEvent: {}
+[26.238569] (-) TimerEvent: {}
+[26.339511] (-) TimerEvent: {}
+[26.440474] (-) TimerEvent: {}
+[26.541194] (-) TimerEvent: {}
+[26.642031] (-) TimerEvent: {}
+[26.742812] (-) TimerEvent: {}
+[26.843606] (-) TimerEvent: {}
+[26.944361] (-) TimerEvent: {}
+[27.045110] (-) TimerEvent: {}
+[27.145971] (-) TimerEvent: {}
+[27.246830] (-) TimerEvent: {}
+[27.347922] (-) TimerEvent: {}
+[27.448661] (-) TimerEvent: {}
+[27.549617] (-) TimerEvent: {}
+[27.650610] (-) TimerEvent: {}
+[27.751644] (-) TimerEvent: {}
+[27.852400] (-) TimerEvent: {}
+[27.953137] (-) TimerEvent: {}
+[28.054059] (-) TimerEvent: {}
+[28.154794] (-) TimerEvent: {}
+[28.255605] (-) TimerEvent: {}
+[28.356526] (-) TimerEvent: {}
+[28.457285] (-) TimerEvent: {}
+[28.558042] (-) TimerEvent: {}
+[28.658930] (-) TimerEvent: {}
+[28.759960] (-) TimerEvent: {}
+[28.860913] (-) TimerEvent: {}
+[28.961811] (-) TimerEvent: {}
+[29.062747] (-) TimerEvent: {}
+[29.163749] (-) TimerEvent: {}
+[29.264659] (-) TimerEvent: {}
+[29.365698] (-) TimerEvent: {}
+[29.466422] (-) TimerEvent: {}
+[29.567173] (-) TimerEvent: {}
+[29.668255] (-) TimerEvent: {}
+[29.769215] (-) TimerEvent: {}
+[29.870167] (-) TimerEvent: {}
+[29.971105] (-) TimerEvent: {}
+[30.071956] (-) TimerEvent: {}
+[30.172974] (-) TimerEvent: {}
+[30.273836] (-) TimerEvent: {}
+[30.374638] (-) TimerEvent: {}
+[30.475478] (-) TimerEvent: {}
+[30.576440] (-) TimerEvent: {}
+[30.677300] (-) TimerEvent: {}
+[30.778215] (-) TimerEvent: {}
+[30.879151] (-) TimerEvent: {}
+[30.979865] (-) TimerEvent: {}
+[31.080630] (-) TimerEvent: {}
+[31.181419] (-) TimerEvent: {}
+[31.282208] (-) TimerEvent: {}
+[31.383397] (-) TimerEvent: {}
+[31.484550] (-) TimerEvent: {}
+[31.585406] (-) TimerEvent: {}
+[31.686327] (-) TimerEvent: {}
+[31.787159] (-) TimerEvent: {}
+[31.888219] (-) TimerEvent: {}
+[31.989296] (-) TimerEvent: {}
+[32.090349] (-) TimerEvent: {}
+[32.191432] (-) TimerEvent: {}
+[32.292524] (-) TimerEvent: {}
+[32.393582] (-) TimerEvent: {}
+[32.494545] (-) TimerEvent: {}
+[32.595584] (-) TimerEvent: {}
+[32.696513] (-) TimerEvent: {}
+[32.797357] (-) TimerEvent: {}
+[32.898665] (-) TimerEvent: {}
+[32.999513] (-) TimerEvent: {}
+[33.100656] (-) TimerEvent: {}
+[33.201719] (-) TimerEvent: {}
+[33.302602] (-) TimerEvent: {}
+[33.403465] (-) TimerEvent: {}
+[33.504357] (-) TimerEvent: {}
+[33.605450] (-) TimerEvent: {}
+[33.706397] (-) TimerEvent: {}
+[33.807196] (-) TimerEvent: {}
+[33.908305] (-) TimerEvent: {}
+[34.009508] (-) TimerEvent: {}
+[34.110588] (-) TimerEvent: {}
+[34.212587] (-) TimerEvent: {}
+[34.313678] (-) TimerEvent: {}
+[34.414691] (-) TimerEvent: {}
+[34.515872] (-) TimerEvent: {}
+[34.616862] (-) TimerEvent: {}
+[34.719120] (-) TimerEvent: {}
+[34.820176] (-) TimerEvent: {}
+[34.921181] (-) TimerEvent: {}
+[35.022008] (-) TimerEvent: {}
+[35.123184] (-) TimerEvent: {}
+[35.225231] (-) TimerEvent: {}
+[35.326094] (-) TimerEvent: {}
+[35.426989] (-) TimerEvent: {}
+[35.527887] (-) TimerEvent: {}
+[35.628714] (-) TimerEvent: {}
+[35.729584] (-) TimerEvent: {}
+[35.830473] (-) TimerEvent: {}
+[35.931352] (-) TimerEvent: {}
+[36.032252] (-) TimerEvent: {}
+[36.133441] (-) TimerEvent: {}
+[36.234624] (-) TimerEvent: {}
+[36.335537] (-) TimerEvent: {}
+[36.436453] (-) TimerEvent: {}
+[36.537496] (-) TimerEvent: {}
+[36.638510] (-) TimerEvent: {}
+[36.739668] (-) TimerEvent: {}
+[36.840563] (-) TimerEvent: {}
+[36.941631] (-) TimerEvent: {}
+[37.042610] (-) TimerEvent: {}
+[37.143520] (-) TimerEvent: {}
+[37.244404] (-) TimerEvent: {}
+[37.345299] (-) TimerEvent: {}
+[37.446360] (-) TimerEvent: {}
+[37.547590] (-) TimerEvent: {}
+[37.648671] (-) TimerEvent: {}
+[37.750113] (-) TimerEvent: {}
+[37.851061] (-) TimerEvent: {}
+[37.951968] (-) TimerEvent: {}
+[38.052840] (-) TimerEvent: {}
+[38.153700] (-) TimerEvent: {}
+[38.254542] (-) TimerEvent: {}
+[38.355467] (-) TimerEvent: {}
+[38.456632] (-) TimerEvent: {}
+[38.557582] (-) TimerEvent: {}
+[38.658638] (-) TimerEvent: {}
+[38.759946] (-) TimerEvent: {}
+[38.861114] (-) TimerEvent: {}
+[38.962136] (-) TimerEvent: {}
+[39.063096] (-) TimerEvent: {}
+[39.164196] (-) TimerEvent: {}
+[39.265195] (-) TimerEvent: {}
+[39.366101] (-) TimerEvent: {}
+[39.466955] (-) TimerEvent: {}
+[39.568024] (-) TimerEvent: {}
+[39.668915] (-) TimerEvent: {}
+[39.769813] (-) TimerEvent: {}
+[39.870804] (-) TimerEvent: {}
+[39.971734] (-) TimerEvent: {}
+[40.072799] (-) TimerEvent: {}
+[40.173887] (-) TimerEvent: {}
+[40.275169] (-) TimerEvent: {}
+[40.376111] (-) TimerEvent: {}
+[40.477309] (-) TimerEvent: {}
+[40.578247] (-) TimerEvent: {}
+[40.679311] (-) TimerEvent: {}
+[40.780379] (-) TimerEvent: {}
+[40.881258] (-) TimerEvent: {}
+[40.982169] (-) TimerEvent: {}
+[41.083260] (-) TimerEvent: {}
+[41.184222] (-) TimerEvent: {}
+[41.285153] (-) TimerEvent: {}
+[41.386478] (-) TimerEvent: {}
+[41.487405] (-) TimerEvent: {}
+[41.588312] (-) TimerEvent: {}
+[41.689329] (-) TimerEvent: {}
+[41.790407] (-) TimerEvent: {}
+[41.891482] (-) TimerEvent: {}
+[41.992340] (-) TimerEvent: {}
+[42.093250] (-) TimerEvent: {}
+[42.194196] (-) TimerEvent: {}
+[42.295038] (-) TimerEvent: {}
+[42.395866] (-) TimerEvent: {}
+[42.496710] (-) TimerEvent: {}
+[42.597679] (-) TimerEvent: {}
+[42.698825] (-) TimerEvent: {}
+[42.799744] (-) TimerEvent: {}
+[42.900647] (-) TimerEvent: {}
+[43.001682] (-) TimerEvent: {}
+[43.102857] (-) TimerEvent: {}
+[43.204197] (-) TimerEvent: {}
+[43.305454] (-) TimerEvent: {}
+[43.406304] (-) TimerEvent: {}
+[43.507642] (-) TimerEvent: {}
+[43.608503] (-) TimerEvent: {}
+[43.709501] (-) TimerEvent: {}
+[43.810631] (-) TimerEvent: {}
+[43.911538] (-) TimerEvent: {}
+[44.012491] (-) TimerEvent: {}
+[44.113356] (-) TimerEvent: {}
+[44.214175] (-) TimerEvent: {}
+[44.315040] (-) TimerEvent: {}
+[44.416373] (-) TimerEvent: {}
+[44.518559] (-) TimerEvent: {}
+[44.619605] (-) TimerEvent: {}
+[44.721196] (-) TimerEvent: {}
+[44.822609] (-) TimerEvent: {}
+[44.923785] (-) TimerEvent: {}
+[45.024803] (-) TimerEvent: {}
+[45.125674] (-) TimerEvent: {}
+[45.226542] (-) TimerEvent: {}
+[45.327579] (-) TimerEvent: {}
+[45.428639] (-) TimerEvent: {}
+[45.529929] (-) TimerEvent: {}
+[45.630887] (-) TimerEvent: {}
+[45.731876] (-) TimerEvent: {}
+[45.832819] (-) TimerEvent: {}
+[45.934327] (-) TimerEvent: {}
+[46.035873] (-) TimerEvent: {}
+[46.136923] (-) TimerEvent: {}
+[46.237801] (-) TimerEvent: {}
+[46.338686] (-) TimerEvent: {}
+[46.439553] (-) TimerEvent: {}
+[46.540472] (-) TimerEvent: {}
+[46.641373] (-) TimerEvent: {}
+[46.742241] (-) TimerEvent: {}
+[46.843318] (-) TimerEvent: {}
+[46.944297] (-) TimerEvent: {}
+[47.045593] (-) TimerEvent: {}
+[47.146536] (-) TimerEvent: {}
+[47.247435] (-) TimerEvent: {}
+[47.348461] (-) TimerEvent: {}
+[47.449384] (-) TimerEvent: {}
+[47.550354] (-) TimerEvent: {}
+[47.651221] (-) TimerEvent: {}
+[47.752085] (-) TimerEvent: {}
+[47.852986] (-) TimerEvent: {}
+[47.953951] (-) TimerEvent: {}
+[48.054792] (-) TimerEvent: {}
+[48.155758] (-) TimerEvent: {}
+[48.256707] (-) TimerEvent: {}
+[48.357525] (-) TimerEvent: {}
+[48.458415] (-) TimerEvent: {}
+[48.559304] (-) TimerEvent: {}
+[48.661904] (-) TimerEvent: {}
+[48.762976] (-) TimerEvent: {}
+[48.864690] (-) TimerEvent: {}
+[48.965546] (-) TimerEvent: {}
+[49.066562] (-) TimerEvent: {}
+[49.167444] (-) TimerEvent: {}
+[49.268514] (-) TimerEvent: {}
+[49.370149] (-) TimerEvent: {}
+[49.471094] (-) TimerEvent: {}
+[49.572414] (-) TimerEvent: {}
+[49.673254] (-) TimerEvent: {}
+[49.774065] (-) TimerEvent: {}
+[49.874947] (-) TimerEvent: {}
+[49.975947] (-) TimerEvent: {}
+[50.076998] (-) TimerEvent: {}
+[50.177985] (-) TimerEvent: {}
+[50.278840] (-) TimerEvent: {}
+[50.379877] (-) TimerEvent: {}
+[50.480918] (-) TimerEvent: {}
+[50.581875] (-) TimerEvent: {}
+[50.682989] (-) TimerEvent: {}
+[50.784054] (-) TimerEvent: {}
+[50.885112] (-) TimerEvent: {}
+[50.986039] (-) TimerEvent: {}
+[51.087027] (-) TimerEvent: {}
+[51.188184] (-) TimerEvent: {}
+[51.289103] (-) TimerEvent: {}
+[51.390323] (-) TimerEvent: {}
+[51.491193] (-) TimerEvent: {}
+[51.592371] (-) TimerEvent: {}
+[51.693552] (-) TimerEvent: {}
+[51.794715] (-) TimerEvent: {}
+[51.895699] (-) TimerEvent: {}
+[51.996723] (-) TimerEvent: {}
+[52.097616] (-) TimerEvent: {}
+[52.198539] (-) TimerEvent: {}
+[52.299607] (-) TimerEvent: {}
+[52.400665] (-) TimerEvent: {}
+[52.501477] (-) TimerEvent: {}
+[52.602342] (-) TimerEvent: {}
+[52.703389] (-) TimerEvent: {}
+[52.804382] (-) TimerEvent: {}
+[52.905485] (-) TimerEvent: {}
+[53.006402] (-) TimerEvent: {}
+[53.107451] (-) TimerEvent: {}
+[53.208314] (-) TimerEvent: {}
+[53.309190] (-) TimerEvent: {}
+[53.410278] (-) TimerEvent: {}
+[53.511254] (-) TimerEvent: {}
+[53.612050] (-) TimerEvent: {}
+[53.713039] (-) TimerEvent: {}
+[53.814221] (-) TimerEvent: {}
+[53.915104] (-) TimerEvent: {}
+[54.016023] (-) TimerEvent: {}
+[54.117087] (-) TimerEvent: {}
+[54.217931] (-) TimerEvent: {}
+[54.318855] (-) TimerEvent: {}
+[54.419898] (-) TimerEvent: {}
+[54.472680] (full_name_message) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[54.474792] (full_name_message) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message/rosidl_generator_c>;$<BUILD_INTERFACE:/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message/rosidl_generator_cpp>;$<BUILD_INTERFACE:/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message/rosidl_typesupport_introspection_cpp>;/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message/rosidl_generator_c;/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message/rosidl_generator_py\n'}
+[54.475774] (full_name_message) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[54.520054] (-) TimerEvent: {}
+[54.620947] (-) TimerEvent: {}
+[54.721962] (-) TimerEvent: {}
+[54.822777] (-) TimerEvent: {}
+[54.923756] (-) TimerEvent: {}
+[55.024810] (-) TimerEvent: {}
+[55.125721] (-) TimerEvent: {}
+[55.226851] (-) TimerEvent: {}
+[55.327842] (-) TimerEvent: {}
+[55.429081] (-) TimerEvent: {}
+[55.530080] (-) TimerEvent: {}
+[55.630977] (-) TimerEvent: {}
+[55.731922] (-) TimerEvent: {}
+[55.832993] (-) TimerEvent: {}
+[55.933885] (-) TimerEvent: {}
+[56.034839] (-) TimerEvent: {}
+[56.135678] (-) TimerEvent: {}
+[56.236705] (-) TimerEvent: {}
+[56.337753] (-) TimerEvent: {}
+[56.438590] (-) TimerEvent: {}
+[56.539638] (-) TimerEvent: {}
+[56.640621] (-) TimerEvent: {}
+[56.741722] (-) TimerEvent: {}
+[56.843119] (-) TimerEvent: {}
+[56.944236] (-) TimerEvent: {}
+[57.045270] (-) TimerEvent: {}
+[57.146176] (-) TimerEvent: {}
+[57.247291] (-) TimerEvent: {}
+[57.348148] (-) TimerEvent: {}
+[57.449279] (-) TimerEvent: {}
+[57.550329] (-) TimerEvent: {}
+[57.651284] (-) TimerEvent: {}
+[57.752194] (-) TimerEvent: {}
+[57.853163] (-) TimerEvent: {}
+[57.954172] (-) TimerEvent: {}
+[58.055160] (-) TimerEvent: {}
+[58.156201] (-) TimerEvent: {}
+[58.257262] (-) TimerEvent: {}
+[58.359176] (-) TimerEvent: {}
+[58.460020] (-) TimerEvent: {}
+[58.561134] (-) TimerEvent: {}
+[58.662218] (-) TimerEvent: {}
+[58.763325] (-) TimerEvent: {}
+[58.864265] (-) TimerEvent: {}
+[58.965341] (-) TimerEvent: {}
+[59.066285] (-) TimerEvent: {}
+[59.167260] (-) TimerEvent: {}
+[59.268124] (-) TimerEvent: {}
+[59.369011] (-) TimerEvent: {}
+[59.470142] (-) TimerEvent: {}
+[59.571230] (-) TimerEvent: {}
+[59.672303] (-) TimerEvent: {}
+[59.773349] (-) TimerEvent: {}
+[59.874296] (-) TimerEvent: {}
+[59.975213] (-) TimerEvent: {}
+[60.076258] (-) TimerEvent: {}
+[60.177232] (-) TimerEvent: {}
+[60.278176] (-) TimerEvent: {}
+[60.379331] (-) TimerEvent: {}
+[60.480210] (-) TimerEvent: {}
+[60.581220] (-) TimerEvent: {}
+[60.633948] (full_name_message) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[60.681433] (-) TimerEvent: {}
+[60.782232] (-) TimerEvent: {}
+[60.883132] (-) TimerEvent: {}
+[60.984204] (-) TimerEvent: {}
+[61.085026] (-) TimerEvent: {}
+[61.185949] (-) TimerEvent: {}
+[61.287176] (-) TimerEvent: {}
+[61.388141] (-) TimerEvent: {}
+[61.489200] (-) TimerEvent: {}
+[61.590186] (-) TimerEvent: {}
+[61.691002] (-) TimerEvent: {}
+[61.791791] (-) TimerEvent: {}
+[61.892924] (-) TimerEvent: {}
+[61.993980] (-) TimerEvent: {}
+[62.094871] (-) TimerEvent: {}
+[62.195744] (-) TimerEvent: {}
+[62.296693] (-) TimerEvent: {}
+[62.397556] (-) TimerEvent: {}
+[62.498473] (-) TimerEvent: {}
+[62.599450] (-) TimerEvent: {}
+[62.700424] (-) TimerEvent: {}
+[62.801528] (-) TimerEvent: {}
+[62.902628] (-) TimerEvent: {}
+[63.003701] (-) TimerEvent: {}
+[63.104564] (-) TimerEvent: {}
+[63.205585] (-) TimerEvent: {}
+[63.306632] (-) TimerEvent: {}
+[63.407529] (-) TimerEvent: {}
+[63.508528] (-) TimerEvent: {}
+[63.609623] (-) TimerEvent: {}
+[63.710536] (-) TimerEvent: {}
+[63.811446] (-) TimerEvent: {}
+[63.912658] (-) TimerEvent: {}
+[64.013684] (-) TimerEvent: {}
+[64.114548] (-) TimerEvent: {}
+[64.215480] (-) TimerEvent: {}
+[64.316518] (-) TimerEvent: {}
+[64.417477] (-) TimerEvent: {}
+[64.518477] (-) TimerEvent: {}
+[64.619328] (-) TimerEvent: {}
+[64.720202] (-) TimerEvent: {}
+[64.821110] (-) TimerEvent: {}
+[64.922049] (-) TimerEvent: {}
+[65.023097] (-) TimerEvent: {}
+[65.123984] (-) TimerEvent: {}
+[65.224852] (-) TimerEvent: {}
+[65.325846] (-) TimerEvent: {}
+[65.426730] (-) TimerEvent: {}
+[65.527622] (-) TimerEvent: {}
+[65.628552] (-) TimerEvent: {}
+[65.729630] (-) TimerEvent: {}
+[65.830483] (-) TimerEvent: {}
+[65.931277] (-) TimerEvent: {}
+[66.032184] (-) TimerEvent: {}
+[66.132979] (-) TimerEvent: {}
+[66.234093] (-) TimerEvent: {}
+[66.334876] (-) TimerEvent: {}
+[66.435769] (-) TimerEvent: {}
+[66.536661] (-) TimerEvent: {}
+[66.637519] (-) TimerEvent: {}
+[66.738471] (-) TimerEvent: {}
+[66.839646] (-) TimerEvent: {}
+[66.940606] (-) TimerEvent: {}
+[67.041684] (-) TimerEvent: {}
+[67.142618] (-) TimerEvent: {}
+[67.243574] (-) TimerEvent: {}
+[67.345841] (-) TimerEvent: {}
+[67.446785] (-) TimerEvent: {}
+[67.547921] (-) TimerEvent: {}
+[67.648999] (-) TimerEvent: {}
+[67.750038] (-) TimerEvent: {}
+[67.850902] (-) TimerEvent: {}
+[67.951770] (-) TimerEvent: {}
+[68.052630] (-) TimerEvent: {}
+[68.153601] (-) TimerEvent: {}
+[68.254471] (-) TimerEvent: {}
+[68.355358] (-) TimerEvent: {}
+[68.456421] (-) TimerEvent: {}
+[68.557383] (-) TimerEvent: {}
+[68.658222] (-) TimerEvent: {}
+[68.759210] (-) TimerEvent: {}
+[68.860098] (-) TimerEvent: {}
+[68.961311] (-) TimerEvent: {}
+[69.062193] (-) TimerEvent: {}
+[69.163063] (-) TimerEvent: {}
+[69.264200] (-) TimerEvent: {}
+[69.365383] (-) TimerEvent: {}
+[69.466253] (-) TimerEvent: {}
+[69.567337] (-) TimerEvent: {}
+[69.669254] (-) TimerEvent: {}
+[69.770168] (-) TimerEvent: {}
+[69.871161] (-) TimerEvent: {}
+[69.972171] (-) TimerEvent: {}
+[70.073072] (-) TimerEvent: {}
+[70.174911] (-) TimerEvent: {}
+[70.276258] (-) TimerEvent: {}
+[70.377191] (-) TimerEvent: {}
+[70.478404] (-) TimerEvent: {}
+[70.579326] (-) TimerEvent: {}
+[70.680384] (-) TimerEvent: {}
+[70.781390] (-) TimerEvent: {}
+[70.882248] (-) TimerEvent: {}
+[70.983158] (-) TimerEvent: {}
+[71.084088] (-) TimerEvent: {}
+[71.185183] (-) TimerEvent: {}
+[71.286299] (-) TimerEvent: {}
+[71.387353] (-) TimerEvent: {}
+[71.488147] (-) TimerEvent: {}
+[71.589027] (-) TimerEvent: {}
+[71.689888] (-) TimerEvent: {}
+[71.790779] (-) TimerEvent: {}
+[71.891807] (-) TimerEvent: {}
+[71.992777] (-) TimerEvent: {}
+[72.093675] (-) TimerEvent: {}
+[72.194564] (-) TimerEvent: {}
+[72.295429] (-) TimerEvent: {}
+[72.396532] (-) TimerEvent: {}
+[72.498190] (-) TimerEvent: {}
+[72.599130] (-) TimerEvent: {}
+[72.700365] (-) TimerEvent: {}
+[72.801270] (-) TimerEvent: {}
+[72.902161] (-) TimerEvent: {}
+[73.003297] (-) TimerEvent: {}
+[73.100966] (full_name_message) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[73.103393] (-) TimerEvent: {}
+[73.204199] (-) TimerEvent: {}
+[73.305395] (-) TimerEvent: {}
+[73.406543] (-) TimerEvent: {}
+[73.507665] (-) TimerEvent: {}
+[73.608453] (-) TimerEvent: {}
+[73.709371] (-) TimerEvent: {}
+[73.810453] (-) TimerEvent: {}
+[73.911510] (-) TimerEvent: {}
+[74.012641] (-) TimerEvent: {}
+[74.113794] (-) TimerEvent: {}
+[74.214884] (-) TimerEvent: {}
+[74.315825] (-) TimerEvent: {}
+[74.416967] (-) TimerEvent: {}
+[74.517763] (-) TimerEvent: {}
+[74.618635] (-) TimerEvent: {}
+[74.719951] (-) TimerEvent: {}
+[74.821371] (-) TimerEvent: {}
+[74.922683] (-) TimerEvent: {}
+[75.023949] (-) TimerEvent: {}
+[75.125099] (-) TimerEvent: {}
+[75.226550] (-) TimerEvent: {}
+[75.327465] (-) TimerEvent: {}
+[75.428353] (-) TimerEvent: {}
+[75.529663] (-) TimerEvent: {}
+[75.630925] (-) TimerEvent: {}
+[75.731965] (-) TimerEvent: {}
+[75.832823] (-) TimerEvent: {}
+[75.933788] (-) TimerEvent: {}
+[76.034828] (-) TimerEvent: {}
+[76.136068] (-) TimerEvent: {}
+[76.236921] (-) TimerEvent: {}
+[76.337785] (-) TimerEvent: {}
+[76.438891] (-) TimerEvent: {}
+[76.540120] (-) TimerEvent: {}
+[76.641646] (-) TimerEvent: {}
+[76.742642] (-) TimerEvent: {}
+[76.843626] (-) TimerEvent: {}
+[76.944384] (-) TimerEvent: {}
+[77.045342] (-) TimerEvent: {}
+[77.146587] (-) TimerEvent: {}
+[77.247592] (-) TimerEvent: {}
+[77.348668] (-) TimerEvent: {}
+[77.449509] (-) TimerEvent: {}
+[77.550594] (-) TimerEvent: {}
+[77.651757] (-) TimerEvent: {}
+[77.752839] (-) TimerEvent: {}
+[77.853882] (-) TimerEvent: {}
+[77.954988] (-) TimerEvent: {}
+[78.055925] (-) TimerEvent: {}
+[78.157166] (-) TimerEvent: {}
+[78.258003] (-) TimerEvent: {}
+[78.359203] (-) TimerEvent: {}
+[78.460402] (-) TimerEvent: {}
+[78.561441] (-) TimerEvent: {}
+[78.662695] (-) TimerEvent: {}
+[78.763808] (-) TimerEvent: {}
+[78.864766] (-) TimerEvent: {}
+[78.965750] (-) TimerEvent: {}
+[79.066650] (-) TimerEvent: {}
+[79.167728] (-) TimerEvent: {}
+[79.268861] (-) TimerEvent: {}
+[79.369899] (-) TimerEvent: {}
+[79.393511] (full_name_message) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[79.470190] (-) TimerEvent: {}
+[79.571339] (-) TimerEvent: {}
+[79.672475] (-) TimerEvent: {}
+[79.773540] (-) TimerEvent: {}
+[79.874516] (-) TimerEvent: {}
+[79.975860] (-) TimerEvent: {}
+[80.076897] (-) TimerEvent: {}
+[80.177900] (-) TimerEvent: {}
+[80.278989] (-) TimerEvent: {}
+[80.380332] (-) TimerEvent: {}
+[80.481308] (-) TimerEvent: {}
+[80.582615] (-) TimerEvent: {}
+[80.683736] (-) TimerEvent: {}
+[80.784903] (-) TimerEvent: {}
+[80.885935] (-) TimerEvent: {}
+[80.986828] (-) TimerEvent: {}
+[81.087711] (-) TimerEvent: {}
+[81.188779] (-) TimerEvent: {}
+[81.289901] (-) TimerEvent: {}
+[81.391025] (-) TimerEvent: {}
+[81.492201] (-) TimerEvent: {}
+[81.593129] (-) TimerEvent: {}
+[81.694232] (-) TimerEvent: {}
+[81.795189] (-) TimerEvent: {}
+[81.896289] (-) TimerEvent: {}
+[81.997357] (-) TimerEvent: {}
+[82.098198] (-) TimerEvent: {}
+[82.199265] (-) TimerEvent: {}
+[82.300307] (-) TimerEvent: {}
+[82.401226] (-) TimerEvent: {}
+[82.502195] (-) TimerEvent: {}
+[82.603297] (-) TimerEvent: {}
+[82.704311] (-) TimerEvent: {}
+[82.805426] (-) TimerEvent: {}
+[82.906492] (-) TimerEvent: {}
+[83.007324] (-) TimerEvent: {}
+[83.108391] (-) TimerEvent: {}
+[83.209389] (-) TimerEvent: {}
+[83.310595] (-) TimerEvent: {}
+[83.411789] (-) TimerEvent: {}
+[83.512862] (-) TimerEvent: {}
+[83.613873] (-) TimerEvent: {}
+[83.714748] (-) TimerEvent: {}
+[83.815825] (-) TimerEvent: {}
+[83.916595] (-) TimerEvent: {}
+[84.017403] (-) TimerEvent: {}
+[84.118281] (-) TimerEvent: {}
+[84.219343] (-) TimerEvent: {}
+[84.320561] (-) TimerEvent: {}
+[84.421474] (-) TimerEvent: {}
+[84.522455] (-) TimerEvent: {}
+[84.623205] (-) TimerEvent: {}
+[84.724870] (-) TimerEvent: {}
+[84.825667] (-) TimerEvent: {}
+[84.926791] (-) TimerEvent: {}
+[85.027615] (-) TimerEvent: {}
+[85.128442] (-) TimerEvent: {}
+[85.229716] (-) TimerEvent: {}
+[85.330678] (-) TimerEvent: {}
+[85.431482] (-) TimerEvent: {}
+[85.532500] (-) TimerEvent: {}
+[85.633287] (-) TimerEvent: {}
+[85.734209] (-) TimerEvent: {}
+[85.835363] (-) TimerEvent: {}
+[85.936414] (-) TimerEvent: {}
+[86.037394] (-) TimerEvent: {}
+[86.138375] (-) TimerEvent: {}
+[86.239356] (-) TimerEvent: {}
+[86.340634] (-) TimerEvent: {}
+[86.441707] (-) TimerEvent: {}
+[86.542906] (-) TimerEvent: {}
+[86.644121] (-) TimerEvent: {}
+[86.745305] (-) TimerEvent: {}
+[86.846366] (-) TimerEvent: {}
+[86.947258] (-) TimerEvent: {}
+[87.048097] (-) TimerEvent: {}
+[87.149023] (-) TimerEvent: {}
+[87.249823] (-) TimerEvent: {}
+[87.350790] (-) TimerEvent: {}
+[87.451782] (-) TimerEvent: {}
+[87.552942] (-) TimerEvent: {}
+[87.654054] (-) TimerEvent: {}
+[87.755309] (-) TimerEvent: {}
+[87.856554] (-) TimerEvent: {}
+[87.957443] (-) TimerEvent: {}
+[88.058212] (-) TimerEvent: {}
+[88.159063] (-) TimerEvent: {}
+[88.260170] (-) TimerEvent: {}
+[88.361123] (-) TimerEvent: {}
+[88.462291] (-) TimerEvent: {}
+[88.563398] (-) TimerEvent: {}
+[88.664463] (-) TimerEvent: {}
+[88.765560] (-) TimerEvent: {}
+[88.866687] (-) TimerEvent: {}
+[88.967649] (-) TimerEvent: {}
+[89.068466] (-) TimerEvent: {}
+[89.169519] (-) TimerEvent: {}
+[89.270599] (-) TimerEvent: {}
+[89.371596] (-) TimerEvent: {}
+[89.472753] (-) TimerEvent: {}
+[89.573786] (-) TimerEvent: {}
+[89.674731] (-) TimerEvent: {}
+[89.775945] (-) TimerEvent: {}
+[89.877073] (-) TimerEvent: {}
+[89.977929] (-) TimerEvent: {}
+[90.078975] (-) TimerEvent: {}
+[90.180111] (-) TimerEvent: {}
+[90.281230] (-) TimerEvent: {}
+[90.382441] (-) TimerEvent: {}
+[90.483996] (-) TimerEvent: {}
+[90.585093] (-) TimerEvent: {}
+[90.686283] (-) TimerEvent: {}
+[90.787133] (-) TimerEvent: {}
+[90.888170] (-) TimerEvent: {}
+[90.989351] (-) TimerEvent: {}
+[91.090521] (-) TimerEvent: {}
+[91.191690] (-) TimerEvent: {}
+[91.292591] (-) TimerEvent: {}
+[91.393695] (-) TimerEvent: {}
+[91.494627] (-) TimerEvent: {}
+[91.595777] (-) TimerEvent: {}
+[91.696718] (-) TimerEvent: {}
+[91.797487] (-) TimerEvent: {}
+[91.898428] (-) TimerEvent: {}
+[91.999630] (-) TimerEvent: {}
+[92.100767] (-) TimerEvent: {}
+[92.201808] (-) TimerEvent: {}
+[92.302936] (-) TimerEvent: {}
+[92.403943] (-) TimerEvent: {}
+[92.505089] (-) TimerEvent: {}
+[92.606178] (-) TimerEvent: {}
+[92.707372] (-) TimerEvent: {}
+[92.808683] (-) TimerEvent: {}
+[92.909554] (-) TimerEvent: {}
+[93.010724] (-) TimerEvent: {}
+[93.111557] (-) TimerEvent: {}
+[93.212826] (-) TimerEvent: {}
+[93.313909] (-) TimerEvent: {}
+[93.414678] (-) TimerEvent: {}
+[93.515781] (-) TimerEvent: {}
+[93.616713] (-) TimerEvent: {}
+[93.717658] (-) TimerEvent: {}
+[93.818448] (-) TimerEvent: {}
+[93.919733] (-) TimerEvent: {}
+[94.020872] (-) TimerEvent: {}
+[94.121936] (-) TimerEvent: {}
+[94.222787] (-) TimerEvent: {}
+[94.324017] (-) TimerEvent: {}
+[94.424932] (-) TimerEvent: {}
+[94.525892] (-) TimerEvent: {}
+[94.627117] (-) TimerEvent: {}
+[94.728008] (-) TimerEvent: {}
+[94.829221] (-) TimerEvent: {}
+[94.930255] (-) TimerEvent: {}
+[95.031436] (-) TimerEvent: {}
+[95.132536] (-) TimerEvent: {}
+[95.233673] (-) TimerEvent: {}
+[95.334933] (-) TimerEvent: {}
+[95.436057] (-) TimerEvent: {}
+[95.537129] (-) TimerEvent: {}
+[95.638258] (-) TimerEvent: {}
+[95.739199] (-) TimerEvent: {}
+[95.840536] (-) TimerEvent: {}
+[95.941679] (-) TimerEvent: {}
+[96.042809] (-) TimerEvent: {}
+[96.143893] (-) TimerEvent: {}
+[96.245364] (-) TimerEvent: {}
+[96.346406] (-) TimerEvent: {}
+[96.447386] (-) TimerEvent: {}
+[96.548325] (-) TimerEvent: {}
+[96.649476] (-) TimerEvent: {}
+[96.750665] (-) TimerEvent: {}
+[96.851566] (-) TimerEvent: {}
+[96.952477] (-) TimerEvent: {}
+[97.053732] (-) TimerEvent: {}
+[97.154957] (-) TimerEvent: {}
+[97.256272] (-) TimerEvent: {}
+[97.357388] (-) TimerEvent: {}
+[97.458286] (-) TimerEvent: {}
+[97.559373] (-) TimerEvent: {}
+[97.660584] (-) TimerEvent: {}
+[97.761979] (-) TimerEvent: {}
+[97.863169] (-) TimerEvent: {}
+[97.964086] (-) TimerEvent: {}
+[98.065017] (-) TimerEvent: {}
+[98.166059] (-) TimerEvent: {}
+[98.266795] (-) TimerEvent: {}
+[98.367582] (-) TimerEvent: {}
+[98.468521] (-) TimerEvent: {}
+[98.569584] (-) TimerEvent: {}
+[98.670331] (-) TimerEvent: {}
+[98.771235] (-) TimerEvent: {}
+[98.872023] (-) TimerEvent: {}
+[98.972833] (-) TimerEvent: {}
+[99.073633] (-) TimerEvent: {}
+[99.174675] (-) TimerEvent: {}
+[99.275711] (-) TimerEvent: {}
+[99.376669] (-) TimerEvent: {}
+[99.477553] (-) TimerEvent: {}
+[99.578342] (-) TimerEvent: {}
+[99.679155] (-) TimerEvent: {}
+[99.779917] (-) TimerEvent: {}
+[99.880945] (-) TimerEvent: {}
+[99.981687] (-) TimerEvent: {}
+[100.082427] (-) TimerEvent: {}
+[100.183288] (-) TimerEvent: {}
+[100.284251] (-) TimerEvent: {}
+[100.385210] (-) TimerEvent: {}
+[100.486102] (-) TimerEvent: {}
+[100.586982] (-) TimerEvent: {}
+[100.687844] (-) TimerEvent: {}
+[100.789140] (-) TimerEvent: {}
+[100.890050] (-) TimerEvent: {}
+[100.990918] (-) TimerEvent: {}
+[101.091914] (-) TimerEvent: {}
+[101.192782] (-) TimerEvent: {}
+[101.293871] (-) TimerEvent: {}
+[101.394818] (-) TimerEvent: {}
+[101.495721] (-) TimerEvent: {}
+[101.596455] (-) TimerEvent: {}
+[101.697493] (-) TimerEvent: {}
+[101.799312] (-) TimerEvent: {}
+[101.900340] (-) TimerEvent: {}
+[102.001182] (-) TimerEvent: {}
+[102.101846] (-) TimerEvent: {}
+[102.202618] (-) TimerEvent: {}
+[102.303350] (-) TimerEvent: {}
+[102.404082] (-) TimerEvent: {}
+[102.504990] (-) TimerEvent: {}
+[102.605807] (-) TimerEvent: {}
+[102.706521] (-) TimerEvent: {}
+[102.807358] (-) TimerEvent: {}
+[102.908302] (-) TimerEvent: {}
+[103.009154] (-) TimerEvent: {}
+[103.110080] (-) TimerEvent: {}
+[103.210956] (-) TimerEvent: {}
+[103.311676] (-) TimerEvent: {}
+[103.412585] (-) TimerEvent: {}
+[103.513442] (-) TimerEvent: {}
+[103.614330] (-) TimerEvent: {}
+[103.715428] (-) TimerEvent: {}
+[103.816291] (-) TimerEvent: {}
+[103.917161] (-) TimerEvent: {}
+[104.017969] (-) TimerEvent: {}
+[104.119163] (-) TimerEvent: {}
+[104.220116] (-) TimerEvent: {}
+[104.321246] (-) TimerEvent: {}
+[104.422124] (-) TimerEvent: {}
+[104.523271] (-) TimerEvent: {}
+[104.624427] (-) TimerEvent: {}
+[104.725442] (-) TimerEvent: {}
+[104.826442] (-) TimerEvent: {}
+[104.927269] (-) TimerEvent: {}
+[105.028235] (-) TimerEvent: {}
+[105.129244] (-) TimerEvent: {}
+[105.230396] (-) TimerEvent: {}
+[105.331968] (-) TimerEvent: {}
+[105.432909] (-) TimerEvent: {}
+[105.533853] (-) TimerEvent: {}
+[105.634829] (-) TimerEvent: {}
+[105.735745] (-) TimerEvent: {}
+[105.837170] (-) TimerEvent: {}
+[105.938166] (-) TimerEvent: {}
+[106.039550] (-) TimerEvent: {}
+[106.140693] (-) TimerEvent: {}
+[106.241730] (-) TimerEvent: {}
+[106.342877] (-) TimerEvent: {}
+[106.443962] (-) TimerEvent: {}
+[106.544941] (-) TimerEvent: {}
+[106.645837] (-) TimerEvent: {}
+[106.746959] (-) TimerEvent: {}
+[106.847855] (-) TimerEvent: {}
+[106.949323] (-) TimerEvent: {}
+[107.050247] (-) TimerEvent: {}
+[107.151149] (-) TimerEvent: {}
+[107.252192] (-) TimerEvent: {}
+[107.353100] (-) TimerEvent: {}
+[107.454139] (-) TimerEvent: {}
+[107.555031] (-) TimerEvent: {}
+[107.655982] (-) TimerEvent: {}
+[107.757022] (-) TimerEvent: {}
+[107.857838] (-) TimerEvent: {}
+[107.958900] (-) TimerEvent: {}
+[108.060031] (-) TimerEvent: {}
+[108.161007] (-) TimerEvent: {}
+[108.261892] (-) TimerEvent: {}
+[108.362604] (-) TimerEvent: {}
+[108.463539] (-) TimerEvent: {}
+[108.564592] (-) TimerEvent: {}
+[108.665552] (-) TimerEvent: {}
+[108.767321] (-) TimerEvent: {}
+[108.868309] (-) TimerEvent: {}
+[108.969323] (-) TimerEvent: {}
+[109.070353] (-) TimerEvent: {}
+[109.171213] (-) TimerEvent: {}
+[109.272073] (-) TimerEvent: {}
+[109.372999] (-) TimerEvent: {}
+[109.473843] (-) TimerEvent: {}
+[109.574836] (-) TimerEvent: {}
+[109.675665] (-) TimerEvent: {}
+[109.776625] (-) TimerEvent: {}
+[109.877595] (-) TimerEvent: {}
+[109.978688] (-) TimerEvent: {}
+[110.080524] (-) TimerEvent: {}
+[110.181589] (-) TimerEvent: {}
+[110.282601] (-) TimerEvent: {}
+[110.383516] (-) TimerEvent: {}
+[110.484580] (-) TimerEvent: {}
+[110.585635] (-) TimerEvent: {}
+[110.686666] (-) TimerEvent: {}
+[110.787710] (-) TimerEvent: {}
+[110.888489] (-) TimerEvent: {}
+[110.989406] (-) TimerEvent: {}
+[111.090332] (-) TimerEvent: {}
+[111.191421] (-) TimerEvent: {}
+[111.292608] (-) TimerEvent: {}
+[111.393746] (-) TimerEvent: {}
+[111.494705] (-) TimerEvent: {}
+[111.595686] (-) TimerEvent: {}
+[111.696559] (-) TimerEvent: {}
+[111.797516] (-) TimerEvent: {}
+[111.898338] (-) TimerEvent: {}
+[111.999275] (-) TimerEvent: {}
+[112.100346] (-) TimerEvent: {}
+[112.201338] (-) TimerEvent: {}
+[112.302347] (-) TimerEvent: {}
+[112.403275] (-) TimerEvent: {}
+[112.504393] (-) TimerEvent: {}
+[112.605607] (-) TimerEvent: {}
+[112.706564] (-) TimerEvent: {}
+[112.807593] (-) TimerEvent: {}
+[112.908484] (-) TimerEvent: {}
+[113.009594] (-) TimerEvent: {}
+[113.110679] (-) TimerEvent: {}
+[113.211639] (-) TimerEvent: {}
+[113.312545] (-) TimerEvent: {}
+[113.413854] (-) TimerEvent: {}
+[113.514716] (-) TimerEvent: {}
+[113.615613] (-) TimerEvent: {}
+[113.716464] (-) TimerEvent: {}
+[113.817351] (-) TimerEvent: {}
+[113.918393] (-) TimerEvent: {}
+[114.019360] (-) TimerEvent: {}
+[114.120279] (-) TimerEvent: {}
+[114.221412] (-) TimerEvent: {}
+[114.322345] (-) TimerEvent: {}
+[114.423695] (-) TimerEvent: {}
+[114.524694] (-) TimerEvent: {}
+[114.625649] (-) TimerEvent: {}
+[114.726745] (-) TimerEvent: {}
+[114.827542] (-) TimerEvent: {}
+[114.928506] (-) TimerEvent: {}
+[115.029372] (-) TimerEvent: {}
+[115.130240] (-) TimerEvent: {}
+[115.231209] (-) TimerEvent: {}
+[115.332240] (-) TimerEvent: {}
+[115.433138] (-) TimerEvent: {}
+[115.534197] (-) TimerEvent: {}
+[115.635300] (-) TimerEvent: {}
+[115.736268] (-) TimerEvent: {}
+[115.837291] (-) TimerEvent: {}
+[115.938360] (-) TimerEvent: {}
+[116.039302] (-) TimerEvent: {}
+[116.140427] (-) TimerEvent: {}
+[116.241549] (-) TimerEvent: {}
+[116.342530] (-) TimerEvent: {}
+[116.443380] (-) TimerEvent: {}
+[116.544495] (-) TimerEvent: {}
+[116.645449] (-) TimerEvent: {}
+[116.746961] (-) TimerEvent: {}
+[116.847763] (-) TimerEvent: {}
+[116.948637] (-) TimerEvent: {}
+[117.049521] (-) TimerEvent: {}
+[117.150473] (-) TimerEvent: {}
+[117.251531] (-) TimerEvent: {}
+[117.352447] (-) TimerEvent: {}
+[117.453576] (-) TimerEvent: {}
+[117.554678] (-) TimerEvent: {}
+[117.655500] (-) TimerEvent: {}
+[117.756554] (-) TimerEvent: {}
+[117.857531] (-) TimerEvent: {}
+[117.958431] (-) TimerEvent: {}
+[118.059459] (-) TimerEvent: {}
+[118.160556] (-) TimerEvent: {}
+[118.261630] (-) TimerEvent: {}
+[118.362725] (-) TimerEvent: {}
+[118.463599] (-) TimerEvent: {}
+[118.564579] (-) TimerEvent: {}
+[118.665640] (-) TimerEvent: {}
+[118.766543] (-) TimerEvent: {}
+[118.867447] (-) TimerEvent: {}
+[118.968206] (-) TimerEvent: {}
+[119.069199] (-) TimerEvent: {}
+[119.170233] (-) TimerEvent: {}
+[119.271216] (-) TimerEvent: {}
+[119.372244] (-) TimerEvent: {}
+[119.473144] (-) TimerEvent: {}
+[119.573937] (-) TimerEvent: {}
+[119.674813] (-) TimerEvent: {}
+[119.775743] (-) TimerEvent: {}
+[119.876659] (-) TimerEvent: {}
+[119.977527] (-) TimerEvent: {}
+[120.078297] (-) TimerEvent: {}
+[120.179639] (-) TimerEvent: {}
+[120.280495] (-) TimerEvent: {}
+[120.381504] (-) TimerEvent: {}
+[120.482800] (-) TimerEvent: {}
+[120.583895] (-) TimerEvent: {}
+[120.685126] (-) TimerEvent: {}
+[120.786173] (-) TimerEvent: {}
+[120.887171] (-) TimerEvent: {}
+[120.988322] (-) TimerEvent: {}
+[121.089455] (-) TimerEvent: {}
+[121.190570] (-) TimerEvent: {}
+[121.291437] (-) TimerEvent: {}
+[121.392498] (-) TimerEvent: {}
+[121.493520] (-) TimerEvent: {}
+[121.594427] (-) TimerEvent: {}
+[121.695607] (-) TimerEvent: {}
+[121.796700] (-) TimerEvent: {}
+[121.897798] (-) TimerEvent: {}
+[121.998816] (-) TimerEvent: {}
+[122.099901] (-) TimerEvent: {}
+[122.201101] (-) TimerEvent: {}
+[122.302427] (-) TimerEvent: {}
+[122.403702] (-) TimerEvent: {}
+[122.504894] (-) TimerEvent: {}
+[122.606065] (-) TimerEvent: {}
+[122.707128] (-) TimerEvent: {}
+[122.808232] (-) TimerEvent: {}
+[122.909308] (-) TimerEvent: {}
+[123.010358] (-) TimerEvent: {}
+[123.111141] (-) TimerEvent: {}
+[123.212276] (-) TimerEvent: {}
+[123.313158] (-) TimerEvent: {}
+[123.414226] (-) TimerEvent: {}
+[123.515421] (-) TimerEvent: {}
+[123.616568] (-) TimerEvent: {}
+[123.718121] (-) TimerEvent: {}
+[123.819468] (-) TimerEvent: {}
+[123.920634] (-) TimerEvent: {}
+[124.021537] (-) TimerEvent: {}
+[124.122499] (-) TimerEvent: {}
+[124.223544] (-) TimerEvent: {}
+[124.324642] (-) TimerEvent: {}
+[124.425837] (-) TimerEvent: {}
+[124.526941] (-) TimerEvent: {}
+[124.627822] (-) TimerEvent: {}
+[124.728818] (-) TimerEvent: {}
+[124.829722] (-) TimerEvent: {}
+[124.930911] (-) TimerEvent: {}
+[125.031958] (-) TimerEvent: {}
+[125.132904] (-) TimerEvent: {}
+[125.234072] (-) TimerEvent: {}
+[125.334999] (-) TimerEvent: {}
+[125.435947] (-) TimerEvent: {}
+[125.536940] (-) TimerEvent: {}
+[125.637889] (-) TimerEvent: {}
+[125.738680] (-) TimerEvent: {}
+[125.839564] (-) TimerEvent: {}
+[125.940681] (-) TimerEvent: {}
+[126.041609] (-) TimerEvent: {}
+[126.142733] (-) TimerEvent: {}
+[126.243916] (-) TimerEvent: {}
+[126.345306] (-) TimerEvent: {}
+[126.446364] (-) TimerEvent: {}
+[126.547440] (-) TimerEvent: {}
+[126.648512] (-) TimerEvent: {}
+[126.750050] (-) TimerEvent: {}
+[126.851402] (-) TimerEvent: {}
+[126.952590] (-) TimerEvent: {}
+[127.053773] (-) TimerEvent: {}
+[127.154933] (-) TimerEvent: {}
+[127.256044] (-) TimerEvent: {}
+[127.357283] (-) TimerEvent: {}
+[127.458202] (-) TimerEvent: {}
+[127.559127] (-) TimerEvent: {}
+[127.660025] (-) TimerEvent: {}
+[127.760920] (-) TimerEvent: {}
+[127.861986] (-) TimerEvent: {}
+[127.963140] (-) TimerEvent: {}
+[128.064329] (-) TimerEvent: {}
+[128.165568] (-) TimerEvent: {}
+[128.266663] (-) TimerEvent: {}
+[128.367700] (-) TimerEvent: {}
+[128.468890] (-) TimerEvent: {}
+[128.570078] (-) TimerEvent: {}
+[128.671261] (-) TimerEvent: {}
+[128.772348] (-) TimerEvent: {}
+[128.873526] (-) TimerEvent: {}
+[128.974560] (-) TimerEvent: {}
+[129.075376] (-) TimerEvent: {}
+[129.157220] (full_name_message) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[129.159286] (full_name_message) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[129.175545] (-) TimerEvent: {}
+[129.276492] (-) TimerEvent: {}
+[129.377335] (-) TimerEvent: {}
+[129.478180] (-) TimerEvent: {}
+[129.578994] (-) TimerEvent: {}
+[129.680178] (-) TimerEvent: {}
+[129.780970] (-) TimerEvent: {}
+[129.881839] (-) TimerEvent: {}
+[129.982894] (-) TimerEvent: {}
+[130.083819] (-) TimerEvent: {}
+[130.184963] (-) TimerEvent: {}
+[130.286083] (-) TimerEvent: {}
+[130.387132] (-) TimerEvent: {}
+[130.488070] (-) TimerEvent: {}
+[130.589069] (-) TimerEvent: {}
+[130.690124] (-) TimerEvent: {}
+[130.791171] (-) TimerEvent: {}
+[130.892418] (-) TimerEvent: {}
+[130.993391] (-) TimerEvent: {}
+[131.094828] (-) TimerEvent: {}
+[131.195927] (-) TimerEvent: {}
+[131.296935] (-) TimerEvent: {}
+[131.397925] (-) TimerEvent: {}
+[131.498806] (-) TimerEvent: {}
+[131.599756] (-) TimerEvent: {}
+[131.700747] (-) TimerEvent: {}
+[131.801828] (-) TimerEvent: {}
+[131.902887] (-) TimerEvent: {}
+[132.003789] (-) TimerEvent: {}
+[132.105197] (-) TimerEvent: {}
+[132.206472] (-) TimerEvent: {}
+[132.307302] (-) TimerEvent: {}
+[132.408447] (-) TimerEvent: {}
+[132.509590] (-) TimerEvent: {}
+[132.610718] (-) TimerEvent: {}
+[132.711758] (-) TimerEvent: {}
+[132.812943] (-) TimerEvent: {}
+[132.914081] (-) TimerEvent: {}
+[133.015098] (-) TimerEvent: {}
+[133.116117] (-) TimerEvent: {}
+[133.217132] (-) TimerEvent: {}
+[133.318289] (-) TimerEvent: {}
+[133.419157] (-) TimerEvent: {}
+[133.520133] (-) TimerEvent: {}
+[133.621051] (-) TimerEvent: {}
+[133.721828] (-) TimerEvent: {}
+[133.822751] (-) TimerEvent: {}
+[133.923859] (-) TimerEvent: {}
+[134.025021] (-) TimerEvent: {}
+[134.125993] (-) TimerEvent: {}
+[134.226772] (-) TimerEvent: {}
+[134.327862] (-) TimerEvent: {}
+[134.429178] (-) TimerEvent: {}
+[134.530336] (-) TimerEvent: {}
+[134.631226] (-) TimerEvent: {}
+[134.732201] (-) TimerEvent: {}
+[134.833240] (-) TimerEvent: {}
+[134.934297] (-) TimerEvent: {}
+[135.036038] (-) TimerEvent: {}
+[135.137060] (-) TimerEvent: {}
+[135.238020] (-) TimerEvent: {}
+[135.339196] (-) TimerEvent: {}
+[135.440208] (-) TimerEvent: {}
+[135.475555] (full_name_message) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[135.540435] (-) TimerEvent: {}
+[135.641421] (-) TimerEvent: {}
+[135.742436] (-) TimerEvent: {}
+[135.843355] (-) TimerEvent: {}
+[135.944542] (-) TimerEvent: {}
+[135.967995] (full_name_message) StdoutLine: {'line': b'-- Configuring done\n'}
+[136.044782] (-) TimerEvent: {}
+[136.146015] (-) TimerEvent: {}
+[136.246877] (-) TimerEvent: {}
+[136.347638] (-) TimerEvent: {}
+[136.448608] (-) TimerEvent: {}
+[136.549670] (-) TimerEvent: {}
+[136.650855] (-) TimerEvent: {}
+[136.751744] (-) TimerEvent: {}
+[136.852912] (-) TimerEvent: {}
+[136.953838] (-) TimerEvent: {}
+[137.054606] (-) TimerEvent: {}
+[137.155370] (-) TimerEvent: {}
+[137.256130] (-) TimerEvent: {}
+[137.357202] (-) TimerEvent: {}
+[137.458122] (-) TimerEvent: {}
+[137.558895] (-) TimerEvent: {}
+[137.659737] (-) TimerEvent: {}
+[137.760437] (-) TimerEvent: {}
+[137.861117] (-) TimerEvent: {}
+[137.961955] (-) TimerEvent: {}
+[138.062814] (-) TimerEvent: {}
+[138.163825] (-) TimerEvent: {}
+[138.264634] (-) TimerEvent: {}
+[138.365562] (-) TimerEvent: {}
+[138.466312] (-) TimerEvent: {}
+[138.567087] (-) TimerEvent: {}
+[138.667900] (-) TimerEvent: {}
+[138.768843] (-) TimerEvent: {}
+[138.869596] (-) TimerEvent: {}
+[138.970354] (-) TimerEvent: {}
+[139.071224] (-) TimerEvent: {}
+[139.172275] (-) TimerEvent: {}
+[139.273163] (-) TimerEvent: {}
+[139.374290] (-) TimerEvent: {}
+[139.475380] (-) TimerEvent: {}
+[139.555609] (full_name_message) StdoutLine: {'line': b'-- Generating done\n'}
+[139.575525] (-) TimerEvent: {}
+[139.676539] (-) TimerEvent: {}
+[139.777696] (-) TimerEvent: {}
+[139.878452] (-) TimerEvent: {}
+[139.979172] (-) TimerEvent: {}
+[140.023404] (full_name_message) StdoutLine: {'line': b'-- Build files have been written to: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message\n'}
+[140.079343] (-) TimerEvent: {}
+[140.180847] (-) TimerEvent: {}
+[140.190584] (full_name_message) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[140.256298] (full_name_message) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[140.281094] (-) TimerEvent: {}
+[140.382197] (-) TimerEvent: {}
+[140.483103] (-) TimerEvent: {}
+[140.584665] (-) TimerEvent: {}
+[140.686295] (-) TimerEvent: {}
+[140.787803] (-) TimerEvent: {}
+[140.888924] (-) TimerEvent: {}
+[140.964113] (full_name_message) StdoutLine: {'line': b'[  5%] Built target full_name_message__cpp\n'}
+[140.989093] (-) TimerEvent: {}
+[141.082532] (full_name_message) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[141.085704] (full_name_message) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[141.088852] (full_name_message) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[141.091759] (-) TimerEvent: {}
+[141.192748] (-) TimerEvent: {}
+[141.267080] (full_name_message) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/full_name_message__rosidl_generator_c.dir/rosidl_generator_c/full_name_message/msg/detail/name__functions.c.o\x1b[0m\n'}
+[141.288130] (full_name_message) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/full_name_message__rosidl_generator_c.dir/rosidl_generator_c/full_name_message/srv/detail/full_name_sum_service__functions.c.o\x1b[0m\n'}
+[141.292877] (-) TimerEvent: {}
+[141.394331] (-) TimerEvent: {}
+[141.473316] (full_name_message) StdoutLine: {'line': b'[ 17%] Built target ament_cmake_python_copy_full_name_message\n'}
+[141.494523] (-) TimerEvent: {}
+[141.595714] (-) TimerEvent: {}
+[141.697073] (-) TimerEvent: {}
+[141.783621] (full_name_message) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/full_name_message__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/full_name_message/msg/name__type_support.cpp.o\x1b[0m\n'}
+[141.797279] (-) TimerEvent: {}
+[141.805178] (full_name_message) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/full_name_message__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/full_name_message/srv/full_name_sum_service__type_support.cpp.o\x1b[0m\n'}
+[141.898599] (-) TimerEvent: {}
+[141.930104] (full_name_message) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking C shared library libfull_name_message__rosidl_generator_c.so\x1b[0m\n'}
+[141.998810] (-) TimerEvent: {}
+[142.036479] (full_name_message) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/full_name_message__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/full_name_message/msg/detail/name__type_support.cpp.o\x1b[0m\n'}
+[142.055122] (full_name_message) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/full_name_message__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/full_name_message/msg/detail/dds_fastrtps/name__type_support.cpp.o\x1b[0m\n'}
+[142.061141] (full_name_message) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/full_name_message__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/full_name_message/srv/detail/full_name_sum_service__type_support.cpp.o\x1b[0m\n'}
+[142.099423] (-) TimerEvent: {}
+[142.101064] (full_name_message) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/full_name_message__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/full_name_message/srv/detail/dds_fastrtps/full_name_sum_service__type_support.cpp.o\x1b[0m\n'}
+[142.199593] (-) TimerEvent: {}
+[142.283184] (full_name_message) StdoutLine: {'line': b'running egg_info\n'}
+[142.295367] (full_name_message) StdoutLine: {'line': b'writing full_name_message.egg-info/PKG-INFO\n'}
+[142.300152] (-) TimerEvent: {}
+[142.315191] (full_name_message) StdoutLine: {'line': b'writing dependency_links to full_name_message.egg-info/dependency_links.txt\n'}
+[142.346473] (full_name_message) StdoutLine: {'line': b'writing top-level names to full_name_message.egg-info/top_level.txt\n'}
+[142.400387] (-) TimerEvent: {}
+[142.486742] (full_name_message) StdoutLine: {'line': b"reading manifest file 'full_name_message.egg-info/SOURCES.txt'\n"}
+[142.500640] (-) TimerEvent: {}
+[142.602308] (-) TimerEvent: {}
+[142.646641] (full_name_message) StdoutLine: {'line': b"writing manifest file 'full_name_message.egg-info/SOURCES.txt'\n"}
+[142.702533] (-) TimerEvent: {}
+[142.798230] (full_name_message) StdoutLine: {'line': b'[ 35%] Built target ament_cmake_python_build_full_name_message_egg\n'}
+[142.803160] (-) TimerEvent: {}
+[142.897155] (full_name_message) StdoutLine: {'line': b'[ 35%] Built target full_name_message__rosidl_generator_c\n'}
+[142.903444] (-) TimerEvent: {}
+[143.005733] (-) TimerEvent: {}
+[143.107942] (full_name_message) StdoutLine: {'line': b'[ 43%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[143.113658] (-) TimerEvent: {}
+[143.115105] (full_name_message) StdoutLine: {'line': b'[ 43%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[143.120086] (full_name_message) StdoutLine: {'line': b'[ 43%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[143.213890] (-) TimerEvent: {}
+[143.315360] (-) TimerEvent: {}
+[143.416411] (-) TimerEvent: {}
+[143.517788] (-) TimerEvent: {}
+[143.620749] (-) TimerEvent: {}
+[143.722265] (-) TimerEvent: {}
+[143.757851] (full_name_message) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libfull_name_message__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[143.823295] (-) TimerEvent: {}
+[143.927771] (-) TimerEvent: {}
+[144.029503] (-) TimerEvent: {}
+[144.041111] (full_name_message) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/full_name_message__rosidl_typesupport_c.dir/rosidl_typesupport_c/full_name_message/msg/name__type_support.cpp.o\x1b[0m\n'}
+[144.072736] (full_name_message) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/full_name_message__rosidl_typesupport_c.dir/rosidl_typesupport_c/full_name_message/srv/full_name_sum_service__type_support.cpp.o\x1b[0m\n'}
+[144.130156] (-) TimerEvent: {}
+[144.232632] (-) TimerEvent: {}
+[144.272134] (full_name_message) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libfull_name_message__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[144.301303] (full_name_message) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/full_name_message__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/full_name_message/msg/detail/name__type_support.c.o\x1b[0m\n'}
+[144.332787] (-) TimerEvent: {}
+[144.336915] (full_name_message) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/full_name_message__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/full_name_message/srv/detail/full_name_sum_service__type_support.c.o\x1b[0m\n'}
+[144.368009] (full_name_message) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/full_name_message__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/full_name_message/msg/detail/name__type_support_c.cpp.o\x1b[0m\n'}
+[144.407613] (full_name_message) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/full_name_message__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/full_name_message/srv/detail/full_name_sum_service__type_support_c.cpp.o\x1b[0m\n'}
+[144.433063] (-) TimerEvent: {}
+[144.534478] (-) TimerEvent: {}
+[144.636816] (-) TimerEvent: {}
+[144.722606] (full_name_message) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libfull_name_message__rosidl_typesupport_c.so\x1b[0m\n'}
+[144.737568] (-) TimerEvent: {}
+[144.821710] (full_name_message) StdoutLine: {'line': b'[ 66%] Built target full_name_message__rosidl_typesupport_cpp\n'}
+[144.837885] (-) TimerEvent: {}
+[144.883946] (full_name_message) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libfull_name_message__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[144.938081] (-) TimerEvent: {}
+[145.039850] (-) TimerEvent: {}
+[145.142008] (-) TimerEvent: {}
+[145.242136] (full_name_message) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking C shared library libfull_name_message__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[145.245981] (-) TimerEvent: {}
+[145.347608] (-) TimerEvent: {}
+[145.385120] (full_name_message) StdoutLine: {'line': b'[ 71%] Built target full_name_message__rosidl_typesupport_introspection_cpp\n'}
+[145.447814] (-) TimerEvent: {}
+[145.451298] (full_name_message) StdoutLine: {'line': b'[ 71%] Built target full_name_message__rosidl_typesupport_c\n'}
+[145.548244] (-) TimerEvent: {}
+[145.650186] (-) TimerEvent: {}
+[145.751274] (-) TimerEvent: {}
+[145.790071] (full_name_message) StdoutLine: {'line': b'[ 71%] Built target full_name_message__rosidl_typesupport_fastrtps_cpp\n'}
+[145.850971] (full_name_message) StdoutLine: {'line': b'[ 71%] Built target full_name_message__rosidl_typesupport_introspection_c\n'}
+[145.853171] (-) TimerEvent: {}
+[145.954034] (-) TimerEvent: {}
+[146.055052] (-) TimerEvent: {}
+[146.156224] (-) TimerEvent: {}
+[146.257431] (-) TimerEvent: {}
+[146.264514] (full_name_message) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libfull_name_message__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[146.357609] (-) TimerEvent: {}
+[146.458656] (-) TimerEvent: {}
+[146.559604] (-) TimerEvent: {}
+[146.660638] (-) TimerEvent: {}
+[146.746228] (full_name_message) StdoutLine: {'line': b'[ 74%] Built target full_name_message__rosidl_typesupport_fastrtps_c\n'}
+[146.760877] (-) TimerEvent: {}
+[146.847109] (full_name_message) StdoutLine: {'line': b'[ 74%] Built target full_name_message\n'}
+[146.861034] (-) TimerEvent: {}
+[146.961867] (-) TimerEvent: {}
+[146.998444] (full_name_message) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[147.062077] (-) TimerEvent: {}
+[147.163308] (-) TimerEvent: {}
+[147.264280] (-) TimerEvent: {}
+[147.365423] (-) TimerEvent: {}
+[147.466635] (-) TimerEvent: {}
+[147.567686] (-) TimerEvent: {}
+[147.627799] (full_name_message) StdoutLine: {'line': b'[ 76%] Built target full_name_message__py\n'}
+[147.667896] (-) TimerEvent: {}
+[147.769148] (-) TimerEvent: {}
+[147.790128] (full_name_message) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/full_name_message__rosidl_generator_py.dir/rosidl_generator_py/full_name_message/msg/_name_s.c.o\x1b[0m\n'}
+[147.824147] (full_name_message) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/full_name_message__rosidl_generator_py.dir/rosidl_generator_py/full_name_message/srv/_full_name_sum_service_s.c.o\x1b[0m\n'}
+[147.869344] (-) TimerEvent: {}
+[147.971149] (-) TimerEvent: {}
+[148.072121] (-) TimerEvent: {}
+[148.173011] (-) TimerEvent: {}
+[148.274006] (-) TimerEvent: {}
+[148.375073] (-) TimerEvent: {}
+[148.476153] (-) TimerEvent: {}
+[148.483804] (full_name_message) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/full_name_message/libfull_name_message__rosidl_generator_py.so\x1b[0m\n'}
+[148.576398] (-) TimerEvent: {}
+[148.677485] (-) TimerEvent: {}
+[148.778768] (-) TimerEvent: {}
+[148.879799] (-) TimerEvent: {}
+[148.887646] (full_name_message) StdoutLine: {'line': b'[ 84%] Built target full_name_message__rosidl_generator_py\n'}
+[148.980035] (-) TimerEvent: {}
+[148.993941] (full_name_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target full_name_message__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[148.996378] (full_name_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target full_name_message__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[148.999286] (full_name_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target full_name_message__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[149.080217] (-) TimerEvent: {}
+[149.181240] (-) TimerEvent: {}
+[149.284604] (-) TimerEvent: {}
+[149.385719] (-) TimerEvent: {}
+[149.487223] (-) TimerEvent: {}
+[149.530417] (full_name_message) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/full_name_message__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/full_name_message/_full_name_message_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[149.533671] (full_name_message) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/full_name_message__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/full_name_message/_full_name_message_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[149.554855] (full_name_message) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/full_name_message__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/full_name_message/_full_name_message_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[149.587422] (-) TimerEvent: {}
+[149.688569] (-) TimerEvent: {}
+[149.789594] (-) TimerEvent: {}
+[149.890895] (-) TimerEvent: {}
+[149.992032] (-) TimerEvent: {}
+[150.093131] (-) TimerEvent: {}
+[150.194277] (-) TimerEvent: {}
+[150.296238] (-) TimerEvent: {}
+[150.397586] (-) TimerEvent: {}
+[150.498751] (-) TimerEvent: {}
+[150.513658] (full_name_message) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/full_name_message/full_name_message_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[150.598980] (-) TimerEvent: {}
+[150.652818] (full_name_message) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/full_name_message/full_name_message_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[150.699367] (-) TimerEvent: {}
+[150.715935] (full_name_message) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/full_name_message/full_name_message_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[150.799521] (-) TimerEvent: {}
+[150.900551] (-) TimerEvent: {}
+[151.001691] (-) TimerEvent: {}
+[151.007882] (full_name_message) StdoutLine: {'line': b'[100%] Built target full_name_message__rosidl_typesupport_c__pyext\n'}
+[151.049024] (full_name_message) StdoutLine: {'line': b'[100%] Built target full_name_message__rosidl_typesupport_introspection_c__pyext\n'}
+[151.050820] (full_name_message) StdoutLine: {'line': b'[100%] Built target full_name_message__rosidl_typesupport_fastrtps_c__pyext\n'}
+[151.101888] (-) TimerEvent: {}
+[151.202887] (-) TimerEvent: {}
+[151.303743] (-) TimerEvent: {}
+[151.323494] (full_name_message) CommandEnded: {'returncode': 0}
+[151.404001] (-) TimerEvent: {}
+[151.486380] (full_name_message) JobProgress: {'identifier': 'full_name_message', 'progress': 'install'}
+[151.504253] (full_name_message) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message'], 'cwd': '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/srv'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'MEXERILY'), ('WSL_INTEROP', '/run/WSL/459_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/game_/.cargo/bin:/mnt/c/Users/game_/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/game_/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/game_/AppData/Roaming/cabal/bin:/mnt/c/tools/ghc-9.2.1/bin:/mnt/c/tools/msys64:/mnt/c/Users/game_/AppData/Roaming/local/bin:/mnt/c/Users/game_/.dotnet/tools:/mnt/c/Users/game_/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/turtlesim:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/root/ros2_ws/build/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_executors:/root/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/turtlesim:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[151.507059] (-) TimerEvent: {}
+[151.516497] (full_name_message) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[151.570950] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/ament_index/resource_index/rosidl_interfaces/full_name_message\n'}
+[151.607266] (-) TimerEvent: {}
+[151.708277] (-) TimerEvent: {}
+[151.731901] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message\n'}
+[151.775189] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg\n'}
+[151.808455] (-) TimerEvent: {}
+[151.825907] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg/detail\n'}
+[151.908617] (-) TimerEvent: {}
+[151.911335] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg/detail/name__functions.c\n'}
+[152.008863] (-) TimerEvent: {}
+[152.103297] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg/detail/name__functions.h\n'}
+[152.109030] (-) TimerEvent: {}
+[152.209860] (-) TimerEvent: {}
+[152.289831] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg/detail/name__struct.h\n'}
+[152.310018] (-) TimerEvent: {}
+[152.410889] (-) TimerEvent: {}
+[152.494642] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg/detail/name__type_support.h\n'}
+[152.511049] (-) TimerEvent: {}
+[152.611924] (-) TimerEvent: {}
+[152.686929] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg/name.h\n'}
+[152.712074] (-) TimerEvent: {}
+[152.813210] (-) TimerEvent: {}
+[152.884155] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg/rosidl_generator_c__visibility_control.h\n'}
+[152.913372] (-) TimerEvent: {}
+[152.917676] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv\n'}
+[152.972588] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail\n'}
+[153.013550] (-) TimerEvent: {}
+[153.056081] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/full_name_sum_service__functions.c\n'}
+[153.113708] (-) TimerEvent: {}
+[153.214970] (-) TimerEvent: {}
+[153.301633] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/full_name_sum_service__functions.h\n'}
+[153.315187] (-) TimerEvent: {}
+[153.416810] (-) TimerEvent: {}
+[153.517971] (-) TimerEvent: {}
+[153.603341] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/full_name_sum_service__struct.h\n'}
+[153.618164] (-) TimerEvent: {}
+[153.721985] (-) TimerEvent: {}
+[153.823332] (-) TimerEvent: {}
+[153.860104] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/full_name_sum_service__type_support.h\n'}
+[153.923519] (-) TimerEvent: {}
+[154.024399] (-) TimerEvent: {}
+[154.074609] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/get_full_name__functions.c\n'}
+[154.124588] (-) TimerEvent: {}
+[154.135465] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/get_full_name__functions.h\n'}
+[154.199482] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/get_full_name__struct.h\n'}
+[154.224812] (-) TimerEvent: {}
+[154.261775] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/get_full_name__type_support.h\n'}
+[154.306801] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/full_name_sum_service.h\n'}
+[154.325281] (-) TimerEvent: {}
+[154.426969] (-) TimerEvent: {}
+[154.488924] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/get_full_name.h\n'}
+[154.527161] (-) TimerEvent: {}
+[154.530178] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/environment/library_path.sh\n'}
+[154.584009] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/environment/library_path.dsv\n'}
+[154.627368] (-) TimerEvent: {}
+[154.728393] (-) TimerEvent: {}
+[154.765941] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib/libfull_name_message__rosidl_generator_c.so\n'}
+[154.828618] (-) TimerEvent: {}
+[154.929534] (-) TimerEvent: {}
+[154.938389] (full_name_message) StdoutLine: {'line': b'-- Set runtime path of "/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib/libfull_name_message__rosidl_generator_c.so" to ""\n'}
+[154.958473] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message\n'}
+[155.010638] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg\n'}
+[155.029703] (-) TimerEvent: {}
+[155.068722] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg/detail\n'}
+[155.129952] (-) TimerEvent: {}
+[155.154517] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg/detail/name__rosidl_typesupport_fastrtps_c.h\n'}
+[155.230191] (-) TimerEvent: {}
+[155.331292] (-) TimerEvent: {}
+[155.392496] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[155.430926] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv\n'}
+[155.433249] (-) TimerEvent: {}
+[155.504133] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail\n'}
+[155.533454] (-) TimerEvent: {}
+[155.591995] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/full_name_sum_service__rosidl_typesupport_fastrtps_c.h\n'}
+[155.633670] (-) TimerEvent: {}
+[155.734669] (-) TimerEvent: {}
+[155.835796] (-) TimerEvent: {}
+[155.854815] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/get_full_name__rosidl_typesupport_fastrtps_c.h\n'}
+[155.935995] (-) TimerEvent: {}
+[155.942121] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib/libfull_name_message__rosidl_typesupport_fastrtps_c.so\n'}
+[156.036186] (-) TimerEvent: {}
+[156.096754] (full_name_message) StdoutLine: {'line': b'-- Set runtime path of "/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib/libfull_name_message__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[156.117200] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message\n'}
+[156.136369] (-) TimerEvent: {}
+[156.169507] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg\n'}
+[156.228858] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg/detail\n'}
+[156.236598] (-) TimerEvent: {}
+[156.308065] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg/detail/name__rosidl_typesupport_introspection_c.h\n'}
+[156.336779] (-) TimerEvent: {}
+[156.437919] (-) TimerEvent: {}
+[156.515374] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg/detail/name__type_support.c\n'}
+[156.538117] (-) TimerEvent: {}
+[156.639553] (-) TimerEvent: {}
+[156.699351] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[156.739794] (-) TimerEvent: {}
+[156.747872] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv\n'}
+[156.803656] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail\n'}
+[156.839964] (-) TimerEvent: {}
+[156.903226] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/full_name_sum_service__rosidl_typesupport_introspection_c.h\n'}
+[156.940167] (-) TimerEvent: {}
+[157.040850] (-) TimerEvent: {}
+[157.119709] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/full_name_sum_service__type_support.c\n'}
+[157.141309] (-) TimerEvent: {}
+[157.243735] (-) TimerEvent: {}
+[157.345810] (-) TimerEvent: {}
+[157.360119] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/get_full_name__rosidl_typesupport_introspection_c.h\n'}
+[157.422641] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/get_full_name__type_support.c\n'}
+[157.445955] (-) TimerEvent: {}
+[157.497944] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib/libfull_name_message__rosidl_typesupport_introspection_c.so\n'}
+[157.546150] (-) TimerEvent: {}
+[157.644859] (full_name_message) StdoutLine: {'line': b'-- Set runtime path of "/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib/libfull_name_message__rosidl_typesupport_introspection_c.so" to ""\n'}
+[157.648258] (-) TimerEvent: {}
+[157.716273] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib/libfull_name_message__rosidl_typesupport_c.so\n'}
+[157.748457] (-) TimerEvent: {}
+[157.849308] (-) TimerEvent: {}
+[157.867390] (full_name_message) StdoutLine: {'line': b'-- Set runtime path of "/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib/libfull_name_message__rosidl_typesupport_c.so" to ""\n'}
+[157.891682] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message\n'}
+[157.949475] (-) TimerEvent: {}
+[157.952201] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg\n'}
+[158.008554] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg/detail\n'}
+[158.049712] (-) TimerEvent: {}
+[158.083980] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg/detail/name__builder.hpp\n'}
+[158.149855] (-) TimerEvent: {}
+[158.250769] (-) TimerEvent: {}
+[158.279073] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg/detail/name__struct.hpp\n'}
+[158.350930] (-) TimerEvent: {}
+[158.452133] (-) TimerEvent: {}
+[158.519011] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg/detail/name__traits.hpp\n'}
+[158.552294] (-) TimerEvent: {}
+[158.653384] (-) TimerEvent: {}
+[158.729757] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg/name.hpp\n'}
+[158.754385] (-) TimerEvent: {}
+[158.855228] (-) TimerEvent: {}
+[158.882497] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv\n'}
+[158.941079] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail\n'}
+[158.955392] (-) TimerEvent: {}
+[159.013070] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/full_name_sum_service__builder.hpp\n'}
+[159.055537] (-) TimerEvent: {}
+[159.156734] (-) TimerEvent: {}
+[159.222795] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/full_name_sum_service__struct.hpp\n'}
+[159.256879] (-) TimerEvent: {}
+[159.357879] (-) TimerEvent: {}
+[159.413539] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/full_name_sum_service__traits.hpp\n'}
+[159.458018] (-) TimerEvent: {}
+[159.559083] (-) TimerEvent: {}
+[159.609185] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/get_full_name__builder.hpp\n'}
+[159.659282] (-) TimerEvent: {}
+[159.666956] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/get_full_name__struct.hpp\n'}
+[159.726969] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/get_full_name__traits.hpp\n'}
+[159.759434] (-) TimerEvent: {}
+[159.772745] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/full_name_sum_service.hpp\n'}
+[159.859630] (-) TimerEvent: {}
+[159.943458] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/get_full_name.hpp\n'}
+[159.959819] (-) TimerEvent: {}
+[159.972865] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message\n'}
+[160.017670] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg\n'}
+[160.060095] (-) TimerEvent: {}
+[160.070935] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg/detail\n'}
+[160.133940] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg/detail/dds_fastrtps\n'}
+[160.160261] (-) TimerEvent: {}
+[160.257811] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg/detail/name__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[160.260369] (-) TimerEvent: {}
+[160.361323] (-) TimerEvent: {}
+[160.462230] (-) TimerEvent: {}
+[160.465305] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[160.499355] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv\n'}
+[160.554717] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail\n'}
+[160.562358] (-) TimerEvent: {}
+[160.619433] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/dds_fastrtps\n'}
+[160.662496] (-) TimerEvent: {}
+[160.706299] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/full_name_sum_service__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[160.762691] (-) TimerEvent: {}
+[160.863923] (-) TimerEvent: {}
+[160.965098] (-) TimerEvent: {}
+[160.972752] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/get_full_name__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[161.040760] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib/libfull_name_message__rosidl_typesupport_fastrtps_cpp.so\n'}
+[161.065232] (-) TimerEvent: {}
+[161.161703] (full_name_message) StdoutLine: {'line': b'-- Set runtime path of "/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib/libfull_name_message__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[161.165398] (-) TimerEvent: {}
+[161.183171] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message\n'}
+[161.231501] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg\n'}
+[161.265565] (-) TimerEvent: {}
+[161.285275] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg/detail\n'}
+[161.349044] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg/detail/name__rosidl_typesupport_introspection_cpp.hpp\n'}
+[161.365764] (-) TimerEvent: {}
+[161.466681] (-) TimerEvent: {}
+[161.524630] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg/detail/name__type_support.cpp\n'}
+[161.566869] (-) TimerEvent: {}
+[161.667796] (-) TimerEvent: {}
+[161.682434] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv\n'}
+[161.744504] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail\n'}
+[161.768065] (-) TimerEvent: {}
+[161.822535] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/full_name_sum_service__rosidl_typesupport_introspection_cpp.hpp\n'}
+[161.868270] (-) TimerEvent: {}
+[161.969344] (-) TimerEvent: {}
+[162.005027] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/full_name_sum_service__type_support.cpp\n'}
+[162.069515] (-) TimerEvent: {}
+[162.170560] (-) TimerEvent: {}
+[162.181166] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/get_full_name__rosidl_typesupport_introspection_cpp.hpp\n'}
+[162.230669] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/get_full_name__type_support.cpp\n'}
+[162.270753] (-) TimerEvent: {}
+[162.306139] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib/libfull_name_message__rosidl_typesupport_introspection_cpp.so\n'}
+[162.370923] (-) TimerEvent: {}
+[162.439454] (full_name_message) StdoutLine: {'line': b'-- Set runtime path of "/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib/libfull_name_message__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[162.471066] (-) TimerEvent: {}
+[162.505262] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib/libfull_name_message__rosidl_typesupport_cpp.so\n'}
+[162.571264] (-) TimerEvent: {}
+[162.661208] (full_name_message) StdoutLine: {'line': b'-- Set runtime path of "/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib/libfull_name_message__rosidl_typesupport_cpp.so" to ""\n'}
+[162.671445] (-) TimerEvent: {}
+[162.701934] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/environment/pythonpath.sh\n'}
+[162.745826] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/environment/pythonpath.dsv\n'}
+[162.771709] (-) TimerEvent: {}
+[162.872813] (-) TimerEvent: {}
+[162.899741] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message-0.0.0-py3.10.egg-info\n'}
+[162.972275] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[162.974459] (-) TimerEvent: {}
+[163.075334] (-) TimerEvent: {}
+[163.176214] (-) TimerEvent: {}
+[163.179920] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[163.276378] (-) TimerEvent: {}
+[163.377065] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[163.379091] (-) TimerEvent: {}
+[163.479886] (-) TimerEvent: {}
+[163.545420] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[163.580118] (-) TimerEvent: {}
+[163.681194] (-) TimerEvent: {}
+[163.723720] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message\n'}
+[163.779299] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/full_name_message_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[163.781282] (-) TimerEvent: {}
+[163.882076] (-) TimerEvent: {}
+[163.956128] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/full_name_message_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[163.982258] (-) TimerEvent: {}
+[164.083193] (-) TimerEvent: {}
+[164.138817] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/full_name_message_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[164.183343] (-) TimerEvent: {}
+[164.284431] (-) TimerEvent: {}
+[164.331191] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/libfull_name_message__rosidl_generator_py.so\n'}
+[164.384635] (-) TimerEvent: {}
+[164.485540] (-) TimerEvent: {}
+[164.518078] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/msg\n'}
+[164.585707] (-) TimerEvent: {}
+[164.635240] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/msg/_name.py\n'}
+[164.685878] (-) TimerEvent: {}
+[164.786727] (-) TimerEvent: {}
+[164.840418] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/msg/_name_s.c\n'}
+[164.886880] (-) TimerEvent: {}
+[164.987879] (-) TimerEvent: {}
+[165.054874] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/msg/__init__.py\n'}
+[165.088046] (-) TimerEvent: {}
+[165.188907] (-) TimerEvent: {}
+[165.250115] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/srv\n'}
+[165.289073] (-) TimerEvent: {}
+[165.321010] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/srv/_full_name_sum_service.py\n'}
+[165.389237] (-) TimerEvent: {}
+[165.490314] (-) TimerEvent: {}
+[165.532561] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/srv/_full_name_sum_service_s.c\n'}
+[165.590493] (-) TimerEvent: {}
+[165.691387] (-) TimerEvent: {}
+[165.749670] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/srv/_get_full_name.py\n'}
+[165.791606] (-) TimerEvent: {}
+[165.804710] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/srv/_get_full_name_s.c\n'}
+[165.862602] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/srv/__init__.py\n'}
+[165.891816] (-) TimerEvent: {}
+[165.992637] (-) TimerEvent: {}
+[166.075385] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/_full_name_message_s.ep.rosidl_typesupport_c.c\n'}
+[166.092827] (-) TimerEvent: {}
+[166.193790] (-) TimerEvent: {}
+[166.267239] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/_full_name_message_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[166.293954] (-) TimerEvent: {}
+[166.394865] (-) TimerEvent: {}
+[166.456840] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/_full_name_message_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[166.495045] (-) TimerEvent: {}
+[166.596033] (-) TimerEvent: {}
+[166.645451] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/__init__.py\n'}
+[166.696219] (-) TimerEvent: {}
+[166.797078] (-) TimerEvent: {}
+[166.898240] (-) TimerEvent: {}
+[166.999137] (-) TimerEvent: {}
+[167.100076] (-) TimerEvent: {}
+[167.201143] (-) TimerEvent: {}
+[167.302025] (-) TimerEvent: {}
+[167.402856] (-) TimerEvent: {}
+[167.503888] (-) TimerEvent: {}
+[167.604957] (-) TimerEvent: {}
+[167.705857] (-) TimerEvent: {}
+[167.732983] (full_name_message) StdoutLine: {'line': b"Listing '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message'...\n"}
+[167.735201] (full_name_message) StdoutLine: {'line': b"Compiling '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/__init__.py'...\n"}
+[167.737152] (full_name_message) StdoutLine: {'line': b"Listing '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/msg'...\n"}
+[167.739316] (full_name_message) StdoutLine: {'line': b"Compiling '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/msg/__init__.py'...\n"}
+[167.741452] (full_name_message) StdoutLine: {'line': b"Compiling '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/msg/_name.py'...\n"}
+[167.743952] (full_name_message) StdoutLine: {'line': b"Listing '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/srv'...\n"}
+[167.746008] (full_name_message) StdoutLine: {'line': b"Compiling '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/srv/__init__.py'...\n"}
+[167.748039] (full_name_message) StdoutLine: {'line': b"Compiling '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/srv/_full_name_sum_service.py'...\n"}
+[167.806017] (-) TimerEvent: {}
+[167.891325] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/full_name_message_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[167.906191] (-) TimerEvent: {}
+[168.007122] (-) TimerEvent: {}
+[168.107940] (-) TimerEvent: {}
+[168.146424] (full_name_message) StdoutLine: {'line': b'-- Set runtime path of "/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/full_name_message_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[168.208107] (-) TimerEvent: {}
+[168.255894] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/full_name_message_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[168.308301] (-) TimerEvent: {}
+[168.409191] (-) TimerEvent: {}
+[168.497995] (full_name_message) StdoutLine: {'line': b'-- Set runtime path of "/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/full_name_message_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[168.509345] (-) TimerEvent: {}
+[168.609756] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/full_name_message_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[168.611805] (-) TimerEvent: {}
+[168.712564] (-) TimerEvent: {}
+[168.813570] (-) TimerEvent: {}
+[168.869227] (full_name_message) StdoutLine: {'line': b'-- Set runtime path of "/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/full_name_message_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[168.913805] (-) TimerEvent: {}
+[168.951593] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib/libfull_name_message__rosidl_generator_py.so\n'}
+[169.014006] (-) TimerEvent: {}
+[169.099551] (full_name_message) StdoutLine: {'line': b'-- Set runtime path of "/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib/libfull_name_message__rosidl_generator_py.so" to ""\n'}
+[169.114201] (-) TimerEvent: {}
+[169.162996] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/msg/Name.idl\n'}
+[169.214401] (-) TimerEvent: {}
+[169.315396] (-) TimerEvent: {}
+[169.319002] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/srv/FullNameSumService.idl\n'}
+[169.415548] (-) TimerEvent: {}
+[169.481081] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/msg/Name.msg\n'}
+[169.515731] (-) TimerEvent: {}
+[169.610924] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/srv/FullNameSumService.srv\n'}
+[169.615885] (-) TimerEvent: {}
+[169.716800] (-) TimerEvent: {}
+[169.756314] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/srv/FullNameSumService_Request.msg\n'}
+[169.816968] (-) TimerEvent: {}
+[169.898425] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/srv/FullNameSumService_Response.msg\n'}
+[169.917126] (-) TimerEvent: {}
+[170.018054] (-) TimerEvent: {}
+[170.079194] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/ament_index/resource_index/package_run_dependencies/full_name_message\n'}
+[170.118238] (-) TimerEvent: {}
+[170.149639] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/ament_index/resource_index/parent_prefix_path/full_name_message\n'}
+[170.185757] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/environment/ament_prefix_path.sh\n'}
+[170.218496] (-) TimerEvent: {}
+[170.234310] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/environment/ament_prefix_path.dsv\n'}
+[170.318602] (-) TimerEvent: {}
+[170.380130] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/environment/path.sh\n'}
+[170.419138] (-) TimerEvent: {}
+[170.422715] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/environment/path.dsv\n'}
+[170.519288] (-) TimerEvent: {}
+[170.576063] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/local_setup.bash\n'}
+[170.613174] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/local_setup.sh\n'}
+[170.619476] (-) TimerEvent: {}
+[170.649762] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/local_setup.zsh\n'}
+[170.692019] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/local_setup.dsv\n'}
+[170.719645] (-) TimerEvent: {}
+[170.818860] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/package.dsv\n'}
+[170.820882] (-) TimerEvent: {}
+[170.921754] (-) TimerEvent: {}
+[170.962480] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/ament_index/resource_index/packages/full_name_message\n'}
+[171.021920] (-) TimerEvent: {}
+[171.075922] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/export_full_name_message__rosidl_generator_cExport.cmake\n'}
+[171.122093] (-) TimerEvent: {}
+[171.138502] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/export_full_name_message__rosidl_generator_cExport-noconfig.cmake\n'}
+[171.222278] (-) TimerEvent: {}
+[171.245995] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/export_full_name_message__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[171.310938] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/export_full_name_message__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[171.322428] (-) TimerEvent: {}
+[171.398538] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/full_name_message__rosidl_typesupport_introspection_cExport.cmake\n'}
+[171.422586] (-) TimerEvent: {}
+[171.456228] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/full_name_message__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[171.522761] (-) TimerEvent: {}
+[171.546277] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/full_name_message__rosidl_typesupport_cExport.cmake\n'}
+[171.602959] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/full_name_message__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[171.622921] (-) TimerEvent: {}
+[171.708385] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/export_full_name_message__rosidl_generator_cppExport.cmake\n'}
+[171.723081] (-) TimerEvent: {}
+[171.806695] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/export_full_name_message__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[171.823249] (-) TimerEvent: {}
+[171.880986] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/export_full_name_message__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[171.923440] (-) TimerEvent: {}
+[171.983462] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/full_name_message__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[172.023606] (-) TimerEvent: {}
+[172.059708] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/full_name_message__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[172.123777] (-) TimerEvent: {}
+[172.160464] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/full_name_message__rosidl_typesupport_cppExport.cmake\n'}
+[172.218978] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/full_name_message__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[172.223934] (-) TimerEvent: {}
+[172.320723] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/export_full_name_message__rosidl_generator_pyExport.cmake\n'}
+[172.326903] (-) TimerEvent: {}
+[172.382305] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/export_full_name_message__rosidl_generator_pyExport-noconfig.cmake\n'}
+[172.421690] (full_name_message) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/rosidl_cmake-extras.cmake\n'}
+[172.427128] (-) TimerEvent: {}
+[172.528073] (-) TimerEvent: {}
+[172.556396] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[172.611608] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[172.628237] (-) TimerEvent: {}
+[172.651143] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[172.708877] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[172.728458] (-) TimerEvent: {}
+[172.749762] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[172.794372] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[172.828628] (-) TimerEvent: {}
+[172.837002] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/full_name_messageConfig.cmake\n'}
+[172.869027] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/full_name_messageConfig-version.cmake\n'}
+[172.905521] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/package.xml\n'}
+[172.928802] (-) TimerEvent: {}
+[172.938650] (full_name_message) CommandEnded: {'returncode': 0}
+[173.029156] (-) TimerEvent: {}
+[173.130260] (-) TimerEvent: {}
+[173.231263] (-) TimerEvent: {}
+[173.332313] (-) TimerEvent: {}
+[173.433227] (-) TimerEvent: {}
+[173.534261] (-) TimerEvent: {}
+[173.635780] (-) TimerEvent: {}
+[173.736850] (-) TimerEvent: {}
+[173.837928] (-) TimerEvent: {}
+[173.939058] (-) TimerEvent: {}
+[174.040010] (-) TimerEvent: {}
+[174.140757] (-) TimerEvent: {}
+[174.241712] (-) TimerEvent: {}
+[174.342613] (-) TimerEvent: {}
+[174.443567] (-) TimerEvent: {}
+[174.544789] (-) TimerEvent: {}
+[174.645613] (-) TimerEvent: {}
+[174.746497] (-) TimerEvent: {}
+[174.847352] (-) TimerEvent: {}
+[174.948259] (-) TimerEvent: {}
+[175.049288] (-) TimerEvent: {}
+[175.150135] (-) TimerEvent: {}
+[175.250944] (-) TimerEvent: {}
+[175.351797] (-) TimerEvent: {}
+[175.452754] (-) TimerEvent: {}
+[175.554026] (-) TimerEvent: {}
+[175.655053] (-) TimerEvent: {}
+[175.746443] (full_name_message) JobEnded: {'identifier': 'full_name_message', 'rc': 0}
+[175.763906] (-) TimerEvent: {}
+[175.764586] (-) EventReactorShutdown: {}

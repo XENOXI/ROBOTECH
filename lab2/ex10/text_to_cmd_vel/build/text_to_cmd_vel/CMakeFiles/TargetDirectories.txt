@@ -1,0 +1,11 @@
+/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/build/text_to_cmd_vel/CMakeFiles/uninstall.dir
+/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/build/text_to_cmd_vel/CMakeFiles/text_to_cmd_vel_uninstall.dir
+/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/build/text_to_cmd_vel/CMakeFiles/talker.dir
+/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/build/text_to_cmd_vel/CMakeFiles/listener.dir
+/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/build/text_to_cmd_vel/CMakeFiles/test.dir
+/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/build/text_to_cmd_vel/CMakeFiles/edit_cache.dir
+/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/build/text_to_cmd_vel/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/build/text_to_cmd_vel/CMakeFiles/list_install_components.dir
+/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/build/text_to_cmd_vel/CMakeFiles/install.dir
+/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/build/text_to_cmd_vel/CMakeFiles/install/local.dir
+/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/build/text_to_cmd_vel/CMakeFiles/install/strip.dir

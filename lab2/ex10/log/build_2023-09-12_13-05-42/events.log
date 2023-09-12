@@ -1,0 +1,1990 @@
+[0.000000] (-) TimerEvent: {}
+[0.001820] (text_to_cmd_vel) JobQueued: {'identifier': 'text_to_cmd_vel', 'dependencies': OrderedDict()}
+[0.003826] (text_to_cmd_vel) JobStarted: {'identifier': 'text_to_cmd_vel'}
+[0.081461] (text_to_cmd_vel) JobProgress: {'identifier': 'text_to_cmd_vel', 'progress': 'cmake'}
+[0.092196] (-) TimerEvent: {}
+[0.156253] (text_to_cmd_vel) JobProgress: {'identifier': 'text_to_cmd_vel', 'progress': 'build'}
+[0.173908] (text_to_cmd_vel) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/build/text_to_cmd_vel', '--', '-j16', '-l16'], 'cwd': '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/build/text_to_cmd_vel', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('GIT_ASKPASS', '/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ROBOTECH/lab2/ex10/text_to_cmd_vel'), ('TERM_PROGRAM_VERSION', '1.82.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-2a19cdcb-dcbe-4995-b0ed-5b8215344678.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'MEXERILY'), ('WSL_INTEROP', '/run/WSL/7981_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/game_/.cargo/bin:/mnt/c/Users/game_/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/game_/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/game_/AppData/Roaming/cabal/bin:/mnt/c/tools/ghc-9.2.1/bin:/mnt/c/tools/msys64:/mnt/c/Users/game_/AppData/Roaming/local/bin:/mnt/c/Users/game_/.dotnet/tools:/mnt/c/Users/game_/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-47df4009c0.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/turtlesim:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/build/text_to_cmd_vel'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/root/ros2_ws/build/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_executors:/root/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/turtlesim:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.213938] (-) TimerEvent: {}
+[0.314957] (-) TimerEvent: {}
+[0.416397] (-) TimerEvent: {}
+[0.517783] (-) TimerEvent: {}
+[0.561052] (text_to_cmd_vel) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.618013] (-) TimerEvent: {}
+[0.719339] (-) TimerEvent: {}
+[0.820627] (-) TimerEvent: {}
+[0.921788] (-) TimerEvent: {}
+[1.007150] (text_to_cmd_vel) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.022167] (-) TimerEvent: {}
+[1.123599] (-) TimerEvent: {}
+[1.224803] (-) TimerEvent: {}
+[1.326323] (-) TimerEvent: {}
+[1.392561] (text_to_cmd_vel) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.397076] (text_to_cmd_vel) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.408580] (text_to_cmd_vel) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.426493] (-) TimerEvent: {}
+[1.448142] (text_to_cmd_vel) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.491853] (text_to_cmd_vel) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.526728] (-) TimerEvent: {}
+[1.599440] (text_to_cmd_vel) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.620375] (text_to_cmd_vel) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.626969] (-) TimerEvent: {}
+[1.728260] (-) TimerEvent: {}
+[1.829711] (-) TimerEvent: {}
+[1.931403] (-) TimerEvent: {}
+[2.032775] (-) TimerEvent: {}
+[2.133882] (-) TimerEvent: {}
+[2.235186] (-) TimerEvent: {}
+[2.336368] (-) TimerEvent: {}
+[2.437474] (-) TimerEvent: {}
+[2.538813] (-) TimerEvent: {}
+[2.639949] (-) TimerEvent: {}
+[2.741362] (-) TimerEvent: {}
+[2.842685] (-) TimerEvent: {}
+[2.943779] (-) TimerEvent: {}
+[3.045033] (-) TimerEvent: {}
+[3.146321] (-) TimerEvent: {}
+[3.247422] (-) TimerEvent: {}
+[3.348680] (-) TimerEvent: {}
+[3.449739] (-) TimerEvent: {}
+[3.550769] (-) TimerEvent: {}
+[3.652729] (-) TimerEvent: {}
+[3.754211] (-) TimerEvent: {}
+[3.855870] (-) TimerEvent: {}
+[3.957733] (-) TimerEvent: {}
+[4.059926] (-) TimerEvent: {}
+[4.160991] (-) TimerEvent: {}
+[4.263048] (-) TimerEvent: {}
+[4.364856] (-) TimerEvent: {}
+[4.466182] (-) TimerEvent: {}
+[4.567474] (-) TimerEvent: {}
+[4.668614] (-) TimerEvent: {}
+[4.769699] (-) TimerEvent: {}
+[4.870977] (-) TimerEvent: {}
+[4.972661] (-) TimerEvent: {}
+[5.074380] (-) TimerEvent: {}
+[5.175389] (-) TimerEvent: {}
+[5.276631] (-) TimerEvent: {}
+[5.378351] (-) TimerEvent: {}
+[5.482738] (-) TimerEvent: {}
+[5.584069] (-) TimerEvent: {}
+[5.685517] (-) TimerEvent: {}
+[5.786612] (-) TimerEvent: {}
+[5.888679] (-) TimerEvent: {}
+[5.989868] (-) TimerEvent: {}
+[6.090968] (-) TimerEvent: {}
+[6.192068] (-) TimerEvent: {}
+[6.293142] (-) TimerEvent: {}
+[6.394322] (-) TimerEvent: {}
+[6.495337] (-) TimerEvent: {}
+[6.596546] (-) TimerEvent: {}
+[6.698156] (-) TimerEvent: {}
+[6.799234] (-) TimerEvent: {}
+[6.900349] (-) TimerEvent: {}
+[7.001470] (-) TimerEvent: {}
+[7.102419] (-) TimerEvent: {}
+[7.203557] (-) TimerEvent: {}
+[7.304657] (-) TimerEvent: {}
+[7.406128] (-) TimerEvent: {}
+[7.507227] (-) TimerEvent: {}
+[7.608570] (-) TimerEvent: {}
+[7.709719] (-) TimerEvent: {}
+[7.810819] (-) TimerEvent: {}
+[7.911940] (-) TimerEvent: {}
+[8.013034] (-) TimerEvent: {}
+[8.114117] (-) TimerEvent: {}
+[8.215425] (-) TimerEvent: {}
+[8.316952] (-) TimerEvent: {}
+[8.418183] (-) TimerEvent: {}
+[8.519250] (-) TimerEvent: {}
+[8.620364] (-) TimerEvent: {}
+[8.721356] (-) TimerEvent: {}
+[8.822646] (-) TimerEvent: {}
+[8.923775] (-) TimerEvent: {}
+[9.024844] (-) TimerEvent: {}
+[9.125952] (-) TimerEvent: {}
+[9.227537] (-) TimerEvent: {}
+[9.328692] (-) TimerEvent: {}
+[9.429782] (-) TimerEvent: {}
+[9.530899] (-) TimerEvent: {}
+[9.631922] (-) TimerEvent: {}
+[9.733065] (-) TimerEvent: {}
+[9.834205] (-) TimerEvent: {}
+[9.935421] (-) TimerEvent: {}
+[10.036677] (-) TimerEvent: {}
+[10.137936] (-) TimerEvent: {}
+[10.239021] (-) TimerEvent: {}
+[10.340129] (-) TimerEvent: {}
+[10.441217] (-) TimerEvent: {}
+[10.542261] (-) TimerEvent: {}
+[10.643359] (-) TimerEvent: {}
+[10.744385] (-) TimerEvent: {}
+[10.845511] (-) TimerEvent: {}
+[10.946717] (-) TimerEvent: {}
+[11.047965] (-) TimerEvent: {}
+[11.149078] (-) TimerEvent: {}
+[11.250166] (-) TimerEvent: {}
+[11.351232] (-) TimerEvent: {}
+[11.452405] (-) TimerEvent: {}
+[11.553465] (-) TimerEvent: {}
+[11.654581] (-) TimerEvent: {}
+[11.755942] (-) TimerEvent: {}
+[11.857318] (-) TimerEvent: {}
+[11.958577] (-) TimerEvent: {}
+[12.059768] (-) TimerEvent: {}
+[12.114698] (text_to_cmd_vel) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[12.159937] (-) TimerEvent: {}
+[12.260906] (-) TimerEvent: {}
+[12.286371] (text_to_cmd_vel) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[12.331235] (text_to_cmd_vel) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[12.361106] (-) TimerEvent: {}
+[12.462244] (-) TimerEvent: {}
+[12.563226] (-) TimerEvent: {}
+[12.664280] (-) TimerEvent: {}
+[12.765344] (-) TimerEvent: {}
+[12.866556] (-) TimerEvent: {}
+[12.967641] (-) TimerEvent: {}
+[13.068882] (-) TimerEvent: {}
+[13.170014] (-) TimerEvent: {}
+[13.271234] (-) TimerEvent: {}
+[13.372287] (-) TimerEvent: {}
+[13.473533] (-) TimerEvent: {}
+[13.574697] (-) TimerEvent: {}
+[13.675879] (-) TimerEvent: {}
+[13.777203] (-) TimerEvent: {}
+[13.878800] (-) TimerEvent: {}
+[13.979894] (-) TimerEvent: {}
+[14.080891] (-) TimerEvent: {}
+[14.182262] (-) TimerEvent: {}
+[14.284023] (-) TimerEvent: {}
+[14.385302] (-) TimerEvent: {}
+[14.487080] (-) TimerEvent: {}
+[14.588296] (-) TimerEvent: {}
+[14.689674] (-) TimerEvent: {}
+[14.790788] (-) TimerEvent: {}
+[14.892111] (-) TimerEvent: {}
+[14.993138] (-) TimerEvent: {}
+[15.094738] (-) TimerEvent: {}
+[15.195664] (-) TimerEvent: {}
+[15.296872] (-) TimerEvent: {}
+[15.398943] (-) TimerEvent: {}
+[15.500036] (-) TimerEvent: {}
+[15.601092] (-) TimerEvent: {}
+[15.702354] (-) TimerEvent: {}
+[15.803426] (-) TimerEvent: {}
+[15.904423] (-) TimerEvent: {}
+[16.005543] (-) TimerEvent: {}
+[16.106905] (-) TimerEvent: {}
+[16.208172] (-) TimerEvent: {}
+[16.309375] (-) TimerEvent: {}
+[16.410490] (-) TimerEvent: {}
+[16.511578] (-) TimerEvent: {}
+[16.612738] (-) TimerEvent: {}
+[16.713889] (-) TimerEvent: {}
+[16.815112] (-) TimerEvent: {}
+[16.916372] (-) TimerEvent: {}
+[17.017723] (-) TimerEvent: {}
+[17.119140] (-) TimerEvent: {}
+[17.220235] (-) TimerEvent: {}
+[17.321449] (-) TimerEvent: {}
+[17.422525] (-) TimerEvent: {}
+[17.523599] (-) TimerEvent: {}
+[17.624660] (-) TimerEvent: {}
+[17.725814] (-) TimerEvent: {}
+[17.827027] (-) TimerEvent: {}
+[17.928408] (-) TimerEvent: {}
+[18.029561] (-) TimerEvent: {}
+[18.130609] (-) TimerEvent: {}
+[18.231833] (-) TimerEvent: {}
+[18.332996] (-) TimerEvent: {}
+[18.434055] (-) TimerEvent: {}
+[18.535118] (-) TimerEvent: {}
+[18.636269] (-) TimerEvent: {}
+[18.737395] (-) TimerEvent: {}
+[18.838646] (-) TimerEvent: {}
+[18.939828] (-) TimerEvent: {}
+[19.040937] (-) TimerEvent: {}
+[19.142135] (-) TimerEvent: {}
+[19.243333] (-) TimerEvent: {}
+[19.344463] (-) TimerEvent: {}
+[19.445584] (-) TimerEvent: {}
+[19.546816] (-) TimerEvent: {}
+[19.648065] (-) TimerEvent: {}
+[19.749252] (-) TimerEvent: {}
+[19.850488] (-) TimerEvent: {}
+[19.951456] (-) TimerEvent: {}
+[20.052368] (-) TimerEvent: {}
+[20.153563] (-) TimerEvent: {}
+[20.254704] (-) TimerEvent: {}
+[20.355946] (-) TimerEvent: {}
+[20.457084] (-) TimerEvent: {}
+[20.558225] (-) TimerEvent: {}
+[20.659363] (-) TimerEvent: {}
+[20.760495] (-) TimerEvent: {}
+[20.861882] (-) TimerEvent: {}
+[20.962916] (-) TimerEvent: {}
+[21.064284] (-) TimerEvent: {}
+[21.165436] (-) TimerEvent: {}
+[21.266579] (-) TimerEvent: {}
+[21.367723] (-) TimerEvent: {}
+[21.469039] (-) TimerEvent: {}
+[21.570489] (-) TimerEvent: {}
+[21.671627] (-) TimerEvent: {}
+[21.772868] (-) TimerEvent: {}
+[21.874196] (-) TimerEvent: {}
+[21.975310] (-) TimerEvent: {}
+[22.076352] (-) TimerEvent: {}
+[22.177784] (-) TimerEvent: {}
+[22.279145] (-) TimerEvent: {}
+[22.380310] (-) TimerEvent: {}
+[22.481517] (-) TimerEvent: {}
+[22.582616] (-) TimerEvent: {}
+[22.683642] (-) TimerEvent: {}
+[22.784815] (-) TimerEvent: {}
+[22.886283] (-) TimerEvent: {}
+[22.987495] (-) TimerEvent: {}
+[23.088729] (-) TimerEvent: {}
+[23.190190] (-) TimerEvent: {}
+[23.291259] (-) TimerEvent: {}
+[23.392339] (-) TimerEvent: {}
+[23.493732] (-) TimerEvent: {}
+[23.594799] (-) TimerEvent: {}
+[23.695893] (-) TimerEvent: {}
+[23.797839] (-) TimerEvent: {}
+[23.899245] (-) TimerEvent: {}
+[24.000248] (-) TimerEvent: {}
+[24.101273] (-) TimerEvent: {}
+[24.202330] (-) TimerEvent: {}
+[24.303661] (-) TimerEvent: {}
+[24.405157] (-) TimerEvent: {}
+[24.506347] (-) TimerEvent: {}
+[24.607580] (-) TimerEvent: {}
+[24.708789] (-) TimerEvent: {}
+[24.809939] (-) TimerEvent: {}
+[24.911044] (-) TimerEvent: {}
+[25.012121] (-) TimerEvent: {}
+[25.113345] (-) TimerEvent: {}
+[25.214399] (-) TimerEvent: {}
+[25.315532] (-) TimerEvent: {}
+[25.416659] (-) TimerEvent: {}
+[25.517723] (-) TimerEvent: {}
+[25.618936] (-) TimerEvent: {}
+[25.720022] (-) TimerEvent: {}
+[25.821187] (-) TimerEvent: {}
+[25.922688] (-) TimerEvent: {}
+[26.023776] (-) TimerEvent: {}
+[26.124990] (-) TimerEvent: {}
+[26.226066] (-) TimerEvent: {}
+[26.327109] (-) TimerEvent: {}
+[26.428139] (-) TimerEvent: {}
+[26.529375] (-) TimerEvent: {}
+[26.630399] (-) TimerEvent: {}
+[26.731693] (-) TimerEvent: {}
+[26.832839] (-) TimerEvent: {}
+[26.933902] (-) TimerEvent: {}
+[27.035280] (-) TimerEvent: {}
+[27.136267] (-) TimerEvent: {}
+[27.237576] (-) TimerEvent: {}
+[27.338783] (-) TimerEvent: {}
+[27.439931] (-) TimerEvent: {}
+[27.540927] (-) TimerEvent: {}
+[27.641949] (-) TimerEvent: {}
+[27.743080] (-) TimerEvent: {}
+[27.844182] (-) TimerEvent: {}
+[27.945275] (-) TimerEvent: {}
+[28.046366] (-) TimerEvent: {}
+[28.147674] (-) TimerEvent: {}
+[28.248914] (-) TimerEvent: {}
+[28.350127] (-) TimerEvent: {}
+[28.451551] (-) TimerEvent: {}
+[28.552735] (-) TimerEvent: {}
+[28.654140] (-) TimerEvent: {}
+[28.755649] (-) TimerEvent: {}
+[28.857551] (-) TimerEvent: {}
+[28.958582] (-) TimerEvent: {}
+[29.059840] (-) TimerEvent: {}
+[29.160983] (-) TimerEvent: {}
+[29.262150] (-) TimerEvent: {}
+[29.363302] (-) TimerEvent: {}
+[29.464455] (-) TimerEvent: {}
+[29.565905] (-) TimerEvent: {}
+[29.667194] (-) TimerEvent: {}
+[29.768362] (-) TimerEvent: {}
+[29.869842] (-) TimerEvent: {}
+[29.970930] (-) TimerEvent: {}
+[30.072022] (-) TimerEvent: {}
+[30.173346] (-) TimerEvent: {}
+[30.274572] (-) TimerEvent: {}
+[30.375828] (-) TimerEvent: {}
+[30.476957] (-) TimerEvent: {}
+[30.578164] (-) TimerEvent: {}
+[30.679321] (-) TimerEvent: {}
+[30.780419] (-) TimerEvent: {}
+[30.881817] (-) TimerEvent: {}
+[30.983311] (-) TimerEvent: {}
+[31.084486] (-) TimerEvent: {}
+[31.185598] (-) TimerEvent: {}
+[31.286777] (-) TimerEvent: {}
+[31.388215] (-) TimerEvent: {}
+[31.489593] (-) TimerEvent: {}
+[31.590652] (-) TimerEvent: {}
+[31.691799] (-) TimerEvent: {}
+[31.792869] (-) TimerEvent: {}
+[31.893892] (-) TimerEvent: {}
+[31.995084] (-) TimerEvent: {}
+[32.096117] (-) TimerEvent: {}
+[32.197204] (-) TimerEvent: {}
+[32.298819] (-) TimerEvent: {}
+[32.399862] (-) TimerEvent: {}
+[32.501011] (-) TimerEvent: {}
+[32.601985] (-) TimerEvent: {}
+[32.703633] (-) TimerEvent: {}
+[32.805067] (-) TimerEvent: {}
+[32.906221] (-) TimerEvent: {}
+[33.007277] (-) TimerEvent: {}
+[33.108188] (-) TimerEvent: {}
+[33.209522] (-) TimerEvent: {}
+[33.310686] (-) TimerEvent: {}
+[33.411725] (-) TimerEvent: {}
+[33.512846] (-) TimerEvent: {}
+[33.613896] (-) TimerEvent: {}
+[33.715518] (-) TimerEvent: {}
+[33.816850] (-) TimerEvent: {}
+[33.918065] (-) TimerEvent: {}
+[34.019371] (-) TimerEvent: {}
+[34.120453] (-) TimerEvent: {}
+[34.221572] (-) TimerEvent: {}
+[34.322643] (-) TimerEvent: {}
+[34.424062] (-) TimerEvent: {}
+[34.525312] (-) TimerEvent: {}
+[34.626431] (-) TimerEvent: {}
+[34.727446] (-) TimerEvent: {}
+[34.828621] (-) TimerEvent: {}
+[34.929830] (-) TimerEvent: {}
+[35.030900] (-) TimerEvent: {}
+[35.131982] (-) TimerEvent: {}
+[35.233059] (-) TimerEvent: {}
+[35.334073] (-) TimerEvent: {}
+[35.435299] (-) TimerEvent: {}
+[35.536392] (-) TimerEvent: {}
+[35.637481] (-) TimerEvent: {}
+[35.738565] (-) TimerEvent: {}
+[35.839935] (-) TimerEvent: {}
+[35.941145] (-) TimerEvent: {}
+[36.042178] (-) TimerEvent: {}
+[36.143335] (-) TimerEvent: {}
+[36.244487] (-) TimerEvent: {}
+[36.345591] (-) TimerEvent: {}
+[36.446696] (-) TimerEvent: {}
+[36.547942] (-) TimerEvent: {}
+[36.649305] (-) TimerEvent: {}
+[36.750354] (-) TimerEvent: {}
+[36.851585] (-) TimerEvent: {}
+[36.952777] (-) TimerEvent: {}
+[37.054400] (-) TimerEvent: {}
+[37.155742] (-) TimerEvent: {}
+[37.257243] (-) TimerEvent: {}
+[37.358257] (-) TimerEvent: {}
+[37.459348] (-) TimerEvent: {}
+[37.560417] (-) TimerEvent: {}
+[37.661459] (-) TimerEvent: {}
+[37.762602] (-) TimerEvent: {}
+[37.863936] (-) TimerEvent: {}
+[37.965205] (-) TimerEvent: {}
+[38.066654] (-) TimerEvent: {}
+[38.167777] (-) TimerEvent: {}
+[38.269023] (-) TimerEvent: {}
+[38.370269] (-) TimerEvent: {}
+[38.471405] (-) TimerEvent: {}
+[38.572513] (-) TimerEvent: {}
+[38.673798] (-) TimerEvent: {}
+[38.774931] (-) TimerEvent: {}
+[38.876223] (-) TimerEvent: {}
+[38.977412] (-) TimerEvent: {}
+[39.078463] (-) TimerEvent: {}
+[39.179734] (-) TimerEvent: {}
+[39.280815] (-) TimerEvent: {}
+[39.381999] (-) TimerEvent: {}
+[39.483000] (-) TimerEvent: {}
+[39.584062] (-) TimerEvent: {}
+[39.685177] (-) TimerEvent: {}
+[39.786458] (-) TimerEvent: {}
+[39.887901] (-) TimerEvent: {}
+[39.989311] (-) TimerEvent: {}
+[40.090544] (-) TimerEvent: {}
+[40.191670] (-) TimerEvent: {}
+[40.292672] (-) TimerEvent: {}
+[40.393644] (-) TimerEvent: {}
+[40.494842] (-) TimerEvent: {}
+[40.596008] (-) TimerEvent: {}
+[40.697203] (-) TimerEvent: {}
+[40.798919] (-) TimerEvent: {}
+[40.900297] (-) TimerEvent: {}
+[41.001458] (-) TimerEvent: {}
+[41.102684] (-) TimerEvent: {}
+[41.203974] (-) TimerEvent: {}
+[41.305180] (-) TimerEvent: {}
+[41.406484] (-) TimerEvent: {}
+[41.508130] (-) TimerEvent: {}
+[41.609476] (-) TimerEvent: {}
+[41.710588] (-) TimerEvent: {}
+[41.811578] (-) TimerEvent: {}
+[41.912692] (-) TimerEvent: {}
+[42.014053] (-) TimerEvent: {}
+[42.115238] (-) TimerEvent: {}
+[42.216376] (-) TimerEvent: {}
+[42.317738] (-) TimerEvent: {}
+[42.418814] (-) TimerEvent: {}
+[42.520097] (-) TimerEvent: {}
+[42.621461] (-) TimerEvent: {}
+[42.722692] (-) TimerEvent: {}
+[42.823983] (-) TimerEvent: {}
+[42.925521] (-) TimerEvent: {}
+[43.027171] (-) TimerEvent: {}
+[43.128389] (-) TimerEvent: {}
+[43.230124] (-) TimerEvent: {}
+[43.331316] (-) TimerEvent: {}
+[43.432573] (-) TimerEvent: {}
+[43.533877] (-) TimerEvent: {}
+[43.635366] (-) TimerEvent: {}
+[43.736630] (-) TimerEvent: {}
+[43.838044] (-) TimerEvent: {}
+[43.939371] (-) TimerEvent: {}
+[44.040603] (-) TimerEvent: {}
+[44.141664] (-) TimerEvent: {}
+[44.242889] (-) TimerEvent: {}
+[44.344162] (-) TimerEvent: {}
+[44.445340] (-) TimerEvent: {}
+[44.546499] (-) TimerEvent: {}
+[44.647744] (-) TimerEvent: {}
+[44.749171] (-) TimerEvent: {}
+[44.850777] (-) TimerEvent: {}
+[44.952156] (-) TimerEvent: {}
+[45.053461] (-) TimerEvent: {}
+[45.154764] (-) TimerEvent: {}
+[45.256255] (-) TimerEvent: {}
+[45.357687] (-) TimerEvent: {}
+[45.458931] (-) TimerEvent: {}
+[45.560199] (-) TimerEvent: {}
+[45.661390] (-) TimerEvent: {}
+[45.762368] (-) TimerEvent: {}
+[45.863604] (-) TimerEvent: {}
+[45.964765] (-) TimerEvent: {}
+[46.066118] (-) TimerEvent: {}
+[46.168417] (-) TimerEvent: {}
+[46.270493] (-) TimerEvent: {}
+[46.371904] (-) TimerEvent: {}
+[46.473177] (-) TimerEvent: {}
+[46.574348] (-) TimerEvent: {}
+[46.675867] (-) TimerEvent: {}
+[46.777130] (-) TimerEvent: {}
+[46.878851] (-) TimerEvent: {}
+[46.980281] (-) TimerEvent: {}
+[47.081538] (-) TimerEvent: {}
+[47.182493] (-) TimerEvent: {}
+[47.283443] (-) TimerEvent: {}
+[47.384845] (-) TimerEvent: {}
+[47.485912] (-) TimerEvent: {}
+[47.586986] (-) TimerEvent: {}
+[47.607392] (text_to_cmd_vel) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[47.610684] (text_to_cmd_vel) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[47.613280] (text_to_cmd_vel) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[47.687195] (-) TimerEvent: {}
+[47.788696] (-) TimerEvent: {}
+[47.890375] (-) TimerEvent: {}
+[47.991527] (-) TimerEvent: {}
+[48.092673] (-) TimerEvent: {}
+[48.193746] (-) TimerEvent: {}
+[48.294953] (-) TimerEvent: {}
+[48.396310] (-) TimerEvent: {}
+[48.497404] (-) TimerEvent: {}
+[48.598486] (-) TimerEvent: {}
+[48.699957] (-) TimerEvent: {}
+[48.801395] (-) TimerEvent: {}
+[48.903021] (-) TimerEvent: {}
+[49.004140] (-) TimerEvent: {}
+[49.105584] (-) TimerEvent: {}
+[49.207206] (-) TimerEvent: {}
+[49.308577] (-) TimerEvent: {}
+[49.409999] (-) TimerEvent: {}
+[49.511145] (-) TimerEvent: {}
+[49.612334] (-) TimerEvent: {}
+[49.713782] (-) TimerEvent: {}
+[49.815101] (-) TimerEvent: {}
+[49.916700] (-) TimerEvent: {}
+[50.018155] (-) TimerEvent: {}
+[50.119583] (-) TimerEvent: {}
+[50.220719] (-) TimerEvent: {}
+[50.322114] (-) TimerEvent: {}
+[50.423214] (-) TimerEvent: {}
+[50.524469] (-) TimerEvent: {}
+[50.625655] (-) TimerEvent: {}
+[50.727079] (-) TimerEvent: {}
+[50.828717] (-) TimerEvent: {}
+[50.930823] (-) TimerEvent: {}
+[51.031991] (-) TimerEvent: {}
+[51.133098] (-) TimerEvent: {}
+[51.234221] (-) TimerEvent: {}
+[51.335616] (-) TimerEvent: {}
+[51.437606] (-) TimerEvent: {}
+[51.539739] (-) TimerEvent: {}
+[51.641149] (-) TimerEvent: {}
+[51.742445] (-) TimerEvent: {}
+[51.843895] (-) TimerEvent: {}
+[51.945707] (-) TimerEvent: {}
+[52.046989] (-) TimerEvent: {}
+[52.148094] (-) TimerEvent: {}
+[52.249418] (-) TimerEvent: {}
+[52.350781] (-) TimerEvent: {}
+[52.452094] (-) TimerEvent: {}
+[52.553518] (-) TimerEvent: {}
+[52.654902] (-) TimerEvent: {}
+[52.756272] (-) TimerEvent: {}
+[52.858299] (-) TimerEvent: {}
+[52.881006] (text_to_cmd_vel) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[52.958526] (-) TimerEvent: {}
+[53.060123] (-) TimerEvent: {}
+[53.161419] (-) TimerEvent: {}
+[53.262893] (-) TimerEvent: {}
+[53.364256] (-) TimerEvent: {}
+[53.465611] (-) TimerEvent: {}
+[53.566943] (-) TimerEvent: {}
+[53.668557] (-) TimerEvent: {}
+[53.769940] (-) TimerEvent: {}
+[53.871315] (-) TimerEvent: {}
+[53.972569] (-) TimerEvent: {}
+[54.073856] (-) TimerEvent: {}
+[54.175031] (-) TimerEvent: {}
+[54.276168] (-) TimerEvent: {}
+[54.377532] (-) TimerEvent: {}
+[54.478769] (-) TimerEvent: {}
+[54.580452] (-) TimerEvent: {}
+[54.681910] (-) TimerEvent: {}
+[54.783683] (-) TimerEvent: {}
+[54.885168] (-) TimerEvent: {}
+[54.986317] (-) TimerEvent: {}
+[55.087532] (-) TimerEvent: {}
+[55.189111] (-) TimerEvent: {}
+[55.290803] (-) TimerEvent: {}
+[55.391988] (-) TimerEvent: {}
+[55.493079] (-) TimerEvent: {}
+[55.594157] (-) TimerEvent: {}
+[55.695602] (-) TimerEvent: {}
+[55.796919] (-) TimerEvent: {}
+[55.898280] (-) TimerEvent: {}
+[55.999762] (-) TimerEvent: {}
+[56.101689] (-) TimerEvent: {}
+[56.203211] (-) TimerEvent: {}
+[56.304524] (-) TimerEvent: {}
+[56.405827] (-) TimerEvent: {}
+[56.507263] (-) TimerEvent: {}
+[56.608837] (-) TimerEvent: {}
+[56.710177] (-) TimerEvent: {}
+[56.811672] (-) TimerEvent: {}
+[56.912922] (-) TimerEvent: {}
+[57.014179] (-) TimerEvent: {}
+[57.115381] (-) TimerEvent: {}
+[57.216935] (-) TimerEvent: {}
+[57.318204] (-) TimerEvent: {}
+[57.419320] (-) TimerEvent: {}
+[57.520458] (-) TimerEvent: {}
+[57.621680] (-) TimerEvent: {}
+[57.722901] (-) TimerEvent: {}
+[57.823861] (-) TimerEvent: {}
+[57.924871] (-) TimerEvent: {}
+[58.025957] (-) TimerEvent: {}
+[58.127062] (-) TimerEvent: {}
+[58.228321] (-) TimerEvent: {}
+[58.329662] (-) TimerEvent: {}
+[58.430741] (-) TimerEvent: {}
+[58.531782] (-) TimerEvent: {}
+[58.632862] (-) TimerEvent: {}
+[58.733988] (-) TimerEvent: {}
+[58.835141] (-) TimerEvent: {}
+[58.936095] (-) TimerEvent: {}
+[59.037226] (-) TimerEvent: {}
+[59.138442] (-) TimerEvent: {}
+[59.239921] (-) TimerEvent: {}
+[59.341305] (-) TimerEvent: {}
+[59.442301] (-) TimerEvent: {}
+[59.543567] (-) TimerEvent: {}
+[59.644644] (-) TimerEvent: {}
+[59.745797] (-) TimerEvent: {}
+[59.846980] (-) TimerEvent: {}
+[59.948377] (-) TimerEvent: {}
+[60.049928] (-) TimerEvent: {}
+[60.151267] (-) TimerEvent: {}
+[60.252438] (-) TimerEvent: {}
+[60.353774] (-) TimerEvent: {}
+[60.454993] (-) TimerEvent: {}
+[60.556522] (-) TimerEvent: {}
+[60.657614] (-) TimerEvent: {}
+[60.759031] (-) TimerEvent: {}
+[60.860856] (-) TimerEvent: {}
+[60.961970] (-) TimerEvent: {}
+[61.063225] (-) TimerEvent: {}
+[61.164345] (-) TimerEvent: {}
+[61.265489] (-) TimerEvent: {}
+[61.366820] (-) TimerEvent: {}
+[61.468129] (-) TimerEvent: {}
+[61.569436] (-) TimerEvent: {}
+[61.670691] (-) TimerEvent: {}
+[61.772133] (-) TimerEvent: {}
+[61.873624] (-) TimerEvent: {}
+[61.975098] (-) TimerEvent: {}
+[62.042016] (text_to_cmd_vel) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[62.075272] (-) TimerEvent: {}
+[62.176638] (-) TimerEvent: {}
+[62.277740] (-) TimerEvent: {}
+[62.378817] (-) TimerEvent: {}
+[62.480202] (-) TimerEvent: {}
+[62.581184] (-) TimerEvent: {}
+[62.682165] (-) TimerEvent: {}
+[62.783564] (-) TimerEvent: {}
+[62.885476] (-) TimerEvent: {}
+[62.986532] (-) TimerEvent: {}
+[63.087697] (-) TimerEvent: {}
+[63.189144] (-) TimerEvent: {}
+[63.290882] (-) TimerEvent: {}
+[63.391904] (-) TimerEvent: {}
+[63.492976] (-) TimerEvent: {}
+[63.594200] (-) TimerEvent: {}
+[63.695540] (-) TimerEvent: {}
+[63.798621] (-) TimerEvent: {}
+[63.900251] (-) TimerEvent: {}
+[64.001528] (-) TimerEvent: {}
+[64.102944] (-) TimerEvent: {}
+[64.204342] (-) TimerEvent: {}
+[64.305711] (-) TimerEvent: {}
+[64.406788] (-) TimerEvent: {}
+[64.508017] (-) TimerEvent: {}
+[64.609229] (-) TimerEvent: {}
+[64.711170] (-) TimerEvent: {}
+[64.813181] (-) TimerEvent: {}
+[64.914452] (-) TimerEvent: {}
+[65.015645] (-) TimerEvent: {}
+[65.116960] (-) TimerEvent: {}
+[65.218121] (-) TimerEvent: {}
+[65.319361] (-) TimerEvent: {}
+[65.420443] (-) TimerEvent: {}
+[65.521445] (-) TimerEvent: {}
+[65.622747] (-) TimerEvent: {}
+[65.724012] (-) TimerEvent: {}
+[65.825074] (-) TimerEvent: {}
+[65.926051] (-) TimerEvent: {}
+[66.027498] (-) TimerEvent: {}
+[66.128723] (-) TimerEvent: {}
+[66.229877] (-) TimerEvent: {}
+[66.331014] (-) TimerEvent: {}
+[66.432193] (-) TimerEvent: {}
+[66.534327] (-) TimerEvent: {}
+[66.635597] (-) TimerEvent: {}
+[66.636671] (text_to_cmd_vel) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[66.735806] (-) TimerEvent: {}
+[66.837081] (-) TimerEvent: {}
+[66.938256] (-) TimerEvent: {}
+[67.039901] (-) TimerEvent: {}
+[67.141028] (-) TimerEvent: {}
+[67.242446] (-) TimerEvent: {}
+[67.343574] (-) TimerEvent: {}
+[67.444499] (-) TimerEvent: {}
+[67.545508] (-) TimerEvent: {}
+[67.646499] (-) TimerEvent: {}
+[67.747801] (-) TimerEvent: {}
+[67.849248] (-) TimerEvent: {}
+[67.950990] (-) TimerEvent: {}
+[68.052705] (-) TimerEvent: {}
+[68.154177] (-) TimerEvent: {}
+[68.255476] (-) TimerEvent: {}
+[68.356739] (-) TimerEvent: {}
+[68.458129] (-) TimerEvent: {}
+[68.559439] (-) TimerEvent: {}
+[68.661907] (-) TimerEvent: {}
+[68.763368] (-) TimerEvent: {}
+[68.865257] (-) TimerEvent: {}
+[68.966789] (-) TimerEvent: {}
+[69.068568] (-) TimerEvent: {}
+[69.170135] (-) TimerEvent: {}
+[69.271759] (-) TimerEvent: {}
+[69.373023] (-) TimerEvent: {}
+[69.474430] (-) TimerEvent: {}
+[69.575761] (-) TimerEvent: {}
+[69.676960] (-) TimerEvent: {}
+[69.778236] (-) TimerEvent: {}
+[69.879938] (-) TimerEvent: {}
+[69.981420] (-) TimerEvent: {}
+[70.083002] (-) TimerEvent: {}
+[70.184499] (-) TimerEvent: {}
+[70.285765] (-) TimerEvent: {}
+[70.387122] (-) TimerEvent: {}
+[70.488616] (-) TimerEvent: {}
+[70.590070] (-) TimerEvent: {}
+[70.691427] (-) TimerEvent: {}
+[70.793498] (-) TimerEvent: {}
+[70.895162] (-) TimerEvent: {}
+[70.996518] (-) TimerEvent: {}
+[71.097662] (-) TimerEvent: {}
+[71.199074] (-) TimerEvent: {}
+[71.300935] (-) TimerEvent: {}
+[71.402514] (-) TimerEvent: {}
+[71.503717] (-) TimerEvent: {}
+[71.604942] (-) TimerEvent: {}
+[71.706295] (-) TimerEvent: {}
+[71.807497] (-) TimerEvent: {}
+[71.908638] (-) TimerEvent: {}
+[72.009847] (-) TimerEvent: {}
+[72.111282] (-) TimerEvent: {}
+[72.212551] (-) TimerEvent: {}
+[72.313626] (-) TimerEvent: {}
+[72.414667] (-) TimerEvent: {}
+[72.515752] (-) TimerEvent: {}
+[72.617022] (-) TimerEvent: {}
+[72.718303] (-) TimerEvent: {}
+[72.820319] (-) TimerEvent: {}
+[72.921837] (-) TimerEvent: {}
+[73.022831] (-) TimerEvent: {}
+[73.124089] (-) TimerEvent: {}
+[73.225182] (-) TimerEvent: {}
+[73.326408] (-) TimerEvent: {}
+[73.427577] (-) TimerEvent: {}
+[73.528687] (-) TimerEvent: {}
+[73.629995] (-) TimerEvent: {}
+[73.731209] (-) TimerEvent: {}
+[73.832304] (-) TimerEvent: {}
+[73.933585] (-) TimerEvent: {}
+[74.034718] (-) TimerEvent: {}
+[74.135769] (-) TimerEvent: {}
+[74.237154] (-) TimerEvent: {}
+[74.338312] (-) TimerEvent: {}
+[74.439403] (-) TimerEvent: {}
+[74.540644] (-) TimerEvent: {}
+[74.641715] (-) TimerEvent: {}
+[74.742902] (-) TimerEvent: {}
+[74.844392] (-) TimerEvent: {}
+[74.945661] (-) TimerEvent: {}
+[75.046813] (-) TimerEvent: {}
+[75.147884] (-) TimerEvent: {}
+[75.249381] (-) TimerEvent: {}
+[75.350807] (-) TimerEvent: {}
+[75.451823] (-) TimerEvent: {}
+[75.559589] (-) TimerEvent: {}
+[75.661485] (-) TimerEvent: {}
+[75.762684] (-) TimerEvent: {}
+[75.864110] (-) TimerEvent: {}
+[75.965367] (-) TimerEvent: {}
+[76.066756] (-) TimerEvent: {}
+[76.167905] (-) TimerEvent: {}
+[76.269017] (-) TimerEvent: {}
+[76.370244] (-) TimerEvent: {}
+[76.471308] (-) TimerEvent: {}
+[76.572546] (-) TimerEvent: {}
+[76.673693] (-) TimerEvent: {}
+[76.776249] (-) TimerEvent: {}
+[76.877406] (-) TimerEvent: {}
+[76.978572] (-) TimerEvent: {}
+[77.079848] (-) TimerEvent: {}
+[77.181236] (-) TimerEvent: {}
+[77.282502] (-) TimerEvent: {}
+[77.383652] (-) TimerEvent: {}
+[77.484957] (-) TimerEvent: {}
+[77.586451] (-) TimerEvent: {}
+[77.687773] (-) TimerEvent: {}
+[77.789317] (-) TimerEvent: {}
+[77.891229] (-) TimerEvent: {}
+[77.992444] (-) TimerEvent: {}
+[78.093753] (-) TimerEvent: {}
+[78.194979] (-) TimerEvent: {}
+[78.296237] (-) TimerEvent: {}
+[78.397313] (-) TimerEvent: {}
+[78.498873] (-) TimerEvent: {}
+[78.600147] (-) TimerEvent: {}
+[78.701249] (-) TimerEvent: {}
+[78.802504] (-) TimerEvent: {}
+[78.903750] (-) TimerEvent: {}
+[79.005045] (-) TimerEvent: {}
+[79.106079] (-) TimerEvent: {}
+[79.207354] (-) TimerEvent: {}
+[79.308749] (-) TimerEvent: {}
+[79.409915] (-) TimerEvent: {}
+[79.511118] (-) TimerEvent: {}
+[79.612385] (-) TimerEvent: {}
+[79.713505] (-) TimerEvent: {}
+[79.814854] (-) TimerEvent: {}
+[79.915811] (-) TimerEvent: {}
+[80.016962] (-) TimerEvent: {}
+[80.118064] (-) TimerEvent: {}
+[80.219473] (-) TimerEvent: {}
+[80.321037] (-) TimerEvent: {}
+[80.422329] (-) TimerEvent: {}
+[80.524130] (-) TimerEvent: {}
+[80.625232] (-) TimerEvent: {}
+[80.726754] (-) TimerEvent: {}
+[80.828040] (-) TimerEvent: {}
+[80.929464] (-) TimerEvent: {}
+[81.030678] (-) TimerEvent: {}
+[81.132364] (-) TimerEvent: {}
+[81.233600] (-) TimerEvent: {}
+[81.334607] (-) TimerEvent: {}
+[81.435870] (-) TimerEvent: {}
+[81.537250] (-) TimerEvent: {}
+[81.638280] (-) TimerEvent: {}
+[81.739705] (-) TimerEvent: {}
+[81.841038] (-) TimerEvent: {}
+[81.941972] (-) TimerEvent: {}
+[82.043592] (-) TimerEvent: {}
+[82.144798] (-) TimerEvent: {}
+[82.246308] (-) TimerEvent: {}
+[82.347478] (-) TimerEvent: {}
+[82.449038] (-) TimerEvent: {}
+[82.550372] (-) TimerEvent: {}
+[82.651929] (-) TimerEvent: {}
+[82.753254] (-) TimerEvent: {}
+[82.854963] (-) TimerEvent: {}
+[82.956147] (-) TimerEvent: {}
+[83.057474] (-) TimerEvent: {}
+[83.158829] (-) TimerEvent: {}
+[83.260318] (-) TimerEvent: {}
+[83.361384] (-) TimerEvent: {}
+[83.462387] (-) TimerEvent: {}
+[83.563686] (-) TimerEvent: {}
+[83.664810] (-) TimerEvent: {}
+[83.766196] (-) TimerEvent: {}
+[83.867350] (-) TimerEvent: {}
+[83.968827] (-) TimerEvent: {}
+[84.070051] (-) TimerEvent: {}
+[84.171412] (-) TimerEvent: {}
+[84.272753] (-) TimerEvent: {}
+[84.374005] (-) TimerEvent: {}
+[84.475185] (-) TimerEvent: {}
+[84.576634] (-) TimerEvent: {}
+[84.677964] (-) TimerEvent: {}
+[84.779100] (-) TimerEvent: {}
+[84.880194] (-) TimerEvent: {}
+[84.981955] (-) TimerEvent: {}
+[85.083135] (-) TimerEvent: {}
+[85.184378] (-) TimerEvent: {}
+[85.285468] (-) TimerEvent: {}
+[85.386821] (-) TimerEvent: {}
+[85.488036] (-) TimerEvent: {}
+[85.589463] (-) TimerEvent: {}
+[85.690727] (-) TimerEvent: {}
+[85.792466] (-) TimerEvent: {}
+[85.893740] (-) TimerEvent: {}
+[85.994979] (-) TimerEvent: {}
+[86.096144] (-) TimerEvent: {}
+[86.197529] (-) TimerEvent: {}
+[86.298622] (-) TimerEvent: {}
+[86.400219] (-) TimerEvent: {}
+[86.501620] (-) TimerEvent: {}
+[86.603028] (-) TimerEvent: {}
+[86.704356] (-) TimerEvent: {}
+[86.806146] (-) TimerEvent: {}
+[86.907540] (-) TimerEvent: {}
+[87.008969] (-) TimerEvent: {}
+[87.110283] (-) TimerEvent: {}
+[87.211574] (-) TimerEvent: {}
+[87.312818] (-) TimerEvent: {}
+[87.414095] (-) TimerEvent: {}
+[87.515361] (-) TimerEvent: {}
+[87.616727] (-) TimerEvent: {}
+[87.718204] (-) TimerEvent: {}
+[87.819670] (-) TimerEvent: {}
+[87.921227] (-) TimerEvent: {}
+[88.022739] (-) TimerEvent: {}
+[88.124306] (-) TimerEvent: {}
+[88.225696] (-) TimerEvent: {}
+[88.327326] (-) TimerEvent: {}
+[88.428860] (-) TimerEvent: {}
+[88.530163] (-) TimerEvent: {}
+[88.632061] (-) TimerEvent: {}
+[88.733335] (-) TimerEvent: {}
+[88.834625] (-) TimerEvent: {}
+[88.936199] (-) TimerEvent: {}
+[89.037569] (-) TimerEvent: {}
+[89.138884] (-) TimerEvent: {}
+[89.240128] (-) TimerEvent: {}
+[89.341732] (-) TimerEvent: {}
+[89.443073] (-) TimerEvent: {}
+[89.544581] (-) TimerEvent: {}
+[89.645739] (-) TimerEvent: {}
+[89.747050] (-) TimerEvent: {}
+[89.848560] (-) TimerEvent: {}
+[89.949916] (-) TimerEvent: {}
+[90.051419] (-) TimerEvent: {}
+[90.152624] (-) TimerEvent: {}
+[90.254000] (-) TimerEvent: {}
+[90.355257] (-) TimerEvent: {}
+[90.456641] (-) TimerEvent: {}
+[90.558091] (-) TimerEvent: {}
+[90.659630] (-) TimerEvent: {}
+[90.761189] (-) TimerEvent: {}
+[90.862766] (-) TimerEvent: {}
+[90.964087] (-) TimerEvent: {}
+[91.065369] (-) TimerEvent: {}
+[91.166812] (-) TimerEvent: {}
+[91.268169] (-) TimerEvent: {}
+[91.369691] (-) TimerEvent: {}
+[91.471169] (-) TimerEvent: {}
+[91.572434] (-) TimerEvent: {}
+[91.673985] (-) TimerEvent: {}
+[91.775462] (-) TimerEvent: {}
+[91.876722] (-) TimerEvent: {}
+[91.977974] (-) TimerEvent: {}
+[92.079418] (-) TimerEvent: {}
+[92.181143] (-) TimerEvent: {}
+[92.285897] (-) TimerEvent: {}
+[92.387872] (-) TimerEvent: {}
+[92.489303] (-) TimerEvent: {}
+[92.590607] (-) TimerEvent: {}
+[92.692320] (-) TimerEvent: {}
+[92.793626] (-) TimerEvent: {}
+[92.894912] (-) TimerEvent: {}
+[92.996119] (-) TimerEvent: {}
+[93.097422] (-) TimerEvent: {}
+[93.198557] (-) TimerEvent: {}
+[93.299749] (-) TimerEvent: {}
+[93.400962] (-) TimerEvent: {}
+[93.502042] (-) TimerEvent: {}
+[93.604137] (-) TimerEvent: {}
+[93.705532] (-) TimerEvent: {}
+[93.806919] (-) TimerEvent: {}
+[93.908291] (-) TimerEvent: {}
+[94.009581] (-) TimerEvent: {}
+[94.110786] (-) TimerEvent: {}
+[94.212294] (-) TimerEvent: {}
+[94.313790] (-) TimerEvent: {}
+[94.414862] (-) TimerEvent: {}
+[94.515961] (-) TimerEvent: {}
+[94.617594] (-) TimerEvent: {}
+[94.718849] (-) TimerEvent: {}
+[94.819969] (-) TimerEvent: {}
+[94.921544] (-) TimerEvent: {}
+[95.026745] (-) TimerEvent: {}
+[95.129217] (-) TimerEvent: {}
+[95.231027] (-) TimerEvent: {}
+[95.332412] (-) TimerEvent: {}
+[95.433853] (-) TimerEvent: {}
+[95.535003] (-) TimerEvent: {}
+[95.636284] (-) TimerEvent: {}
+[95.737823] (-) TimerEvent: {}
+[95.839052] (-) TimerEvent: {}
+[95.940602] (-) TimerEvent: {}
+[96.041904] (-) TimerEvent: {}
+[96.143517] (-) TimerEvent: {}
+[96.244642] (-) TimerEvent: {}
+[96.346412] (-) TimerEvent: {}
+[96.448045] (-) TimerEvent: {}
+[96.549349] (-) TimerEvent: {}
+[96.650437] (-) TimerEvent: {}
+[96.751679] (-) TimerEvent: {}
+[96.852689] (-) TimerEvent: {}
+[96.954164] (-) TimerEvent: {}
+[97.055254] (-) TimerEvent: {}
+[97.157139] (-) TimerEvent: {}
+[97.261159] (-) TimerEvent: {}
+[97.362383] (-) TimerEvent: {}
+[97.464053] (-) TimerEvent: {}
+[97.565614] (-) TimerEvent: {}
+[97.667022] (-) TimerEvent: {}
+[97.768786] (-) TimerEvent: {}
+[97.873349] (-) TimerEvent: {}
+[97.975074] (-) TimerEvent: {}
+[98.076297] (-) TimerEvent: {}
+[98.177873] (-) TimerEvent: {}
+[98.279406] (-) TimerEvent: {}
+[98.380503] (-) TimerEvent: {}
+[98.481926] (-) TimerEvent: {}
+[98.583368] (-) TimerEvent: {}
+[98.684535] (-) TimerEvent: {}
+[98.785810] (-) TimerEvent: {}
+[98.886994] (-) TimerEvent: {}
+[98.988624] (-) TimerEvent: {}
+[99.091348] (-) TimerEvent: {}
+[99.193285] (-) TimerEvent: {}
+[99.296628] (-) TimerEvent: {}
+[99.398032] (-) TimerEvent: {}
+[99.499800] (-) TimerEvent: {}
+[99.601609] (-) TimerEvent: {}
+[99.703074] (-) TimerEvent: {}
+[99.805047] (-) TimerEvent: {}
+[99.906958] (-) TimerEvent: {}
+[100.008994] (-) TimerEvent: {}
+[100.111061] (-) TimerEvent: {}
+[100.213028] (-) TimerEvent: {}
+[100.314639] (-) TimerEvent: {}
+[100.416704] (-) TimerEvent: {}
+[100.518774] (-) TimerEvent: {}
+[100.621362] (-) TimerEvent: {}
+[100.722700] (-) TimerEvent: {}
+[100.823921] (-) TimerEvent: {}
+[100.925511] (-) TimerEvent: {}
+[101.026626] (-) TimerEvent: {}
+[101.127810] (-) TimerEvent: {}
+[101.229564] (-) TimerEvent: {}
+[101.330951] (-) TimerEvent: {}
+[101.432442] (-) TimerEvent: {}
+[101.533942] (-) TimerEvent: {}
+[101.635606] (-) TimerEvent: {}
+[101.736704] (-) TimerEvent: {}
+[101.838725] (-) TimerEvent: {}
+[101.940211] (-) TimerEvent: {}
+[102.042198] (-) TimerEvent: {}
+[102.143854] (-) TimerEvent: {}
+[102.245155] (-) TimerEvent: {}
+[102.346298] (-) TimerEvent: {}
+[102.447888] (-) TimerEvent: {}
+[102.549370] (-) TimerEvent: {}
+[102.651462] (-) TimerEvent: {}
+[102.753534] (-) TimerEvent: {}
+[102.855351] (-) TimerEvent: {}
+[102.956792] (-) TimerEvent: {}
+[103.058315] (-) TimerEvent: {}
+[103.159974] (-) TimerEvent: {}
+[103.260989] (-) TimerEvent: {}
+[103.362526] (-) TimerEvent: {}
+[103.464343] (-) TimerEvent: {}
+[103.565578] (-) TimerEvent: {}
+[103.666778] (-) TimerEvent: {}
+[103.768303] (-) TimerEvent: {}
+[103.869965] (-) TimerEvent: {}
+[103.971503] (-) TimerEvent: {}
+[104.072564] (-) TimerEvent: {}
+[104.174091] (-) TimerEvent: {}
+[104.275319] (-) TimerEvent: {}
+[104.376366] (-) TimerEvent: {}
+[104.478420] (-) TimerEvent: {}
+[104.579767] (-) TimerEvent: {}
+[104.683081] (-) TimerEvent: {}
+[104.784625] (-) TimerEvent: {}
+[104.886284] (-) TimerEvent: {}
+[104.987246] (-) TimerEvent: {}
+[105.088324] (-) TimerEvent: {}
+[105.189265] (-) TimerEvent: {}
+[105.290484] (-) TimerEvent: {}
+[105.392631] (-) TimerEvent: {}
+[105.493874] (-) TimerEvent: {}
+[105.595354] (-) TimerEvent: {}
+[105.667253] (text_to_cmd_vel) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[105.670698] (text_to_cmd_vel) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[105.695613] (-) TimerEvent: {}
+[105.796858] (-) TimerEvent: {}
+[105.898027] (-) TimerEvent: {}
+[105.999316] (-) TimerEvent: {}
+[106.101283] (-) TimerEvent: {}
+[106.202893] (-) TimerEvent: {}
+[106.303939] (-) TimerEvent: {}
+[106.404804] (-) TimerEvent: {}
+[106.506003] (-) TimerEvent: {}
+[106.607184] (-) TimerEvent: {}
+[106.708162] (-) TimerEvent: {}
+[106.809173] (-) TimerEvent: {}
+[106.910362] (-) TimerEvent: {}
+[107.011512] (-) TimerEvent: {}
+[107.112410] (-) TimerEvent: {}
+[107.213446] (-) TimerEvent: {}
+[107.314593] (-) TimerEvent: {}
+[107.415895] (-) TimerEvent: {}
+[107.516700] (-) TimerEvent: {}
+[107.617587] (-) TimerEvent: {}
+[107.718579] (-) TimerEvent: {}
+[107.819680] (-) TimerEvent: {}
+[107.920839] (-) TimerEvent: {}
+[108.022208] (-) TimerEvent: {}
+[108.123474] (-) TimerEvent: {}
+[108.224807] (-) TimerEvent: {}
+[108.325944] (-) TimerEvent: {}
+[108.426822] (-) TimerEvent: {}
+[108.527930] (-) TimerEvent: {}
+[108.628908] (-) TimerEvent: {}
+[108.730194] (-) TimerEvent: {}
+[108.833585] (-) TimerEvent: {}
+[108.934649] (-) TimerEvent: {}
+[109.035789] (-) TimerEvent: {}
+[109.136881] (-) TimerEvent: {}
+[109.237856] (-) TimerEvent: {}
+[109.338819] (-) TimerEvent: {}
+[109.440077] (-) TimerEvent: {}
+[109.541202] (-) TimerEvent: {}
+[109.642158] (-) TimerEvent: {}
+[109.743294] (-) TimerEvent: {}
+[109.844622] (-) TimerEvent: {}
+[109.945767] (-) TimerEvent: {}
+[110.047012] (-) TimerEvent: {}
+[110.147921] (-) TimerEvent: {}
+[110.248964] (-) TimerEvent: {}
+[110.349991] (-) TimerEvent: {}
+[110.450960] (-) TimerEvent: {}
+[110.552464] (-) TimerEvent: {}
+[110.568423] (text_to_cmd_vel) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[110.652739] (-) TimerEvent: {}
+[110.754057] (-) TimerEvent: {}
+[110.803649] (text_to_cmd_vel) StdoutLine: {'line': b'-- Configuring done\n'}
+[110.854352] (-) TimerEvent: {}
+[110.955838] (-) TimerEvent: {}
+[111.057275] (-) TimerEvent: {}
+[111.158466] (-) TimerEvent: {}
+[111.259661] (-) TimerEvent: {}
+[111.360847] (-) TimerEvent: {}
+[111.462254] (-) TimerEvent: {}
+[111.563599] (-) TimerEvent: {}
+[111.664892] (-) TimerEvent: {}
+[111.765952] (-) TimerEvent: {}
+[111.786335] (text_to_cmd_vel) StdoutLine: {'line': b'-- Generating done\n'}
+[111.866265] (-) TimerEvent: {}
+[111.967533] (-) TimerEvent: {}
+[112.001771] (text_to_cmd_vel) StdoutLine: {'line': b'-- Build files have been written to: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/build/text_to_cmd_vel\n'}
+[112.067748] (-) TimerEvent: {}
+[112.168880] (-) TimerEvent: {}
+[112.222978] (text_to_cmd_vel) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[112.269102] (-) TimerEvent: {}
+[112.305840] (text_to_cmd_vel) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[112.369317] (-) TimerEvent: {}
+[112.470274] (-) TimerEvent: {}
+[112.571140] (-) TimerEvent: {}
+[112.672248] (-) TimerEvent: {}
+[112.773396] (-) TimerEvent: {}
+[112.874545] (-) TimerEvent: {}
+[112.975596] (-) TimerEvent: {}
+[113.076616] (-) TimerEvent: {}
+[113.177912] (-) TimerEvent: {}
+[113.279252] (-) TimerEvent: {}
+[113.380434] (-) TimerEvent: {}
+[113.382344] (text_to_cmd_vel) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[113.480676] (-) TimerEvent: {}
+[113.581983] (-) TimerEvent: {}
+[113.683072] (-) TimerEvent: {}
+[113.784146] (-) TimerEvent: {}
+[113.885389] (-) TimerEvent: {}
+[113.986581] (-) TimerEvent: {}
+[114.087543] (-) TimerEvent: {}
+[114.188703] (-) TimerEvent: {}
+[114.289809] (-) TimerEvent: {}
+[114.391219] (-) TimerEvent: {}
+[114.492284] (-) TimerEvent: {}
+[114.593368] (-) TimerEvent: {}
+[114.694620] (-) TimerEvent: {}
+[114.795864] (-) TimerEvent: {}
+[114.897301] (-) TimerEvent: {}
+[114.999558] (-) TimerEvent: {}
+[115.100653] (-) TimerEvent: {}
+[115.201721] (-) TimerEvent: {}
+[115.302895] (-) TimerEvent: {}
+[115.403956] (-) TimerEvent: {}
+[115.505600] (-) TimerEvent: {}
+[115.606797] (-) TimerEvent: {}
+[115.704944] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::MinimalPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[115.707790] (-) TimerEvent: {}
+[115.708653] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:36:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubsriber_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[115.711742] (text_to_cmd_vel) StderrLine: {'line': b'   36 |     \x1b[01;31m\x1b[Ksubsriber_\x1b[m\x1b[K = this->\n'}
+[115.714843] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[115.724617] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[115.727446] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kfound \xe2\x80\x98\x1b[01m\x1b[K:\x1b[m\x1b[K\xe2\x80\x99 in nested-name-specifier, expected \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99\n'}
+[115.730591] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std\x1b[01;31m\x1b[K:\x1b[m\x1b[Kstring("turn_right"))\n'}
+[115.734195] (text_to_cmd_vel) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[115.738385] (text_to_cmd_vel) StderrLine: {'line': b'      |                       \x1b[32m\x1b[K::\x1b[m\x1b[K\n'}
+[115.743096] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator==\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[115.746075] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (\x1b[32m\x1b[Kmessage\x1b[m\x1b[K \x1b[01;31m\x1b[K==\x1b[m\x1b[K std:\x1b[34m\x1b[Kstring("turn_right")\x1b[m\x1b[K)\n'}
+[115.749003] (text_to_cmd_vel) StderrLine: {'line': b'      |         \x1b[32m\x1b[K~~~~~~~\x1b[m\x1b[K \x1b[01;31m\x1b[K^~\x1b[m\x1b[K     \x1b[34m\x1b[K~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[115.752619] (text_to_cmd_vel) StderrLine: {'line': b'      |         \x1b[32m\x1b[K|\x1b[m\x1b[K              \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[115.755749] (text_to_cmd_vel) StderrLine: {'line': b'      |         \x1b[32m\x1b[K|\x1b[m\x1b[K              \x1b[34m\x1b[Kstd::string {aka std::__cxx11::basic_string<char>}\x1b[m\x1b[K\n'}
+[115.758788] (text_to_cmd_vel) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\n'}
+[115.762249] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp:7\x1b[m\x1b[K,\n'}
+[115.765054] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:21\x1b[m\x1b[K:\n'}
+[115.768097] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:108:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std_msgs::msg::String_<ContainerAllocator>::operator==(const std_msgs::msg::String_<ContainerAllocator>&) const [with ContainerAllocator = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[115.770763] (text_to_cmd_vel) StderrLine: {'line': b'  108 |   bool \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const String_ & other) const\n'}
+[115.773297] (text_to_cmd_vel) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[115.775782] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:108:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[115.778299] (text_to_cmd_vel) StderrLine: {'line': b'  108 |   bool operator==(\x1b[01;36m\x1b[Kconst String_ & other\x1b[m\x1b[K) const\n'}
+[115.781147] (text_to_cmd_vel) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[115.784092] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[115.786754] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/array:40\x1b[m\x1b[K,\n'}
+[115.789419] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[115.792059] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[115.795111] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:16\x1b[m\x1b[K:\n'}
+[115.797887] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1155:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[115.800533] (text_to_cmd_vel) StderrLine: {'line': b' 1155 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const __normal_iterator<_IteratorL, _Container>& __lhs,\n'}
+[115.803166] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[115.805474] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1155:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[115.807865] (-) TimerEvent: {}
+[115.808795] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst __gnu_cxx::__normal_iterator<_IteratorL, _Container>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[115.811323] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[115.813454] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[115.816282] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[115.818969] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/array:40\x1b[m\x1b[K,\n'}
+[115.821435] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[115.823876] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[115.825861] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:16\x1b[m\x1b[K:\n'}
+[115.828129] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1163:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[115.830954] (text_to_cmd_vel) StderrLine: {'line': b' 1163 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const __normal_iterator<_Iterator, _Container>& __lhs,\n'}
+[115.833214] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[115.835336] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1163:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[115.837444] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst __gnu_cxx::__normal_iterator<_Iterator, _Container>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[115.839445] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[115.841599] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[115.843783] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[115.846255] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[115.848659] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/unordered_map:40\x1b[m\x1b[K,\n'}
+[115.850855] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:61\x1b[m\x1b[K,\n'}
+[115.853305] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:16\x1b[m\x1b[K:\n'}
+[115.855271] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:183:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Up> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<char>&, const __gnu_cxx::new_allocator<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[115.857464] (text_to_cmd_vel) StderrLine: {'line': b'  183 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const new_allocator&, const new_allocator<_Up>&)\n'}
+[115.859696] (text_to_cmd_vel) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[115.862496] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:183:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[115.865401] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst __gnu_cxx::new_allocator<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[115.868073] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[115.870383] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[115.873131] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/utility:70\x1b[m\x1b[K,\n'}
+[115.875543] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:38\x1b[m\x1b[K,\n'}
+[115.878384] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[115.881501] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:16\x1b[m\x1b[K:\n'}
+[115.884244] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:466:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _T1, class _T2> constexpr bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[115.887000] (text_to_cmd_vel) StderrLine: {'line': b'  466 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)\n'}
+[115.889433] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[115.892190] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:466:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[115.895395] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<_T1, _T2>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[115.898028] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[115.900730] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[115.902993] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[115.904856] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/array:40\x1b[m\x1b[K,\n'}
+[115.907417] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[115.909449] (-) TimerEvent: {}
+[115.910039] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[115.912427] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:16\x1b[m\x1b[K:\n'}
+[115.915125] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:420:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Iterator> constexpr bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[115.917063] (text_to_cmd_vel) StderrLine: {'line': b'  420 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const reverse_iterator<_Iterator>& __x,\n'}
+[115.919582] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[115.921749] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:420:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[115.923318] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::reverse_iterator<_Iterator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[115.924878] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[115.927153] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[115.929267] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[115.930982] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/array:40\x1b[m\x1b[K,\n'}
+[115.933147] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[115.935414] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[115.937111] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:16\x1b[m\x1b[K:\n'}
+[115.939332] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:459:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[115.941607] (text_to_cmd_vel) StderrLine: {'line': b'  459 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const reverse_iterator<_IteratorL>& __x,\n'}
+[115.944532] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[115.947718] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:459:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[115.950844] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::reverse_iterator<_Iterator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[115.953737] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[115.956551] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[115.959417] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[115.962548] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/array:40\x1b[m\x1b[K,\n'}
+[115.965691] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[115.968647] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[115.971532] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:16\x1b[m\x1b[K:\n'}
+[115.974814] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1585:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[115.977697] (text_to_cmd_vel) StderrLine: {'line': b' 1585 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const move_iterator<_IteratorL>& __x,\n'}
+[115.980429] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[115.983250] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1585:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[115.985828] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::move_iterator<_IteratorL>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[115.988459] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[115.991736] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[115.994441] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[115.997240] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/array:40\x1b[m\x1b[K,\n'}
+[116.000096] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[116.002792] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[116.005443] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:16\x1b[m\x1b[K:\n'}
+[116.008125] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1648:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Iterator> constexpr bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.010719] (-) TimerEvent: {}
+[116.011743] (text_to_cmd_vel) StderrLine: {'line': b' 1648 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const move_iterator<_Iterator>& __x,\n'}
+[116.014530] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[116.017564] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1648:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[116.020344] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::move_iterator<_IteratorL>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.023085] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[116.025902] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[116.028363] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[116.031522] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[116.034078] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:16\x1b[m\x1b[K:\n'}
+[116.036606] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/array:276:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, long unsigned int _Nm> bool std::operator==(const std::array<_Tp, _Nm>&, const std::array<_Tp, _Nm>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.039534] (text_to_cmd_vel) StderrLine: {'line': b'  276 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const array<_Tp, _Nm>& __one, const array<_Tp, _Nm>& __two)\n'}
+[116.042174] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[116.044910] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/array:276:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[116.047831] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<_Tp, _Nm>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.050377] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[116.053144] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[116.055833] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[116.058708] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:16\x1b[m\x1b[K:\n'}
+[116.061827] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/tuple:1524:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _TElements, class ... _UElements> constexpr bool std::operator==(const std::tuple<_Tps ...>&, const std::tuple<_UTypes ...>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.065153] (text_to_cmd_vel) StderrLine: {'line': b' 1524 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const tuple<_TElements...>& __t,\n'}
+[116.068075] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[116.070910] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/tuple:1524:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[116.073666] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::tuple<_Tps ...>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.076194] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[116.079054] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[116.081840] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/functional:59\x1b[m\x1b[K,\n'}
+[116.084777] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:16\x1b[m\x1b[K:\n'}
+[116.087800] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:718:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Res, class ... _Args> bool std::operator==(const std::function<_Res(_ArgTypes ...)>&, std::nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.090431] (text_to_cmd_vel) StderrLine: {'line': b'  718 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const function<_Res(_Args...)>& __f, nullptr_t) noexcept\n'}
+[116.093121] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[116.095820] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:718:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[116.098464] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::function<_Res(_ArgTypes ...)>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.101629] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[116.104352] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[116.107246] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/functional:59\x1b[m\x1b[K,\n'}
+[116.109914] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:16\x1b[m\x1b[K:\n'}
+[116.112584] (-) TimerEvent: {}
+[116.113563] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:725:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Res, class ... _Args> bool std::operator==(std::nullptr_t, const std::function<_Res(_ArgTypes ...)>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.116023] (text_to_cmd_vel) StderrLine: {'line': b'  725 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullptr_t, const function<_Res(_Args...)>& __f) noexcept\n'}
+[116.118718] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[116.121740] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:725:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[116.124550] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::function<_Res(_ArgTypes ...)>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.127223] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[116.130028] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[116.132817] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/unordered_map:40\x1b[m\x1b[K,\n'}
+[116.135992] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:61\x1b[m\x1b[K,\n'}
+[116.138579] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:16\x1b[m\x1b[K:\n'}
+[116.141251] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:218:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _T1, class _T2> bool std::operator==(const std::allocator<_Tp1>&, const std::allocator<_T2>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.143977] (text_to_cmd_vel) StderrLine: {'line': b'  218 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const allocator<_T1>&, const allocator<_T2>&)\n'}
+[116.147132] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[116.149926] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:218:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[116.152668] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::allocator<_Tp1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.155221] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[116.157718] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[116.160361] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/unordered_map:47\x1b[m\x1b[K,\n'}
+[116.163317] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:61\x1b[m\x1b[K,\n'}
+[116.166068] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:16\x1b[m\x1b[K:\n'}
+[116.168866] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_map.h:2134:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key1, class _Tp1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.171814] (text_to_cmd_vel) StderrLine: {'line': b' 2134 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,\n'}
+[116.174835] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[116.177728] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_map.h:2134:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[116.180648] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.183911] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[116.186863] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[116.189793] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/unordered_map:47\x1b[m\x1b[K,\n'}
+[116.192586] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:61\x1b[m\x1b[K,\n'}
+[116.195200] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:16\x1b[m\x1b[K:\n'}
+[116.197978] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_map.h:2148:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key1, class _Tp1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.200583] (text_to_cmd_vel) StderrLine: {'line': b' 2148 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unordered_multimap<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,\n'}
+[116.203191] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[116.205679] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_map.h:2148:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[116.208036] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.210665] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[116.213948] (-) TimerEvent: {}
+[116.214736] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[116.217574] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/vector:67\x1b[m\x1b[K,\n'}
+[116.220329] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:62\x1b[m\x1b[K,\n'}
+[116.223257] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:16\x1b[m\x1b[K:\n'}
+[116.225969] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1892:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.228861] (text_to_cmd_vel) StderrLine: {'line': b' 1892 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)\n'}
+[116.231639] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[116.234317] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1892:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[116.237040] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<_Tp, _Alloc>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.239862] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[116.242561] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[116.245617] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[116.248219] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:17\x1b[m\x1b[K:\n'}
+[116.250810] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:753:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Dp, class _Up, class _Ep> bool std::operator==(const std::unique_ptr<_Tp, _Dp>&, const std::unique_ptr<_Up, _Ep>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.253468] (text_to_cmd_vel) StderrLine: {'line': b'  753 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unique_ptr<_Tp, _Dp>& __x,\n'}
+[116.255933] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[116.258548] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:753:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[116.261369] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.264083] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[116.266736] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[116.269400] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[116.271940] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:17\x1b[m\x1b[K:\n'}
+[116.274392] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:760:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Dp> bool std::operator==(const std::unique_ptr<_Tp, _Dp>&, std::nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.278025] (text_to_cmd_vel) StderrLine: {'line': b'  760 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unique_ptr<_Tp, _Dp>& __x, nullptr_t) noexcept\n'}
+[116.280807] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[116.283614] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:760:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[116.286440] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.289010] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[116.291807] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[116.294992] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[116.297686] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:17\x1b[m\x1b[K:\n'}
+[116.300083] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:767:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Dp> bool std::operator==(std::nullptr_t, const std::unique_ptr<_Tp, _Dp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.302771] (text_to_cmd_vel) StderrLine: {'line': b'  767 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullptr_t, const unique_ptr<_Tp, _Dp>& __x) noexcept\n'}
+[116.305202] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[116.307655] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:767:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[116.310612] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.313270] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[116.316091] (-) TimerEvent: {}
+[116.316954] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[116.319488] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/iosfwd:40\x1b[m\x1b[K,\n'}
+[116.322236] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:52\x1b[m\x1b[K,\n'}
+[116.325385] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[116.328114] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:17\x1b[m\x1b[K:\n'}
+[116.330878] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/postypes.h:222:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.333599] (text_to_cmd_vel) StderrLine: {'line': b'  222 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)\n'}
+[116.336347] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[116.339032] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/postypes.h:222:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[116.343706] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::fpos<_StateT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.346577] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[116.349540] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[116.352557] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:53\x1b[m\x1b[K,\n'}
+[116.355147] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[116.358375] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:17\x1b[m\x1b[K:\n'}
+[116.361106] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1410:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp1, class _Tp2, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(const std::__shared_ptr<_Tp1, _Lp>&, const std::__shared_ptr<_Tp2, _Lp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.364451] (text_to_cmd_vel) StderrLine: {'line': b' 1410 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const __shared_ptr<_Tp1, _Lp>& __a,\n'}
+[116.367209] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[116.370198] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1410:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[116.373146] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__shared_ptr<_Tp1, _Lp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.375642] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[116.378425] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[116.381162] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:53\x1b[m\x1b[K,\n'}
+[116.383854] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[116.386966] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:17\x1b[m\x1b[K:\n'}
+[116.389408] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1416:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(const std::__shared_ptr<_Tp, _Lp>&, std::nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.392130] (text_to_cmd_vel) StderrLine: {'line': b' 1416 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const __shared_ptr<_Tp, _Lp>& __a, nullptr_t) noexcept\n'}
+[116.394683] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[116.397258] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1416:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[116.399952] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__shared_ptr<_Tp, _Lp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.402634] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[116.405454] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[116.407977] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:53\x1b[m\x1b[K,\n'}
+[116.410912] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[116.413949] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:17\x1b[m\x1b[K:\n'}
+[116.416903] (-) TimerEvent: {}
+[116.417797] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1436:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(std::nullptr_t, const std::__shared_ptr<_Tp, _Lp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.421376] (text_to_cmd_vel) StderrLine: {'line': b' 1436 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullptr_t, const __shared_ptr<_Tp, _Lp>& __a) noexcept\n'}
+[116.424440] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[116.427593] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1436:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[116.430341] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__shared_ptr<_Tp, _Lp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.433208] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[116.436022] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[116.438502] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[116.441374] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:17\x1b[m\x1b[K:\n'}
+[116.443790] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:437:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> bool std::operator==(const std::shared_ptr<_Tp>&, const std::shared_ptr<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.446452] (text_to_cmd_vel) StderrLine: {'line': b'  437 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const shared_ptr<_Tp>& __a, const shared_ptr<_Up>& __b) noexcept\n'}
+[116.449139] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[116.452497] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:437:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[116.455368] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.457961] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[116.460657] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[116.463508] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[116.466324] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:17\x1b[m\x1b[K:\n'}
+[116.469008] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:443:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> bool std::operator==(const std::shared_ptr<_Tp>&, std::nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.471767] (text_to_cmd_vel) StderrLine: {'line': b'  443 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const shared_ptr<_Tp>& __a, nullptr_t) noexcept\n'}
+[116.474427] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[116.477338] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:443:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[116.480108] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.483387] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[116.486019] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[116.488677] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[116.491550] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:17\x1b[m\x1b[K:\n'}
+[116.494695] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:464:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> bool std::operator==(std::nullptr_t, const std::shared_ptr<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.497798] (text_to_cmd_vel) StderrLine: {'line': b'  464 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullptr_t, const shared_ptr<_Tp>& __a) noexcept\n'}
+[116.500188] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[116.502663] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:464:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[116.505045] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.507559] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[116.510081] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[116.512754] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:48\x1b[m\x1b[K,\n'}
+[116.515373] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[116.517730] (-) TimerEvent: {}
+[116.518557] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:18\x1b[m\x1b[K:\n'}
+[116.520991] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:535:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator==(std::basic_string_view<_CharT, _Traits>, std::basic_string_view<_CharT, _Traits>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.523461] (text_to_cmd_vel) StderrLine: {'line': b'  535 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(basic_string_view<_CharT, _Traits> __x,\n'}
+[116.526040] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[116.528930] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:535:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[116.531843] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_string_view<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.534504] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[116.537162] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[116.540038] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:48\x1b[m\x1b[K,\n'}
+[116.542763] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[116.545502] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:18\x1b[m\x1b[K:\n'}
+[116.548036] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:541:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator==(std::basic_string_view<_CharT, _Traits>, std::__type_identity_t<std::basic_string_view<_CharT, _Traits> >)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.551445] (text_to_cmd_vel) StderrLine: {'line': b'  541 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(basic_string_view<_CharT, _Traits> __x,\n'}
+[116.554317] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[116.557008] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:541:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[116.559539] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_string_view<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.562386] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[116.565011] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[116.567660] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:48\x1b[m\x1b[K,\n'}
+[116.570079] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[116.572783] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:18\x1b[m\x1b[K:\n'}
+[116.575395] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:564:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator==(std::__type_identity_t<std::basic_string_view<_CharT, _Traits> >, std::basic_string_view<_CharT, _Traits>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.578157] (text_to_cmd_vel) StderrLine: {'line': b'  564 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(__type_identity_t<basic_string_view<_CharT, _Traits>> __x,\n'}
+[116.581251] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[116.583770] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:564:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[116.586660] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_string_view<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.589386] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[116.592495] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[116.595244] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[116.597822] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:18\x1b[m\x1b[K:\n'}
+[116.600700] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6226:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.603271] (text_to_cmd_vel) StderrLine: {'line': b' 6226 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n'}
+[116.605762] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[116.609114] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6226:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[116.611828] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.614393] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[116.616856] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[116.619164] (-) TimerEvent: {}
+[116.619980] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[116.622604] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:18\x1b[m\x1b[K:\n'}
+[116.625314] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6234:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::__cxx11::basic_string<_CharT>&, const std::__cxx11::basic_string<_CharT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.628138] (text_to_cmd_vel) StderrLine: {'line': b' 6234 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const basic_string<_CharT>& __lhs,\n'}
+[116.630787] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[116.633173] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6234:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[116.635762] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.638268] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[116.641004] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[116.643363] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[116.646163] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:18\x1b[m\x1b[K:\n'}
+[116.648678] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6248:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.651069] (text_to_cmd_vel) StderrLine: {'line': b' 6248 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n'}
+[116.653603] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[116.656500] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6248:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[116.659030] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.661714] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[116.664408] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[116.666922] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[116.669530] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:18\x1b[m\x1b[K:\n'}
+[116.672182] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6289:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.674594] (text_to_cmd_vel) StderrLine: {'line': b' 6289 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const _CharT* __lhs,\n'}
+[116.677261] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[116.679790] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6289:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[116.682397] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst _CharT*\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.684943] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[116.687435] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[116.691014] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/set:61\x1b[m\x1b[K,\n'}
+[116.693998] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:21\x1b[m\x1b[K,\n'}
+[116.696861] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[116.699574] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[116.702314] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:20\x1b[m\x1b[K:\n'}
+[116.705170] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_set.h:985:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator==(const std::set<_Key, _Compare, _Allocator>&, const std::set<_Key, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.707679] (text_to_cmd_vel) StderrLine: {'line': b'  985 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const set<_Key, _Compare, _Alloc>& __x,\n'}
+[116.710453] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[116.713341] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_set.h:985:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[116.716246] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::set<_Key, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.719053] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[116.722010] (-) TimerEvent: {}
+[116.722846] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[116.725604] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/set:62\x1b[m\x1b[K,\n'}
+[116.728494] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:21\x1b[m\x1b[K,\n'}
+[116.731384] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[116.734255] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[116.737300] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:20\x1b[m\x1b[K:\n'}
+[116.740273] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_multiset.h:971:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator==(const std::multiset<_Key, _Compare, _Allocator>&, const std::multiset<_Key, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.743298] (text_to_cmd_vel) StderrLine: {'line': b'  971 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const multiset<_Key, _Compare, _Alloc>& __x,\n'}
+[116.746333] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[116.748840] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_multiset.h:971:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[116.751532] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::multiset<_Key, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.755247] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[116.758212] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[116.762086] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/locale_facets.h:48\x1b[m\x1b[K,\n'}
+[116.765297] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/basic_ios.h:37\x1b[m\x1b[K,\n'}
+[116.768723] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ios:44\x1b[m\x1b[K,\n'}
+[116.771628] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ostream:38\x1b[m\x1b[K,\n'}
+[116.774663] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[116.777256] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[116.780512] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[116.783002] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[116.785949] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[116.788480] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:20\x1b[m\x1b[K:\n'}
+[116.790772] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/streambuf_iterator.h:226:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.793447] (text_to_cmd_vel) StderrLine: {'line': b'  226 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const istreambuf_iterator<_CharT, _Traits>& __a,\n'}
+[116.796134] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[116.798681] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/streambuf_iterator.h:226:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[116.801611] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::istreambuf_iterator<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.804457] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[116.807208] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[116.810027] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/list:63\x1b[m\x1b[K,\n'}
+[116.812808] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:23\x1b[m\x1b[K,\n'}
+[116.815371] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[116.818432] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[116.821390] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[116.824036] (-) TimerEvent: {}
+[116.824748] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:20\x1b[m\x1b[K:\n'}
+[116.826872] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_list.h:2030:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Alloc> bool std::operator==(const std::__cxx11::list<_Tp, _Alloc>&, const std::__cxx11::list<_Tp, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.829370] (text_to_cmd_vel) StderrLine: {'line': b' 2030 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const list<_Tp, _Alloc>& __x, const list<_Tp, _Alloc>& __y)\n'}
+[116.831868] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[116.834323] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_list.h:2030:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[116.836596] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::list<_Tp, _Alloc>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.838770] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[116.840979] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[116.843404] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/map:61\x1b[m\x1b[K,\n'}
+[116.845798] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:24\x1b[m\x1b[K,\n'}
+[116.848424] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[116.850877] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[116.853484] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[116.855813] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:20\x1b[m\x1b[K:\n'}
+[116.858244] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_map.h:1463:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator==(const std::map<_Key, _Tp, _Compare, _Allocator>&, const std::map<_Key, _Tp, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.860902] (text_to_cmd_vel) StderrLine: {'line': b' 1463 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const map<_Key, _Tp, _Compare, _Alloc>& __x,\n'}
+[116.863716] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[116.866472] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_map.h:1463:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[116.869018] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::map<_Key, _Tp, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.871963] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[116.874316] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[116.876852] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/map:62\x1b[m\x1b[K,\n'}
+[116.879580] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:24\x1b[m\x1b[K,\n'}
+[116.882147] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[116.885019] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[116.888226] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[116.891995] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:20\x1b[m\x1b[K:\n'}
+[116.895158] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_multimap.h:1128:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator==(const std::multimap<_Key, _Tp, _Compare, _Allocator>&, const std::multimap<_Key, _Tp, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.898862] (text_to_cmd_vel) StderrLine: {'line': b' 1128 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const multimap<_Key, _Tp, _Compare, _Alloc>& __x,\n'}
+[116.901651] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[116.904290] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_multimap.h:1128:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[116.906814] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::multimap<_Key, _Tp, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.909464] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[116.912953] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[116.915422] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/unordered_set:47\x1b[m\x1b[K,\n'}
+[116.917938] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/context.hpp:26\x1b[m\x1b[K,\n'}
+[116.920432] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:34\x1b[m\x1b[K,\n'}
+[116.922915] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[116.925326] (-) TimerEvent: {}
+[116.926339] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[116.929077] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[116.931746] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:20\x1b[m\x1b[K:\n'}
+[116.934612] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_set.h:1804:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Value1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.937483] (text_to_cmd_vel) StderrLine: {'line': b' 1804 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unordered_set<_Value, _Hash, _Pred, _Alloc>& __x,\n'}
+[116.947030] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[116.950113] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_set.h:1804:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[116.953026] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.955982] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[116.959331] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[116.962454] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/unordered_set:47\x1b[m\x1b[K,\n'}
+[116.965358] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/context.hpp:26\x1b[m\x1b[K,\n'}
+[116.967790] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:34\x1b[m\x1b[K,\n'}
+[116.974457] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[116.979376] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[116.983655] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[116.986371] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:20\x1b[m\x1b[K:\n'}
+[116.988991] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_set.h:1818:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Value1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[116.993015] (text_to_cmd_vel) StderrLine: {'line': b' 1818 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unordered_multiset<_Value, _Hash, _Pred, _Alloc>& __x,\n'}
+[116.995788] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[116.999096] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_set.h:1818:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[117.002797] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[117.010525] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[117.015974] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[117.019262] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23\x1b[m\x1b[K,\n'}
+[117.022255] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[117.025230] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[117.028179] (-) TimerEvent: {}
+[117.029364] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[117.032167] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[117.035598] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[117.038623] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[117.041251] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[117.044014] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[117.046568] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[117.048876] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:20\x1b[m\x1b[K:\n'}
+[117.051226] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1045:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Tp, _Up> std::operator==(const std::optional<_Tp>&, const std::optional<_Up>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[117.053868] (text_to_cmd_vel) StderrLine: {'line': b' 1045 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const optional<_Tp>& __lhs, const optional<_Up>& __rhs)\n'}
+[117.056618] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[117.059517] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1045:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[117.062212] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[117.064867] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[117.067424] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[117.070327] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23\x1b[m\x1b[K,\n'}
+[117.073396] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[117.075647] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[117.078135] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[117.080738] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[117.083368] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[117.086232] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[117.090177] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[117.092851] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[117.095321] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[117.097872] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:20\x1b[m\x1b[K:\n'}
+[117.101419] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1105:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr bool std::operator==(const std::optional<_Tp>&, std::nullopt_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[117.103670] (text_to_cmd_vel) StderrLine: {'line': b' 1105 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const optional<_Tp>& __lhs, nullopt_t) noexcept\n'}
+[117.106422] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[117.108872] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1105:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[117.111364] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[117.114082] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[117.117139] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[117.120594] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23\x1b[m\x1b[K,\n'}
+[117.123627] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[117.126520] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[117.130392] (-) TimerEvent: {}
+[117.131358] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[117.134574] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[117.137251] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[117.139856] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[117.142629] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[117.145120] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[117.147796] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[117.150797] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:20\x1b[m\x1b[K:\n'}
+[117.153512] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1116:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr bool std::operator==(std::nullopt_t, const std::optional<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[117.155999] (text_to_cmd_vel) StderrLine: {'line': b' 1116 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullopt_t, const optional<_Tp>& __rhs) noexcept\n'}
+[117.158624] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[117.161528] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1116:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[117.164227] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[117.167060] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[117.169382] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[117.171624] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23\x1b[m\x1b[K,\n'}
+[117.175805] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[117.181984] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[117.187016] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[117.189556] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[117.192118] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[117.194647] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[117.197336] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[117.199608] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[117.207235] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[117.214354] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:20\x1b[m\x1b[K:\n'}
+[117.221359] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1173:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Tp, _Up> std::operator==(const std::optional<_Tp>&, const _Up&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[117.226355] (text_to_cmd_vel) StderrLine: {'line': b' 1173 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const optional<_Tp>& __lhs, const _Up& __rhs)\n'}
+[117.229446] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[117.232630] (-) TimerEvent: {}
+[117.234046] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1173:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[117.238995] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[117.244000] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[117.247189] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[117.250129] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23\x1b[m\x1b[K,\n'}
+[117.253299] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[117.256327] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[117.259426] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[117.263437] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[117.266962] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[117.269725] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[117.272496] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[117.275121] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[117.277716] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[117.280190] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:20\x1b[m\x1b[K:\n'}
+[117.282409] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1179:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Up, _Tp> std::operator==(const _Up&, const std::optional<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[117.284770] (text_to_cmd_vel) StderrLine: {'line': b' 1179 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const _Up& __lhs, const optional<_Tp>& __rhs)\n'}
+[117.287137] (text_to_cmd_vel) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[117.289572] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1179:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[117.291921] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[117.294728] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[117.296968] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[117.298941] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28\x1b[m\x1b[K,\n'}
+[117.301437] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[117.303720] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[117.305857] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[117.308625] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[117.311619] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[117.314784] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[117.317879] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[117.320891] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[117.323770] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[117.326083] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:20\x1b[m\x1b[K:\n'}
+[117.328600] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1232:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _Types> constexpr bool std::operator==(const std::variant<_Types ...>&, const std::variant<_Types ...>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[117.331141] (text_to_cmd_vel) StderrLine: {'line': b' 1232 |   \x1b[01;36m\x1b[K_VARIANT_RELATION_FUNCTION_TEMPLATE\x1b[m\x1b[K(==, equal)\n'}
+[117.333766] (-) TimerEvent: {}
+[117.334708] (text_to_cmd_vel) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[117.337255] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1232:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[117.339625] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::variant<_Types ...>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[117.342418] (text_to_cmd_vel) StderrLine: {'line': b'   46 |     if (message == std:string("turn_right"\x1b[01;36m\x1b[K)\x1b[m\x1b[K)\n'}
+[117.345231] (text_to_cmd_vel) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[117.347843] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/unordered_map:40\x1b[m\x1b[K,\n'}
+[117.350602] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:61\x1b[m\x1b[K,\n'}
+[117.353922] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:16\x1b[m\x1b[K:\n'}
+[117.357130] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:204:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator==(const std::allocator<char>&, const std::allocator<char>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[117.359575] (text_to_cmd_vel) StderrLine: {'line': b'  204 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const allocator&, const allocator&) _GLIBCXX_NOTHROW\n'}
+[117.362119] (text_to_cmd_vel) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[117.365345] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:204:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::allocator<char>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[117.368150] (text_to_cmd_vel) StderrLine: {'line': b'  204 |       operator==(\x1b[01;36m\x1b[Kconst allocator&\x1b[m\x1b[K, const allocator&) _GLIBCXX_NOTHROW\n'}
+[117.371047] (text_to_cmd_vel) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[117.373927] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[117.376577] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[117.379381] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[117.382409] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[117.384975] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:20\x1b[m\x1b[K:\n'}
+[117.387873] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:362:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator==(const std::error_code&, const std::error_code&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[117.390806] (text_to_cmd_vel) StderrLine: {'line': b'  362 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const error_code& __lhs, const error_code& __rhs) noexcept\n'}
+[117.393666] (text_to_cmd_vel) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[117.396272] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:362:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_code&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[117.399234] (text_to_cmd_vel) StderrLine: {'line': b'  362 |   operator==(\x1b[01;36m\x1b[Kconst error_code& __lhs\x1b[m\x1b[K, const error_code& __rhs) noexcept\n'}
+[117.401688] (text_to_cmd_vel) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[117.404218] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:368:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator==(const std::error_code&, const std::error_condition&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[117.406701] (text_to_cmd_vel) StderrLine: {'line': b'  368 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const error_code& __lhs, const error_condition& __rhs) noexcept\n'}
+[117.409055] (text_to_cmd_vel) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[117.411788] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:368:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_code&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[117.414733] (text_to_cmd_vel) StderrLine: {'line': b'  368 |   operator==(\x1b[01;36m\x1b[Kconst error_code& __lhs\x1b[m\x1b[K, const error_condition& __rhs) noexcept\n'}
+[117.417702] (text_to_cmd_vel) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[117.420373] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:376:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator==(const std::error_condition&, const std::error_condition&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[117.422825] (text_to_cmd_vel) StderrLine: {'line': b'  376 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const error_condition& __lhs,\n'}
+[117.425385] (text_to_cmd_vel) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[117.428728] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:376:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_condition&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[117.431673] (text_to_cmd_vel) StderrLine: {'line': b'  376 |   operator==(\x1b[01;36m\x1b[Kconst error_condition& __lhs\x1b[m\x1b[K,\n'}
+[117.434063] (-) TimerEvent: {}
+[117.435035] (text_to_cmd_vel) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[117.437291] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:408:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator==(const std::error_condition&, const std::error_code&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[117.439938] (text_to_cmd_vel) StderrLine: {'line': b'  408 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const error_condition& __lhs, const error_code& __rhs) noexcept\n'}
+[117.442475] (text_to_cmd_vel) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[117.445016] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:408:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_condition&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[117.447630] (text_to_cmd_vel) StderrLine: {'line': b'  408 |   operator==(\x1b[01;36m\x1b[Kconst error_condition& __lhs\x1b[m\x1b[K, const error_code& __rhs) noexcept\n'}
+[117.449633] (text_to_cmd_vel) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[117.452117] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/future:48\x1b[m\x1b[K,\n'}
+[117.454416] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[117.456405] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[117.458419] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:20\x1b[m\x1b[K:\n'}
+[117.460755] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_thread.h:287:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator==(std::thread::id, std::thread::id)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[117.463442] (text_to_cmd_vel) StderrLine: {'line': b'  287 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(thread::id __x, thread::id __y) noexcept\n'}
+[117.465837] (text_to_cmd_vel) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[117.468617] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_thread.h:287:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::thread::id\x1b[m\x1b[K\xe2\x80\x99\n'}
+[117.470711] (text_to_cmd_vel) StderrLine: {'line': b'  287 |   operator==(\x1b[01;36m\x1b[Kthread::id __x\x1b[m\x1b[K, thread::id __y) noexcept\n'}
+[117.473249] (text_to_cmd_vel) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[117.476038] (text_to_cmd_vel) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28\x1b[m\x1b[K,\n'}
+[117.478593] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[117.481287] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[117.484620] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[117.487464] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[117.490314] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[117.493015] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[117.496113] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[117.499120] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[117.501731] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[117.504048] (text_to_cmd_vel) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:20\x1b[m\x1b[K:\n'}
+[117.506516] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1239:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr bool std::operator==(std::monostate, std::monostate)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[117.508713] (text_to_cmd_vel) StderrLine: {'line': b' 1239 |   constexpr bool \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(monostate, monostate) noexcept { return true; }\n'}
+[117.510878] (text_to_cmd_vel) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[117.513387] (text_to_cmd_vel) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1239:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::monostate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[117.516240] (text_to_cmd_vel) StderrLine: {'line': b' 1239 |   constexpr bool operator==(\x1b[01;36m\x1b[Kmonostate\x1b[m\x1b[K, monostate) noexcept { return true; }\n'}
+[117.518829] (text_to_cmd_vel) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[117.521114] (text_to_cmd_vel) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1\n'}
+[117.523529] (text_to_cmd_vel) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2\n'}
+[117.525922] (text_to_cmd_vel) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[117.534249] (-) TimerEvent: {}
+[117.635298] (-) TimerEvent: {}
+[117.736315] (-) TimerEvent: {}
+[117.837434] (-) TimerEvent: {}
+[117.938601] (-) TimerEvent: {}
+[118.039786] (-) TimerEvent: {}
+[118.140853] (-) TimerEvent: {}
+[118.242024] (-) TimerEvent: {}
+[118.343182] (-) TimerEvent: {}
+[118.444280] (-) TimerEvent: {}
+[118.545512] (-) TimerEvent: {}
+[118.646650] (-) TimerEvent: {}
+[118.747672] (-) TimerEvent: {}
+[118.848795] (-) TimerEvent: {}
+[118.949862] (-) TimerEvent: {}
+[119.050966] (-) TimerEvent: {}
+[119.152149] (-) TimerEvent: {}
+[119.253205] (-) TimerEvent: {}
+[119.354255] (-) TimerEvent: {}
+[119.455504] (-) TimerEvent: {}
+[119.556591] (-) TimerEvent: {}
+[119.657922] (-) TimerEvent: {}
+[119.758995] (-) TimerEvent: {}
+[119.860181] (-) TimerEvent: {}
+[119.961405] (-) TimerEvent: {}
+[120.062576] (-) TimerEvent: {}
+[120.163867] (-) TimerEvent: {}
+[120.265011] (-) TimerEvent: {}
+[120.366097] (-) TimerEvent: {}
+[120.467311] (-) TimerEvent: {}
+[120.568369] (-) TimerEvent: {}
+[120.669923] (-) TimerEvent: {}
+[120.771033] (-) TimerEvent: {}
+[120.872160] (-) TimerEvent: {}
+[120.973266] (-) TimerEvent: {}
+[121.074807] (-) TimerEvent: {}
+[121.175843] (-) TimerEvent: {}
+[121.277018] (-) TimerEvent: {}
+[121.378240] (-) TimerEvent: {}
+[121.480744] (-) TimerEvent: {}
+[121.581919] (-) TimerEvent: {}
+[121.683081] (-) TimerEvent: {}
+[121.784218] (-) TimerEvent: {}
+[121.885334] (-) TimerEvent: {}
+[121.986444] (-) TimerEvent: {}
+[122.087727] (-) TimerEvent: {}
+[122.188771] (-) TimerEvent: {}
+[122.289932] (-) TimerEvent: {}
+[122.390930] (-) TimerEvent: {}
+[122.492208] (-) TimerEvent: {}
+[122.593342] (-) TimerEvent: {}
+[122.694763] (-) TimerEvent: {}
+[122.796037] (-) TimerEvent: {}
+[122.897125] (-) TimerEvent: {}
+[122.998248] (-) TimerEvent: {}
+[123.099271] (-) TimerEvent: {}
+[123.200438] (-) TimerEvent: {}
+[123.301515] (-) TimerEvent: {}
+[123.402676] (-) TimerEvent: {}
+[123.503807] (-) TimerEvent: {}
+[123.605004] (-) TimerEvent: {}
+[123.706261] (-) TimerEvent: {}
+[123.807538] (-) TimerEvent: {}
+[123.908618] (-) TimerEvent: {}
+[124.009835] (-) TimerEvent: {}
+[124.111058] (-) TimerEvent: {}
+[124.212525] (-) TimerEvent: {}
+[124.313686] (-) TimerEvent: {}
+[124.414927] (-) TimerEvent: {}
+[124.516253] (-) TimerEvent: {}
+[124.617369] (-) TimerEvent: {}
+[124.718439] (-) TimerEvent: {}
+[124.819747] (-) TimerEvent: {}
+[124.920908] (-) TimerEvent: {}
+[125.022088] (-) TimerEvent: {}
+[125.123112] (-) TimerEvent: {}
+[125.224118] (-) TimerEvent: {}
+[125.325034] (-) TimerEvent: {}
+[125.426211] (-) TimerEvent: {}
+[125.527359] (-) TimerEvent: {}
+[125.628558] (-) TimerEvent: {}
+[125.729703] (-) TimerEvent: {}
+[125.830993] (-) TimerEvent: {}
+[125.931888] (-) TimerEvent: {}
+[126.033017] (-) TimerEvent: {}
+[126.133903] (-) TimerEvent: {}
+[126.235074] (-) TimerEvent: {}
+[126.336121] (-) TimerEvent: {}
+[126.437543] (-) TimerEvent: {}
+[126.538475] (-) TimerEvent: {}
+[126.639656] (-) TimerEvent: {}
+[126.740670] (-) TimerEvent: {}
+[126.842071] (-) TimerEvent: {}
+[126.843944] (text_to_cmd_vel) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[126.942283] (-) TimerEvent: {}
+[127.043541] (-) TimerEvent: {}
+[127.144694] (-) TimerEvent: {}
+[127.245823] (-) TimerEvent: {}
+[127.346797] (-) TimerEvent: {}
+[127.447773] (-) TimerEvent: {}
+[127.548872] (-) TimerEvent: {}
+[127.649923] (-) TimerEvent: {}
+[127.750921] (-) TimerEvent: {}
+[127.852330] (-) TimerEvent: {}
+[127.953348] (-) TimerEvent: {}
+[128.054468] (-) TimerEvent: {}
+[128.155887] (-) TimerEvent: {}
+[128.257205] (-) TimerEvent: {}
+[128.358391] (-) TimerEvent: {}
+[128.459635] (-) TimerEvent: {}
+[128.560785] (-) TimerEvent: {}
+[128.662244] (-) TimerEvent: {}
+[128.763355] (-) TimerEvent: {}
+[128.864314] (-) TimerEvent: {}
+[128.965259] (-) TimerEvent: {}
+[129.066261] (-) TimerEvent: {}
+[129.167292] (-) TimerEvent: {}
+[129.268278] (-) TimerEvent: {}
+[129.369246] (-) TimerEvent: {}
+[129.470386] (-) TimerEvent: {}
+[129.571509] (-) TimerEvent: {}
+[129.672766] (-) TimerEvent: {}
+[129.773894] (-) TimerEvent: {}
+[129.875033] (-) TimerEvent: {}
+[129.976249] (-) TimerEvent: {}
+[130.077456] (-) TimerEvent: {}
+[130.178599] (-) TimerEvent: {}
+[130.279849] (-) TimerEvent: {}
+[130.381023] (-) TimerEvent: {}
+[130.482013] (-) TimerEvent: {}
+[130.583113] (-) TimerEvent: {}
+[130.684303] (-) TimerEvent: {}
+[130.785722] (-) TimerEvent: {}
+[130.886664] (-) TimerEvent: {}
+[130.987659] (-) TimerEvent: {}
+[131.088823] (-) TimerEvent: {}
+[131.189969] (-) TimerEvent: {}
+[131.291263] (-) TimerEvent: {}
+[131.393363] (-) TimerEvent: {}
+[131.494558] (-) TimerEvent: {}
+[131.595867] (-) TimerEvent: {}
+[131.697175] (-) TimerEvent: {}
+[131.798286] (-) TimerEvent: {}
+[131.899510] (-) TimerEvent: {}
+[132.000585] (-) TimerEvent: {}
+[132.101712] (-) TimerEvent: {}
+[132.202878] (-) TimerEvent: {}
+[132.231816] (text_to_cmd_vel) StdoutLine: {'line': b'[ 75%] Built target listener\n'}
+[132.234708] (text_to_cmd_vel) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[132.238486] (text_to_cmd_vel) CommandEnded: {'returncode': 2}
+[132.303026] (-) TimerEvent: {}
+[132.404137] (-) TimerEvent: {}
+[132.505417] (-) TimerEvent: {}
+[132.606243] (-) TimerEvent: {}
+[132.707373] (-) TimerEvent: {}
+[132.804050] (text_to_cmd_vel) JobEnded: {'identifier': 'text_to_cmd_vel', 'rc': 2}
+[132.833749] (-) TimerEvent: {}
+[132.834854] (-) EventReactorShutdown: {}

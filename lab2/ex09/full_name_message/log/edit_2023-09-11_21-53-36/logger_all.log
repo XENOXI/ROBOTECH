@@ -1,0 +1,24 @@
+[0.935s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'edit', 'full_name_message', 'srv/FullNameSumService.srv']
+[0.935s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='edit', package_name='full_name_message', filename='srv/FullNameSumService.srv', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f8d2acfde10>, verb_extension=<colcon_ed.verb.edit.EditVerb object at 0x7f8d2b6cb6a0>, main=<bound method EditVerb.main of <colcon_ed.verb.edit.EditVerb object at 0x7f8d2b6cb6a0>>)
+[1.045s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.046s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.047s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.047s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.048s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.048s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.049s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.088s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'full_name_message'
+[1.089s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.091s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.091s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults

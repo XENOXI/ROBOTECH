@@ -1,0 +1,225 @@
+[0.153s] Invoking command in '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message
+[0.258s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.669s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.700s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.703s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.086s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.837s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.302s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.828s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.185s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[6.189s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[7.243s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[7.246s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.248s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[7.251s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[7.284s] -- Found PythonExtra: .so  
+[8.036s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[24.073s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[24.084s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message/rosidl_generator_c>;$<BUILD_INTERFACE:/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message/rosidl_generator_cpp>;$<BUILD_INTERFACE:/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message/rosidl_typesupport_introspection_cpp>;/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message/rosidl_generator_c;/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message/rosidl_generator_py
+[24.087s] -- Configured cppcheck exclude dirs and/or files: 
+[25.892s] -- Added test 'flake8' to check Python code syntax and style conventions
+[29.741s] -- Added test 'lint_cmake' to check CMake code style
+[31.865s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[48.098s] -- Added test 'uncrustify' to check C / C++ code style
+[48.103s] -- Configured uncrustify additional arguments: 
+[50.142s] -- Added test 'xmllint' to check XML markup files
+[51.447s] -- Configuring done
+[56.966s] -- Generating done
+[57.782s] -- Build files have been written to: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message
+[57.796s] Invoked command in '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message
+[57.836s] Invoking command in '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message -- -j16 -l16
+[58.377s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[58.427s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[58.588s] [  6%] Built target ament_cmake_python_copy_full_name_message
+[59.237s] [  6%] Built target full_name_message__cpp
+[59.364s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[59.367s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[59.370s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[59.486s] running egg_info
+[59.490s] [ 19%] [32mBuilding C object CMakeFiles/full_name_message__rosidl_generator_c.dir/rosidl_generator_c/full_name_message/srv/detail/get_full_name__functions.c.o[0m
+[59.493s] creating full_name_message.egg-info
+[59.499s] writing full_name_message.egg-info/PKG-INFO
+[59.513s] writing dependency_links to full_name_message.egg-info/dependency_links.txt
+[59.533s] writing top-level names to full_name_message.egg-info/top_level.txt
+[59.548s] writing manifest file 'full_name_message.egg-info/SOURCES.txt'
+[59.602s] reading manifest file 'full_name_message.egg-info/SOURCES.txt'
+[59.684s] writing manifest file 'full_name_message.egg-info/SOURCES.txt'
+[59.766s] [ 19%] Built target ament_cmake_python_build_full_name_message_egg
+[60.055s] [ 22%] [32m[1mLinking C shared library libfull_name_message__rosidl_generator_c.so[0m
+[60.106s] [ 29%] [32mBuilding CXX object CMakeFiles/full_name_message__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/full_name_message/srv/detail/dds_fastrtps/get_full_name__type_support.cpp.o[0m
+[60.109s] [ 29%] [32mBuilding CXX object CMakeFiles/full_name_message__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/full_name_message/srv/detail/get_full_name__type_support.cpp.o[0m
+[60.240s] [ 32%] [32mBuilding CXX object CMakeFiles/full_name_message__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/full_name_message/srv/get_full_name__type_support.cpp.o[0m
+[60.637s] [ 32%] Built target full_name_message__rosidl_generator_c
+[60.770s] [ 41%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[60.774s] [ 41%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[60.778s] [ 41%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[61.483s] [ 45%] [32mBuilding CXX object CMakeFiles/full_name_message__rosidl_typesupport_c.dir/rosidl_typesupport_c/full_name_message/srv/get_full_name__type_support.cpp.o[0m
+[61.646s] [ 51%] [32mBuilding C object CMakeFiles/full_name_message__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/full_name_message/srv/detail/get_full_name__type_support.c.o[0m
+[61.651s] [ 51%] [32m[1mLinking CXX shared library libfull_name_message__rosidl_typesupport_cpp.so[0m
+[61.678s] [ 54%] [32mBuilding CXX object CMakeFiles/full_name_message__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/full_name_message/srv/detail/get_full_name__type_support_c.cpp.o[0m
+[62.133s] [ 58%] [32m[1mLinking CXX shared library libfull_name_message__rosidl_typesupport_c.so[0m
+[62.404s] [ 61%] [32m[1mLinking CXX shared library libfull_name_message__rosidl_typesupport_introspection_cpp.so[0m
+[62.441s] [ 61%] Built target full_name_message__rosidl_typesupport_cpp
+[62.657s] [ 64%] [32m[1mLinking C shared library libfull_name_message__rosidl_typesupport_introspection_c.so[0m
+[62.777s] [ 64%] Built target full_name_message__rosidl_typesupport_c
+[62.900s] [ 67%] [32m[1mLinking CXX shared library libfull_name_message__rosidl_typesupport_fastrtps_cpp.so[0m
+[63.056s] [ 67%] Built target full_name_message__rosidl_typesupport_introspection_cpp
+[63.198s] [ 67%] Built target full_name_message__rosidl_typesupport_introspection_c
+[63.485s] [ 67%] Built target full_name_message__rosidl_typesupport_fastrtps_cpp
+[63.948s] [ 70%] [32m[1mLinking CXX shared library libfull_name_message__rosidl_typesupport_fastrtps_c.so[0m
+[64.681s] [ 70%] Built target full_name_message__rosidl_typesupport_fastrtps_c
+[64.837s] [ 70%] Built target full_name_message
+[65.007s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[65.494s] [ 74%] Built target full_name_message__py
+[65.654s] [ 77%] [32mBuilding C object CMakeFiles/full_name_message__rosidl_generator_py.dir/rosidl_generator_py/full_name_message/srv/_get_full_name_s.c.o[0m
+[66.428s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/full_name_message/libfull_name_message__rosidl_generator_py.so[0m
+[66.816s] [ 80%] Built target full_name_message__rosidl_generator_py
+[66.997s] [ 90%] [32mBuilding C object CMakeFiles/full_name_message__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/full_name_message/_full_name_message_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[67.000s] [ 90%] [32mBuilding C object CMakeFiles/full_name_message__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/full_name_message/_full_name_message_s.ep.rosidl_typesupport_c.c.o[0m
+[67.003s] [ 90%] [32mBuilding C object CMakeFiles/full_name_message__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/full_name_message/_full_name_message_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[67.832s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/full_name_message/full_name_message_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[67.981s] [100%] [32m[1mLinking C shared library rosidl_generator_py/full_name_message/full_name_message_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[67.985s] [100%] [32m[1mLinking C shared library rosidl_generator_py/full_name_message/full_name_message_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[68.353s] [100%] Built target full_name_message__rosidl_typesupport_c__pyext
+[68.398s] [100%] Built target full_name_message__rosidl_typesupport_introspection_c__pyext
+[68.400s] [100%] Built target full_name_message__rosidl_typesupport_fastrtps_c__pyext
+[68.685s] Invoked command in '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message -- -j16 -l16
+[68.856s] Invoking command in '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message
+[68.875s] -- Install configuration: ""
+[69.011s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/ament_index/resource_index/rosidl_interfaces/full_name_message
+[69.245s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message
+[69.306s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg
+[69.396s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg/rosidl_generator_c__visibility_control.h
+[69.577s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv
+[69.653s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail
+[69.757s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/get_full_name__functions.c
+[69.995s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/get_full_name__functions.h
+[70.236s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/get_full_name__struct.h
+[70.490s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/get_full_name__type_support.h
+[70.736s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/get_full_name.h
+[70.958s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/environment/library_path.sh
+[71.100s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/environment/library_path.dsv
+[71.271s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib/libfull_name_message__rosidl_generator_c.so
+[71.456s] -- Set runtime path of "/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib/libfull_name_message__rosidl_generator_c.so" to ""
+[71.484s] -- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message
+[71.545s] -- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg
+[71.625s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[71.873s] -- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv
+[71.983s] -- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail
+[72.123s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/get_full_name__rosidl_typesupport_fastrtps_c.h
+[72.453s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib/libfull_name_message__rosidl_typesupport_fastrtps_c.so
+[72.707s] -- Set runtime path of "/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib/libfull_name_message__rosidl_typesupport_fastrtps_c.so" to ""
+[72.740s] -- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message
+[72.811s] -- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg
+[72.909s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[73.162s] -- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv
+[73.254s] -- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail
+[73.368s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/get_full_name__rosidl_typesupport_introspection_c.h
+[73.715s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/get_full_name__type_support.c
+[74.048s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib/libfull_name_message__rosidl_typesupport_introspection_c.so
+[74.273s] -- Set runtime path of "/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib/libfull_name_message__rosidl_typesupport_introspection_c.so" to ""
+[74.317s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib/libfull_name_message__rosidl_typesupport_c.so
+[74.530s] -- Set runtime path of "/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib/libfull_name_message__rosidl_typesupport_c.so" to ""
+[74.562s] -- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message
+[74.630s] -- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv
+[74.713s] -- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail
+[74.822s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/get_full_name__builder.hpp
+[75.138s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/get_full_name__struct.hpp
+[75.447s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/get_full_name__traits.hpp
+[75.819s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/get_full_name.hpp
+[76.073s] -- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message
+[76.150s] -- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg
+[76.246s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[76.528s] -- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv
+[76.625s] -- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail
+[76.742s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/dds_fastrtps
+[76.924s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/get_full_name__rosidl_typesupport_fastrtps_cpp.hpp
+[77.239s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib/libfull_name_message__rosidl_typesupport_fastrtps_cpp.so
+[77.468s] -- Set runtime path of "/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib/libfull_name_message__rosidl_typesupport_fastrtps_cpp.so" to ""
+[77.504s] -- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message
+[77.586s] -- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv
+[77.699s] -- Up-to-date: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail
+[77.826s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/get_full_name__rosidl_typesupport_introspection_cpp.hpp
+[78.165s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/include/full_name_message/full_name_message/srv/detail/get_full_name__type_support.cpp
+[78.469s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib/libfull_name_message__rosidl_typesupport_introspection_cpp.so
+[78.694s] -- Set runtime path of "/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib/libfull_name_message__rosidl_typesupport_introspection_cpp.so" to ""
+[78.745s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib/libfull_name_message__rosidl_typesupport_cpp.so
+[78.997s] -- Set runtime path of "/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib/libfull_name_message__rosidl_typesupport_cpp.so" to ""
+[79.058s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/environment/pythonpath.sh
+[79.305s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/environment/pythonpath.dsv
+[79.501s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message-0.0.0-py3.10.egg-info
+[79.675s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message-0.0.0-py3.10.egg-info/dependency_links.txt
+[79.986s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message-0.0.0-py3.10.egg-info/PKG-INFO
+[80.327s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message-0.0.0-py3.10.egg-info/SOURCES.txt
+[80.630s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message-0.0.0-py3.10.egg-info/top_level.txt
+[80.961s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message
+[81.086s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/full_name_message_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[81.354s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/full_name_message_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[81.651s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/full_name_message_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[81.955s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/libfull_name_message__rosidl_generator_py.so
+[82.249s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/srv
+[82.419s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/srv/_get_full_name.py
+[82.777s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/srv/_get_full_name_s.c
+[83.128s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/srv/__init__.py
+[83.515s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/_full_name_message_s.ep.rosidl_typesupport_c.c
+[83.824s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/_full_name_message_s.ep.rosidl_typesupport_fastrtps_c.c
+[84.135s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/_full_name_message_s.ep.rosidl_typesupport_introspection_c.c
+[84.420s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/__init__.py
+[85.626s] Listing '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message'...
+[85.629s] Compiling '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/__init__.py'...
+[85.632s] Listing '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/srv'...
+[85.634s] Compiling '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/srv/__init__.py'...
+[85.637s] Compiling '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/srv/_get_full_name.py'...
+[85.821s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/full_name_message_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[86.183s] -- Set runtime path of "/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/full_name_message_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[86.352s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/full_name_message_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[86.736s] -- Set runtime path of "/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/full_name_message_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[86.910s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/full_name_message_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[87.289s] -- Set runtime path of "/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/local/lib/python3.10/dist-packages/full_name_message/full_name_message_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[87.382s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib/libfull_name_message__rosidl_generator_py.so
+[87.662s] -- Set runtime path of "/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/lib/libfull_name_message__rosidl_generator_py.so" to ""
+[87.765s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/srv/GetFullName.idl
+[88.014s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/srv/GetFullName.srv
+[88.255s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/srv/GetFullName_Request.msg
+[88.513s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/srv/GetFullName_Response.msg
+[88.832s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/ament_index/resource_index/package_run_dependencies/full_name_message
+[89.222s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/ament_index/resource_index/parent_prefix_path/full_name_message
+[89.500s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/environment/ament_prefix_path.sh
+[89.714s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/environment/ament_prefix_path.dsv
+[89.966s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/environment/path.sh
+[90.175s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/environment/path.dsv
+[90.374s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/local_setup.bash
+[90.567s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/local_setup.sh
+[90.757s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/local_setup.zsh
+[90.996s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/local_setup.dsv
+[91.228s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/package.dsv
+[91.539s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/ament_index/resource_index/packages/full_name_message
+[91.859s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/export_full_name_message__rosidl_generator_cExport.cmake
+[92.155s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/export_full_name_message__rosidl_generator_cExport-noconfig.cmake
+[92.446s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/export_full_name_message__rosidl_typesupport_fastrtps_cExport.cmake
+[92.732s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/export_full_name_message__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[93.046s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/full_name_message__rosidl_typesupport_introspection_cExport.cmake
+[93.350s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/full_name_message__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[93.662s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/full_name_message__rosidl_typesupport_cExport.cmake
+[93.955s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/full_name_message__rosidl_typesupport_cExport-noconfig.cmake
+[94.277s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/export_full_name_message__rosidl_generator_cppExport.cmake
+[94.645s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/export_full_name_message__rosidl_typesupport_fastrtps_cppExport.cmake
+[94.965s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/export_full_name_message__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[95.283s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/full_name_message__rosidl_typesupport_introspection_cppExport.cmake
+[95.593s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/full_name_message__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[95.904s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/full_name_message__rosidl_typesupport_cppExport.cmake
+[96.224s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/full_name_message__rosidl_typesupport_cppExport-noconfig.cmake
+[96.548s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/export_full_name_message__rosidl_generator_pyExport.cmake
+[96.855s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/export_full_name_message__rosidl_generator_pyExport-noconfig.cmake
+[97.106s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/rosidl_cmake-extras.cmake
+[97.339s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/ament_cmake_export_include_directories-extras.cmake
+[97.573s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/ament_cmake_export_libraries-extras.cmake
+[97.799s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/ament_cmake_export_targets-extras.cmake
+[98.111s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[98.362s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/ament_cmake_export_dependencies-extras.cmake
+[98.590s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[98.808s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/full_name_messageConfig.cmake
+[99.025s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/cmake/full_name_messageConfig-version.cmake
+[99.247s] -- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message/share/full_name_message/package.xml
+[99.421s] Invoked command in '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message

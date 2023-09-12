@@ -1,0 +1,229 @@
+[0.000000] (-) TimerEvent: {}
+[0.002297] (axenox) JobQueued: {'identifier': 'axenox', 'dependencies': OrderedDict()}
+[0.004321] (axenox) JobStarted: {'identifier': 'axenox'}
+[0.040834] (axenox) JobProgress: {'identifier': 'axenox', 'progress': 'cmake'}
+[0.075658] (axenox) Command: {'cmd': ['/usr/bin/cmake', '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/axenox', '-DCMAKE_INSTALL_PREFIX=/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/install/axenox'], 'cwd': '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/build/axenox', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/root'), ('OLDPWD', '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex04'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'MEXERILY'), ('WSL_INTEROP', '/run/WSL/463_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/game_/.cargo/bin:/mnt/c/Users/game_/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/game_/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/game_/AppData/Roaming/cabal/bin:/mnt/c/tools/ghc-9.2.1/bin:/mnt/c/tools/msys64:/mnt/c/Users/game_/AppData/Roaming/local/bin:/mnt/c/Users/game_/.dotnet/tools:/mnt/c/Users/game_/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/root/ros2_ws/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/build/axenox'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/ros2_ws/build/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_executors:/root/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/root/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/turtlesim:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.098320] (-) TimerEvent: {}
+[0.184781] (axenox) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.198558] (-) TimerEvent: {}
+[0.299873] (-) TimerEvent: {}
+[0.401085] (-) TimerEvent: {}
+[0.428096] (axenox) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.501808] (-) TimerEvent: {}
+[0.602881] (-) TimerEvent: {}
+[0.683330] (axenox) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.692268] (axenox) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.703072] (-) TimerEvent: {}
+[0.708715] (axenox) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.742353] (axenox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.779519] (axenox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.803297] (-) TimerEvent: {}
+[0.864630] (axenox) StdoutLine: {'line': b'-- Found rclpy: 3.3.9 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.868700] (axenox) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.903429] (-) TimerEvent: {}
+[0.978768] (axenox) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.993058] (axenox) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.003613] (-) TimerEvent: {}
+[1.104797] (-) TimerEvent: {}
+[1.206462] (-) TimerEvent: {}
+[1.307513] (-) TimerEvent: {}
+[1.408550] (-) TimerEvent: {}
+[1.509642] (-) TimerEvent: {}
+[1.610543] (-) TimerEvent: {}
+[1.711392] (-) TimerEvent: {}
+[1.812255] (-) TimerEvent: {}
+[1.913096] (-) TimerEvent: {}
+[2.014053] (-) TimerEvent: {}
+[2.114982] (-) TimerEvent: {}
+[2.215908] (-) TimerEvent: {}
+[2.317376] (-) TimerEvent: {}
+[2.418260] (-) TimerEvent: {}
+[2.519316] (-) TimerEvent: {}
+[2.620201] (-) TimerEvent: {}
+[2.721173] (-) TimerEvent: {}
+[2.822253] (-) TimerEvent: {}
+[2.923216] (-) TimerEvent: {}
+[3.024334] (-) TimerEvent: {}
+[3.041281] (axenox) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.124578] (-) TimerEvent: {}
+[3.225438] (-) TimerEvent: {}
+[3.326478] (-) TimerEvent: {}
+[3.427821] (-) TimerEvent: {}
+[3.528897] (-) TimerEvent: {}
+[3.630059] (-) TimerEvent: {}
+[3.730997] (-) TimerEvent: {}
+[3.832143] (-) TimerEvent: {}
+[3.933386] (-) TimerEvent: {}
+[4.034585] (-) TimerEvent: {}
+[4.135657] (-) TimerEvent: {}
+[4.236628] (-) TimerEvent: {}
+[4.337605] (-) TimerEvent: {}
+[4.438679] (-) TimerEvent: {}
+[4.539636] (-) TimerEvent: {}
+[4.640547] (-) TimerEvent: {}
+[4.741687] (-) TimerEvent: {}
+[4.842900] (-) TimerEvent: {}
+[4.944091] (-) TimerEvent: {}
+[5.041868] (axenox) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.044187] (-) TimerEvent: {}
+[5.144963] (-) TimerEvent: {}
+[5.246042] (-) TimerEvent: {}
+[5.347290] (-) TimerEvent: {}
+[5.448432] (-) TimerEvent: {}
+[5.549691] (-) TimerEvent: {}
+[5.650900] (-) TimerEvent: {}
+[5.752115] (-) TimerEvent: {}
+[5.853384] (-) TimerEvent: {}
+[5.954691] (-) TimerEvent: {}
+[6.055659] (-) TimerEvent: {}
+[6.156829] (-) TimerEvent: {}
+[6.257997] (-) TimerEvent: {}
+[6.358982] (-) TimerEvent: {}
+[6.460008] (-) TimerEvent: {}
+[6.561187] (-) TimerEvent: {}
+[6.662059] (-) TimerEvent: {}
+[6.763070] (-) TimerEvent: {}
+[6.864043] (-) TimerEvent: {}
+[6.965254] (-) TimerEvent: {}
+[7.066255] (-) TimerEvent: {}
+[7.167343] (-) TimerEvent: {}
+[7.268448] (-) TimerEvent: {}
+[7.369648] (-) TimerEvent: {}
+[7.470708] (-) TimerEvent: {}
+[7.572035] (-) TimerEvent: {}
+[7.673379] (-) TimerEvent: {}
+[7.774441] (-) TimerEvent: {}
+[7.875426] (-) TimerEvent: {}
+[7.976705] (-) TimerEvent: {}
+[8.077697] (-) TimerEvent: {}
+[8.178819] (-) TimerEvent: {}
+[8.279882] (-) TimerEvent: {}
+[8.380986] (-) TimerEvent: {}
+[8.481890] (-) TimerEvent: {}
+[8.582727] (-) TimerEvent: {}
+[8.660595] (axenox) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.682914] (-) TimerEvent: {}
+[8.747581] (axenox) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.783161] (-) TimerEvent: {}
+[8.884119] (-) TimerEvent: {}
+[8.985124] (-) TimerEvent: {}
+[9.086085] (-) TimerEvent: {}
+[9.187153] (-) TimerEvent: {}
+[9.288619] (-) TimerEvent: {}
+[9.389836] (-) TimerEvent: {}
+[9.490828] (-) TimerEvent: {}
+[9.591664] (-) TimerEvent: {}
+[9.692679] (-) TimerEvent: {}
+[9.719434] (axenox) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[9.740567] (axenox) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.792840] (-) TimerEvent: {}
+[9.893903] (-) TimerEvent: {}
+[9.995045] (-) TimerEvent: {}
+[10.096539] (-) TimerEvent: {}
+[10.198293] (-) TimerEvent: {}
+[10.299507] (-) TimerEvent: {}
+[10.400606] (-) TimerEvent: {}
+[10.501680] (-) TimerEvent: {}
+[10.602558] (-) TimerEvent: {}
+[10.703582] (-) TimerEvent: {}
+[10.804699] (-) TimerEvent: {}
+[10.899019] (axenox) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[10.904918] (-) TimerEvent: {}
+[10.909766] (axenox) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[11.005097] (-) TimerEvent: {}
+[11.055469] (axenox) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[11.105265] (-) TimerEvent: {}
+[11.206188] (-) TimerEvent: {}
+[11.307115] (-) TimerEvent: {}
+[11.408322] (-) TimerEvent: {}
+[11.509466] (-) TimerEvent: {}
+[11.610341] (-) TimerEvent: {}
+[11.711436] (-) TimerEvent: {}
+[11.812452] (-) TimerEvent: {}
+[11.914090] (-) TimerEvent: {}
+[12.015358] (-) TimerEvent: {}
+[12.116514] (-) TimerEvent: {}
+[12.195595] (axenox) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[12.216666] (-) TimerEvent: {}
+[12.317547] (-) TimerEvent: {}
+[12.418692] (-) TimerEvent: {}
+[12.519829] (-) TimerEvent: {}
+[12.612681] (axenox) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[12.620037] (-) TimerEvent: {}
+[12.721235] (-) TimerEvent: {}
+[12.822105] (-) TimerEvent: {}
+[12.829452] (axenox) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.922335] (-) TimerEvent: {}
+[13.023501] (-) TimerEvent: {}
+[13.124687] (-) TimerEvent: {}
+[13.225718] (-) TimerEvent: {}
+[13.326608] (-) TimerEvent: {}
+[13.427648] (-) TimerEvent: {}
+[13.428472] (axenox) StdoutLine: {'line': b'-- Generating done\n'}
+[13.527860] (-) TimerEvent: {}
+[13.594487] (axenox) StdoutLine: {'line': b'-- Build files have been written to: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/build/axenox\n'}
+[13.605106] (axenox) CommandEnded: {'returncode': 0}
+[13.616887] (axenox) JobProgress: {'identifier': 'axenox', 'progress': 'build'}
+[13.628097] (-) TimerEvent: {}
+[13.633571] (axenox) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/build/axenox', '--', '-j16', '-l16'], 'cwd': '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/build/axenox', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/root'), ('OLDPWD', '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex04'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'MEXERILY'), ('WSL_INTEROP', '/run/WSL/463_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/game_/.cargo/bin:/mnt/c/Users/game_/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/game_/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/game_/AppData/Roaming/cabal/bin:/mnt/c/tools/ghc-9.2.1/bin:/mnt/c/tools/msys64:/mnt/c/Users/game_/AppData/Roaming/local/bin:/mnt/c/Users/game_/.dotnet/tools:/mnt/c/Users/game_/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/root/ros2_ws/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/build/axenox'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/ros2_ws/build/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_executors:/root/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/root/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/turtlesim:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[13.728285] (-) TimerEvent: {}
+[13.819781] (axenox) CommandEnded: {'returncode': 0}
+[13.828419] (-) TimerEvent: {}
+[13.882863] (axenox) JobProgress: {'identifier': 'axenox', 'progress': 'install'}
+[13.900601] (axenox) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/build/axenox'], 'cwd': '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/build/axenox', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/root'), ('OLDPWD', '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex04'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'MEXERILY'), ('WSL_INTEROP', '/run/WSL/463_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/game_/.cargo/bin:/mnt/c/Users/game_/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/game_/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/game_/AppData/Roaming/cabal/bin:/mnt/c/tools/ghc-9.2.1/bin:/mnt/c/tools/msys64:/mnt/c/Users/game_/AppData/Roaming/local/bin:/mnt/c/Users/game_/.dotnet/tools:/mnt/c/Users/game_/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/root/ros2_ws/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/build/axenox'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/ros2_ws/build/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/root/ros2_ws/build/examples_rclpy_executors:/root/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/root/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/turtlesim:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[13.912332] (axenox) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.928663] (-) TimerEvent: {}
+[13.989220] (axenox) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/install/axenox/share/ament_index/resource_index/package_run_dependencies/axenox\n'}
+[14.028872] (-) TimerEvent: {}
+[14.129994] (-) TimerEvent: {}
+[14.231013] (-) TimerEvent: {}
+[14.242707] (axenox) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/install/axenox/share/ament_index/resource_index/parent_prefix_path/axenox\n'}
+[14.331203] (-) TimerEvent: {}
+[14.432206] (-) TimerEvent: {}
+[14.443877] (axenox) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/install/axenox/share/axenox/environment/ament_prefix_path.sh\n'}
+[14.532471] (-) TimerEvent: {}
+[14.577899] (axenox) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/install/axenox/share/axenox/environment/ament_prefix_path.dsv\n'}
+[14.632625] (-) TimerEvent: {}
+[14.720324] (axenox) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/install/axenox/share/axenox/environment/path.sh\n'}
+[14.732831] (-) TimerEvent: {}
+[14.833768] (-) TimerEvent: {}
+[14.855482] (axenox) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/install/axenox/share/axenox/environment/path.dsv\n'}
+[14.933960] (-) TimerEvent: {}
+[14.990157] (axenox) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/install/axenox/share/axenox/local_setup.bash\n'}
+[15.034176] (-) TimerEvent: {}
+[15.103710] (axenox) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/install/axenox/share/axenox/local_setup.sh\n'}
+[15.134431] (-) TimerEvent: {}
+[15.219300] (axenox) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/install/axenox/share/axenox/local_setup.zsh\n'}
+[15.234646] (-) TimerEvent: {}
+[15.335733] (-) TimerEvent: {}
+[15.341691] (axenox) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/install/axenox/share/axenox/local_setup.dsv\n'}
+[15.435956] (-) TimerEvent: {}
+[15.465141] (axenox) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/install/axenox/share/axenox/package.dsv\n'}
+[15.536126] (-) TimerEvent: {}
+[15.632825] (axenox) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/install/axenox/share/ament_index/resource_index/packages/axenox\n'}
+[15.636261] (-) TimerEvent: {}
+[15.737215] (-) TimerEvent: {}
+[15.817826] (axenox) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/install/axenox/share/axenox/cmake/axenoxConfig.cmake\n'}
+[15.837386] (-) TimerEvent: {}
+[15.938397] (-) TimerEvent: {}
+[15.953682] (axenox) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/install/axenox/share/axenox/cmake/axenoxConfig-version.cmake\n'}
+[16.038592] (-) TimerEvent: {}
+[16.111484] (axenox) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex03/install/axenox/share/axenox/package.xml\n'}
+[16.138772] (-) TimerEvent: {}
+[16.216542] (axenox) CommandEnded: {'returncode': 0}
+[16.238996] (-) TimerEvent: {}
+[16.340225] (-) TimerEvent: {}
+[16.441387] (-) TimerEvent: {}
+[16.542636] (-) TimerEvent: {}
+[16.643747] (-) TimerEvent: {}
+[16.744886] (-) TimerEvent: {}
+[16.847368] (-) TimerEvent: {}
+[16.948345] (-) TimerEvent: {}
+[17.049462] (-) TimerEvent: {}
+[17.151058] (-) TimerEvent: {}
+[17.251989] (-) TimerEvent: {}
+[17.353326] (-) TimerEvent: {}
+[17.454335] (-) TimerEvent: {}
+[17.555186] (-) TimerEvent: {}
+[17.573164] (axenox) JobEnded: {'identifier': 'axenox', 'rc': 0}
+[17.591189] (-) EventReactorShutdown: {}

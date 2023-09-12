@@ -1,0 +1,63 @@
+[0.120s] Invoking command in '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message
+[1.146s] -- The C compiler identification is GNU 11.4.0
+[2.894s] -- The CXX compiler identification is GNU 11.4.0
+[3.904s] -- Detecting C compiler ABI info
+[5.637s] -- Detecting C compiler ABI info - done
+[5.698s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.701s] -- Detecting C compile features
+[5.704s] -- Detecting C compile features - done
+[5.844s] -- Detecting CXX compiler ABI info
+[7.605s] -- Detecting CXX compiler ABI info - done
+[7.678s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.680s] -- Detecting CXX compile features
+[7.684s] -- Detecting CXX compile features - done
+[7.872s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.262s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[8.685s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[8.703s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.717s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[9.154s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.953s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[9.955s]   execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+[9.958s]   full_name_message --arguments-file
+[9.960s]   /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message/rosidl_adapter__arguments__full_name_message.json
+[9.963s]   --output-dir
+[9.965s]   /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message/rosidl_adapter/full_name_message
+[9.968s]   --output-file
+[9.970s]   /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message/rosidl_adapter/full_name_message.idls)
+[9.972s]   returned error code 1:
+[9.975s] 
+[9.977s]   Traceback (most recent call last):
+[9.980s] 
+[9.984s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[9.987s]       return _run_code(code, main_globals, None,
+[9.990s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[9.993s]       exec(code, run_globals)
+[9.995s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[9.998s]       sys.exit(main())
+[10.001s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[10.004s]       abs_idl_file = convert_to_idl(
+[10.007s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[10.010s]       return convert_srv_to_idl(
+[10.013s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[10.016s]       srv = parse_service_string(package_name, input_file.stem, content)
+[10.018s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 859, in parse_service_string
+[10.021s]       request_message = parse_message_string(
+[10.023s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string
+[10.026s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[10.029s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__
+[10.032s]       self.base_type = BaseType(
+[10.035s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[10.037s]       raise InvalidResourceName(
+[10.040s] 
+[10.043s]   rosidl_adapter.parser.InvalidResourceName: 'getfullname_Request' is an
+[10.049s]   invalid message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[10.052s] 
+[10.055s] Call Stack (most recent call first):
+[10.057s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[10.060s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[10.063s] 
+[10.065s] [0m
+[10.068s] -- Configuring incomplete, errors occurred!
+[10.071s] See also "/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message/CMakeFiles/CMakeOutput.log".
+[10.073s] Invoked command in '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/build/full_name_message' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex09/full_name_message/install/full_name_message

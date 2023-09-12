@@ -1,0 +1,672 @@
+[0.208s] Invoking command in '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/build/text_to_cmd_vel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/build/text_to_cmd_vel -- -j16 -l16
+[0.559s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.008s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[1.391s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.395s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.406s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.446s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.491s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.597s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.620s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[12.112s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.284s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[12.329s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[47.605s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[47.608s] -- Configured cppcheck include dirs: 
+[47.611s] -- Configured cppcheck exclude dirs and/or files: 
+[52.878s] -- Added test 'flake8' to check Python code syntax and style conventions
+[62.039s] -- Added test 'lint_cmake' to check CMake code style
+[66.634s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[105.665s] -- Added test 'uncrustify' to check C / C++ code style
+[105.668s] -- Configured uncrustify additional arguments: 
+[110.566s] -- Added test 'xmllint' to check XML markup files
+[110.802s] -- Configuring done
+[111.784s] -- Generating done
+[111.999s] -- Build files have been written to: /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/build/text_to_cmd_vel
+[112.220s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[112.303s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[113.380s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[115.702s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[115.706s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:36:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubsriber_[m[K’ was not declared in this scope
+[115.709s]    36 |     [01;31m[Ksubsriber_[m[K = this->
+[115.713s]       |     [01;31m[K^~~~~~~~~~[m[K
+[115.722s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[115.725s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:23:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+[115.729s]    46 |     if (message == std[01;31m[K:[m[Kstring("turn_right"))
+[115.733s]       |                       [01;31m[K^[m[K
+[115.738s]       |                       [32m[K::[m[K
+[115.741s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:17:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator==[m[K’ (operand types are ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ and ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’})
+[115.744s]    46 |     if ([32m[Kmessage[m[K [01;31m[K==[m[K std:[34m[Kstring("turn_right")[m[K)
+[115.747s]       |         [32m[K~~~~~~~[m[K [01;31m[K^~[m[K     [34m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[115.750s]       |         [32m[K|[m[K              [34m[K|[m[K
+[115.753s]       |         [32m[K|[m[K              [34m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[115.757s]       |         [32m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K
+[115.760s] In file included from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp:7[m[K,
+[115.763s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:21[m[K:
+[115.766s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:108:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std_msgs::msg::String_<ContainerAllocator>::operator==(const std_msgs::msg::String_<ContainerAllocator>&) const [with ContainerAllocator = std::allocator<void>][m[K’
+[115.768s]   108 |   bool [01;36m[Koperator[m[K==(const String_ & other) const
+[115.771s]       |        [01;36m[K^~~~~~~~[m[K
+[115.773s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:108:35:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >&[m[K’
+[115.776s]   108 |   bool operator==([01;36m[Kconst String_ & other[m[K) const
+[115.779s]       |                   [01;36m[K~~~~~~~~~~~~~~~~^~~~~[m[K
+[115.781s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[115.784s]                  from [01m[K/usr/include/c++/11/array:40[m[K,
+[115.787s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[115.790s]                  from [01m[K/usr/include/c++/11/functional:54[m[K,
+[115.793s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:16[m[K:
+[115.795s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1155:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)[m[K’
+[115.798s]  1155 |     [01;36m[Koperator[m[K==(const __normal_iterator<_IteratorL, _Container>& __lhs,
+[115.800s]       |     [01;36m[K^~~~~~~~[m[K
+[115.803s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1155:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[115.806s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst __gnu_cxx::__normal_iterator<_IteratorL, _Container>[m[K’
+[115.808s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[115.811s]       |                                           [01;36m[K^[m[K
+[115.814s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[115.816s]                  from [01m[K/usr/include/c++/11/array:40[m[K,
+[115.819s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[115.821s]                  from [01m[K/usr/include/c++/11/functional:54[m[K,
+[115.823s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:16[m[K:
+[115.826s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1163:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)[m[K’
+[115.828s]  1163 |     [01;36m[Koperator[m[K==(const __normal_iterator<_Iterator, _Container>& __lhs,
+[115.830s]       |     [01;36m[K^~~~~~~~[m[K
+[115.832s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1163:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[115.834s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst __gnu_cxx::__normal_iterator<_Iterator, _Container>[m[K’
+[115.836s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[115.839s]       |                                           [01;36m[K^[m[K
+[115.841s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+[115.844s]                  from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+[115.846s]                  from [01m[K/usr/include/c++/11/unordered_map:40[m[K,
+[115.848s]                  from [01m[K/usr/include/c++/11/functional:61[m[K,
+[115.850s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:16[m[K:
+[115.852s] [01m[K/usr/include/c++/11/ext/new_allocator.h:183:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Up> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<char>&, const __gnu_cxx::new_allocator<_Tp>&)[m[K’
+[115.854s]   183 |         [01;36m[Koperator[m[K==(const new_allocator&, const new_allocator<_Up>&)
+[115.857s]       |         [01;36m[K^~~~~~~~[m[K
+[115.860s] [01m[K/usr/include/c++/11/ext/new_allocator.h:183:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[115.863s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst __gnu_cxx::new_allocator<_Tp>[m[K’
+[115.865s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[115.868s]       |                                           [01;36m[K^[m[K
+[115.870s] In file included from [01m[K/usr/include/c++/11/utility:70[m[K,
+[115.873s]                  from [01m[K/usr/include/c++/11/tuple:38[m[K,
+[115.876s]                  from [01m[K/usr/include/c++/11/functional:54[m[K,
+[115.879s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:16[m[K:
+[115.882s] [01m[K/usr/include/c++/11/bits/stl_pair.h:466:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _T1, class _T2> constexpr bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)[m[K’
+[115.884s]   466 |     [01;36m[Koperator[m[K==(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+[115.887s]       |     [01;36m[K^~~~~~~~[m[K
+[115.890s] [01m[K/usr/include/c++/11/bits/stl_pair.h:466:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[115.893s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::pair<_T1, _T2>[m[K’
+[115.895s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[115.898s]       |                                           [01;36m[K^[m[K
+[115.900s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[115.902s]                  from [01m[K/usr/include/c++/11/array:40[m[K,
+[115.904s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[115.907s]                  from [01m[K/usr/include/c++/11/functional:54[m[K,
+[115.910s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:16[m[K:
+[115.912s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:420:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)[m[K’
+[115.914s]   420 |     [01;36m[Koperator[m[K==(const reverse_iterator<_Iterator>& __x,
+[115.917s]       |     [01;36m[K^~~~~~~~[m[K
+[115.918s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:420:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[115.920s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+[115.922s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[115.924s]       |                                           [01;36m[K^[m[K
+[115.926s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[115.928s]                  from [01m[K/usr/include/c++/11/array:40[m[K,
+[115.930s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[115.932s]                  from [01m[K/usr/include/c++/11/functional:54[m[K,
+[115.934s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:16[m[K:
+[115.936s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:459:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)[m[K’
+[115.939s]   459 |     [01;36m[Koperator[m[K==(const reverse_iterator<_IteratorL>& __x,
+[115.942s]       |     [01;36m[K^~~~~~~~[m[K
+[115.946s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:459:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[115.948s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+[115.951s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[115.954s]       |                                           [01;36m[K^[m[K
+[115.957s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[115.960s]                  from [01m[K/usr/include/c++/11/array:40[m[K,
+[115.963s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[115.966s]                  from [01m[K/usr/include/c++/11/functional:54[m[K,
+[115.969s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:16[m[K:
+[115.972s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1585:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)[m[K’
+[115.975s]  1585 |     [01;36m[Koperator[m[K==(const move_iterator<_IteratorL>& __x,
+[115.978s]       |     [01;36m[K^~~~~~~~[m[K
+[115.981s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1585:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[115.983s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+[115.986s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[115.989s]       |                                           [01;36m[K^[m[K
+[115.992s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[115.995s]                  from [01m[K/usr/include/c++/11/array:40[m[K,
+[115.997s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[116.000s]                  from [01m[K/usr/include/c++/11/functional:54[m[K,
+[116.003s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:16[m[K:
+[116.005s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1648:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&)[m[K’
+[116.009s]  1648 |     [01;36m[Koperator[m[K==(const move_iterator<_Iterator>& __x,
+[116.012s]       |     [01;36m[K^~~~~~~~[m[K
+[116.015s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1648:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[116.018s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+[116.021s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[116.023s]       |                                           [01;36m[K^[m[K
+[116.026s] In file included from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[116.029s]                  from [01m[K/usr/include/c++/11/functional:54[m[K,
+[116.031s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:16[m[K:
+[116.034s] [01m[K/usr/include/c++/11/array:276:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, long unsigned int _Nm> bool std::operator==(const std::array<_Tp, _Nm>&, const std::array<_Tp, _Nm>&)[m[K’
+[116.037s]   276 |     [01;36m[Koperator[m[K==(const array<_Tp, _Nm>& __one, const array<_Tp, _Nm>& __two)
+[116.040s]       |     [01;36m[K^~~~~~~~[m[K
+[116.043s] [01m[K/usr/include/c++/11/array:276:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[116.045s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::array<_Tp, _Nm>[m[K’
+[116.048s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[116.051s]       |                                           [01;36m[K^[m[K
+[116.053s] In file included from [01m[K/usr/include/c++/11/functional:54[m[K,
+[116.056s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:16[m[K:
+[116.060s] [01m[K/usr/include/c++/11/tuple:1524:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... _TElements, class ... _UElements> constexpr bool std::operator==(const std::tuple<_Tps ...>&, const std::tuple<_UTypes ...>&)[m[K’
+[116.063s]  1524 |     [01;36m[Koperator[m[K==(const tuple<_TElements...>& __t,
+[116.065s]       |     [01;36m[K^~~~~~~~[m[K
+[116.068s] [01m[K/usr/include/c++/11/tuple:1524:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[116.071s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::tuple<_Tps ...>[m[K’
+[116.074s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[116.076s]       |                                           [01;36m[K^[m[K
+[116.079s] In file included from [01m[K/usr/include/c++/11/functional:59[m[K,
+[116.082s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:16[m[K:
+[116.085s] [01m[K/usr/include/c++/11/bits/std_function.h:718:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Res, class ... _Args> bool std::operator==(const std::function<_Res(_ArgTypes ...)>&, std::nullptr_t)[m[K’
+[116.088s]   718 |     [01;36m[Koperator[m[K==(const function<_Res(_Args...)>& __f, nullptr_t) noexcept
+[116.091s]       |     [01;36m[K^~~~~~~~[m[K
+[116.093s] [01m[K/usr/include/c++/11/bits/std_function.h:718:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[116.096s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::function<_Res(_ArgTypes ...)>[m[K’
+[116.099s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[116.102s]       |                                           [01;36m[K^[m[K
+[116.105s] In file included from [01m[K/usr/include/c++/11/functional:59[m[K,
+[116.107s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:16[m[K:
+[116.111s] [01m[K/usr/include/c++/11/bits/std_function.h:725:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Res, class ... _Args> bool std::operator==(std::nullptr_t, const std::function<_Res(_ArgTypes ...)>&)[m[K’
+[116.113s]   725 |     [01;36m[Koperator[m[K==(nullptr_t, const function<_Res(_Args...)>& __f) noexcept
+[116.116s]       |     [01;36m[K^~~~~~~~[m[K
+[116.119s] [01m[K/usr/include/c++/11/bits/std_function.h:725:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[116.122s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::function<_Res(_ArgTypes ...)>[m[K’
+[116.125s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[116.128s]       |                                           [01;36m[K^[m[K
+[116.131s] In file included from [01m[K/usr/include/c++/11/unordered_map:40[m[K,
+[116.133s]                  from [01m[K/usr/include/c++/11/functional:61[m[K,
+[116.136s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:16[m[K:
+[116.139s] [01m[K/usr/include/c++/11/bits/allocator.h:218:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _T1, class _T2> bool std::operator==(const std::allocator<_Tp1>&, const std::allocator<_T2>&)[m[K’
+[116.142s]   218 |     [01;36m[Koperator[m[K==(const allocator<_T1>&, const allocator<_T2>&)
+[116.145s]       |     [01;36m[K^~~~~~~~[m[K
+[116.147s] [01m[K/usr/include/c++/11/bits/allocator.h:218:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[116.150s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::allocator<_Tp1>[m[K’
+[116.152s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[116.155s]       |                                           [01;36m[K^[m[K
+[116.158s] In file included from [01m[K/usr/include/c++/11/unordered_map:47[m[K,
+[116.161s]                  from [01m[K/usr/include/c++/11/functional:61[m[K,
+[116.164s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:16[m[K:
+[116.166s] [01m[K/usr/include/c++/11/bits/unordered_map.h:2134:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key1, class _Tp1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+[116.170s]  2134 |     [01;36m[Koperator[m[K==(const unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,
+[116.172s]       |     [01;36m[K^~~~~~~~[m[K
+[116.175s] [01m[K/usr/include/c++/11/bits/unordered_map.h:2134:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[116.179s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>[m[K’
+[116.181s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[116.184s]       |                                           [01;36m[K^[m[K
+[116.187s] In file included from [01m[K/usr/include/c++/11/unordered_map:47[m[K,
+[116.190s]                  from [01m[K/usr/include/c++/11/functional:61[m[K,
+[116.193s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:16[m[K:
+[116.195s] [01m[K/usr/include/c++/11/bits/unordered_map.h:2148:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key1, class _Tp1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+[116.198s]  2148 |     [01;36m[Koperator[m[K==(const unordered_multimap<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,
+[116.200s]       |     [01;36m[K^~~~~~~~[m[K
+[116.203s] [01m[K/usr/include/c++/11/bits/unordered_map.h:2148:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[116.205s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>[m[K’
+[116.209s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[116.212s]       |                                           [01;36m[K^[m[K
+[116.215s] In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+[116.218s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[116.221s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:16[m[K:
+[116.223s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1892:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)[m[K’
+[116.226s]  1892 |     [01;36m[Koperator[m[K==(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)
+[116.229s]       |     [01;36m[K^~~~~~~~[m[K
+[116.232s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1892:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[116.235s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::vector<_Tp, _Alloc>[m[K’
+[116.237s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[116.240s]       |                                           [01;36m[K^[m[K
+[116.243s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[116.246s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:17[m[K:
+[116.248s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:753:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp, class _Up, class _Ep> bool std::operator==(const std::unique_ptr<_Tp, _Dp>&, const std::unique_ptr<_Up, _Ep>&)[m[K’
+[116.251s]   753 |     [01;36m[Koperator[m[K==(const unique_ptr<_Tp, _Dp>& __x,
+[116.253s]       |     [01;36m[K^~~~~~~~[m[K
+[116.256s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:753:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[116.259s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’
+[116.262s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[116.264s]       |                                           [01;36m[K^[m[K
+[116.267s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[116.269s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:17[m[K:
+[116.273s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:760:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp> bool std::operator==(const std::unique_ptr<_Tp, _Dp>&, std::nullptr_t)[m[K’
+[116.276s]   760 |     [01;36m[Koperator[m[K==(const unique_ptr<_Tp, _Dp>& __x, nullptr_t) noexcept
+[116.278s]       |     [01;36m[K^~~~~~~~[m[K
+[116.281s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:760:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[116.284s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’
+[116.286s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[116.290s]       |                                           [01;36m[K^[m[K
+[116.292s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[116.295s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:17[m[K:
+[116.298s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:767:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp> bool std::operator==(std::nullptr_t, const std::unique_ptr<_Tp, _Dp>&)[m[K’
+[116.300s]   767 |     [01;36m[Koperator[m[K==(nullptr_t, const unique_ptr<_Tp, _Dp>& __x) noexcept
+[116.302s]       |     [01;36m[K^~~~~~~~[m[K
+[116.305s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:767:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[116.308s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’
+[116.311s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[116.314s]       |                                           [01;36m[K^[m[K
+[116.317s] In file included from [01m[K/usr/include/c++/11/iosfwd:40[m[K,
+[116.320s]                  from [01m[K/usr/include/c++/11/bits/shared_ptr.h:52[m[K,
+[116.323s]                  from [01m[K/usr/include/c++/11/memory:77[m[K,
+[116.326s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:17[m[K:
+[116.328s] [01m[K/usr/include/c++/11/bits/postypes.h:222:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)[m[K’
+[116.331s]   222 |     [01;36m[Koperator[m[K==(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)
+[116.334s]       |     [01;36m[K^~~~~~~~[m[K
+[116.337s] [01m[K/usr/include/c++/11/bits/postypes.h:222:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[116.341s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::fpos<_StateT>[m[K’
+[116.344s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[116.347s]       |                                           [01;36m[K^[m[K
+[116.350s] In file included from [01m[K/usr/include/c++/11/bits/shared_ptr.h:53[m[K,
+[116.353s]                  from [01m[K/usr/include/c++/11/memory:77[m[K,
+[116.356s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:17[m[K:
+[116.359s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1410:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp1, class _Tp2, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(const std::__shared_ptr<_Tp1, _Lp>&, const std::__shared_ptr<_Tp2, _Lp>&)[m[K’
+[116.362s]  1410 |     [01;36m[Koperator[m[K==(const __shared_ptr<_Tp1, _Lp>& __a,
+[116.365s]       |     [01;36m[K^~~~~~~~[m[K
+[116.368s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1410:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[116.370s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::__shared_ptr<_Tp1, _Lp>[m[K’
+[116.373s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[116.376s]       |                                           [01;36m[K^[m[K
+[116.379s] In file included from [01m[K/usr/include/c++/11/bits/shared_ptr.h:53[m[K,
+[116.381s]                  from [01m[K/usr/include/c++/11/memory:77[m[K,
+[116.384s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:17[m[K:
+[116.387s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1416:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(const std::__shared_ptr<_Tp, _Lp>&, std::nullptr_t)[m[K’
+[116.389s]  1416 |     [01;36m[Koperator[m[K==(const __shared_ptr<_Tp, _Lp>& __a, nullptr_t) noexcept
+[116.392s]       |     [01;36m[K^~~~~~~~[m[K
+[116.395s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1416:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[116.397s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::__shared_ptr<_Tp, _Lp>[m[K’
+[116.400s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[116.403s]       |                                           [01;36m[K^[m[K
+[116.406s] In file included from [01m[K/usr/include/c++/11/bits/shared_ptr.h:53[m[K,
+[116.409s]                  from [01m[K/usr/include/c++/11/memory:77[m[K,
+[116.412s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:17[m[K:
+[116.416s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1436:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(std::nullptr_t, const std::__shared_ptr<_Tp, _Lp>&)[m[K’
+[116.419s]  1436 |     [01;36m[Koperator[m[K==(nullptr_t, const __shared_ptr<_Tp, _Lp>& __a) noexcept
+[116.422s]       |     [01;36m[K^~~~~~~~[m[K
+[116.425s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1436:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[116.428s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::__shared_ptr<_Tp, _Lp>[m[K’
+[116.431s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[116.433s]       |                                           [01;36m[K^[m[K
+[116.436s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[116.439s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:17[m[K:
+[116.441s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:437:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> bool std::operator==(const std::shared_ptr<_Tp>&, const std::shared_ptr<_Tp>&)[m[K’
+[116.444s]   437 |     [01;36m[Koperator[m[K==(const shared_ptr<_Tp>& __a, const shared_ptr<_Up>& __b) noexcept
+[116.447s]       |     [01;36m[K^~~~~~~~[m[K
+[116.450s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:437:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[116.453s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’
+[116.455s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[116.458s]       |                                           [01;36m[K^[m[K
+[116.461s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[116.464s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:17[m[K:
+[116.466s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:443:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> bool std::operator==(const std::shared_ptr<_Tp>&, std::nullptr_t)[m[K’
+[116.469s]   443 |     [01;36m[Koperator[m[K==(const shared_ptr<_Tp>& __a, nullptr_t) noexcept
+[116.472s]       |     [01;36m[K^~~~~~~~[m[K
+[116.475s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:443:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[116.478s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’
+[116.481s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[116.483s]       |                                           [01;36m[K^[m[K
+[116.486s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[116.489s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:17[m[K:
+[116.492s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:464:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> bool std::operator==(std::nullptr_t, const std::shared_ptr<_Tp>&)[m[K’
+[116.495s]   464 |     [01;36m[Koperator[m[K==(nullptr_t, const shared_ptr<_Tp>& __a) noexcept
+[116.497s]       |     [01;36m[K^~~~~~~~[m[K
+[116.500s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:464:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[116.502s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’
+[116.505s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[116.507s]       |                                           [01;36m[K^[m[K
+[116.510s] In file included from [01m[K/usr/include/c++/11/bits/basic_string.h:48[m[K,
+[116.513s]                  from [01m[K/usr/include/c++/11/string:55[m[K,
+[116.516s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:18[m[K:
+[116.518s] [01m[K/usr/include/c++/11/string_view:535:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator==(std::basic_string_view<_CharT, _Traits>, std::basic_string_view<_CharT, _Traits>)[m[K’
+[116.521s]   535 |     [01;36m[Koperator[m[K==(basic_string_view<_CharT, _Traits> __x,
+[116.524s]       |     [01;36m[K^~~~~~~~[m[K
+[116.526s] [01m[K/usr/include/c++/11/string_view:535:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[116.529s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’
+[116.532s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[116.535s]       |                                           [01;36m[K^[m[K
+[116.537s] In file included from [01m[K/usr/include/c++/11/bits/basic_string.h:48[m[K,
+[116.540s]                  from [01m[K/usr/include/c++/11/string:55[m[K,
+[116.543s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:18[m[K:
+[116.546s] [01m[K/usr/include/c++/11/string_view:541:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator==(std::basic_string_view<_CharT, _Traits>, std::__type_identity_t<std::basic_string_view<_CharT, _Traits> >)[m[K’
+[116.549s]   541 |     [01;36m[Koperator[m[K==(basic_string_view<_CharT, _Traits> __x,
+[116.552s]       |     [01;36m[K^~~~~~~~[m[K
+[116.554s] [01m[K/usr/include/c++/11/string_view:541:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[116.557s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’
+[116.560s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[116.562s]       |                                           [01;36m[K^[m[K
+[116.565s] In file included from [01m[K/usr/include/c++/11/bits/basic_string.h:48[m[K,
+[116.567s]                  from [01m[K/usr/include/c++/11/string:55[m[K,
+[116.570s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:18[m[K:
+[116.573s] [01m[K/usr/include/c++/11/string_view:564:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator==(std::__type_identity_t<std::basic_string_view<_CharT, _Traits> >, std::basic_string_view<_CharT, _Traits>)[m[K’
+[116.576s]   564 |     [01;36m[Koperator[m[K==(__type_identity_t<basic_string_view<_CharT, _Traits>> __x,
+[116.579s]       |     [01;36m[K^~~~~~~~[m[K
+[116.581s] [01m[K/usr/include/c++/11/string_view:564:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[116.584s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ is not derived from ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’
+[116.587s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[116.590s]       |                                           [01;36m[K^[m[K
+[116.593s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[116.595s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:18[m[K:
+[116.598s] [01m[K/usr/include/c++/11/bits/basic_string.h:6226:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[116.600s]  6226 |     [01;36m[Koperator[m[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+[116.604s]       |     [01;36m[K^~~~~~~~[m[K
+[116.607s] [01m[K/usr/include/c++/11/bits/basic_string.h:6226:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[116.609s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+[116.612s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[116.614s]       |                                           [01;36m[K^[m[K
+[116.617s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[116.620s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:18[m[K:
+[116.623s] [01m[K/usr/include/c++/11/bits/basic_string.h:6234:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::__cxx11::basic_string<_CharT>&, const std::__cxx11::basic_string<_CharT>&)[m[K’
+[116.626s]  6234 |     [01;36m[Koperator[m[K==(const basic_string<_CharT>& __lhs,
+[116.628s]       |     [01;36m[K^~~~~~~~[m[K
+[116.631s] [01m[K/usr/include/c++/11/bits/basic_string.h:6234:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[116.633s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT>[m[K’
+[116.636s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[116.638s]       |                                           [01;36m[K^[m[K
+[116.641s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[116.643s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:18[m[K:
+[116.646s] [01m[K/usr/include/c++/11/bits/basic_string.h:6248:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)[m[K’
+[116.648s]  6248 |     [01;36m[Koperator[m[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+[116.651s]       |     [01;36m[K^~~~~~~~[m[K
+[116.654s] [01m[K/usr/include/c++/11/bits/basic_string.h:6248:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[116.656s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+[116.659s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[116.662s]       |                                           [01;36m[K^[m[K
+[116.664s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[116.667s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:18[m[K:
+[116.669s] [01m[K/usr/include/c++/11/bits/basic_string.h:6289:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[116.672s]  6289 |     [01;36m[Koperator[m[K==(const _CharT* __lhs,
+[116.675s]       |     [01;36m[K^~~~~~~~[m[K
+[116.677s] [01m[K/usr/include/c++/11/bits/basic_string.h:6289:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[116.680s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’
+[116.682s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[116.686s]       |                                           [01;36m[K^[m[K
+[116.689s] In file included from [01m[K/usr/include/c++/11/set:61[m[K,
+[116.691s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:21[m[K,
+[116.694s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[116.697s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[116.700s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:20[m[K:
+[116.702s] [01m[K/usr/include/c++/11/bits/stl_set.h:985:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator==(const std::set<_Key, _Compare, _Allocator>&, const std::set<_Key, _Compare, _Allocator>&)[m[K’
+[116.705s]   985 |     [01;36m[Koperator[m[K==(const set<_Key, _Compare, _Alloc>& __x,
+[116.708s]       |     [01;36m[K^~~~~~~~[m[K
+[116.711s] [01m[K/usr/include/c++/11/bits/stl_set.h:985:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[116.714s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::set<_Key, _Compare, _Allocator>[m[K’
+[116.717s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[116.720s]       |                                           [01;36m[K^[m[K
+[116.723s] In file included from [01m[K/usr/include/c++/11/set:62[m[K,
+[116.726s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:21[m[K,
+[116.729s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[116.732s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[116.735s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:20[m[K:
+[116.738s] [01m[K/usr/include/c++/11/bits/stl_multiset.h:971:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator==(const std::multiset<_Key, _Compare, _Allocator>&, const std::multiset<_Key, _Compare, _Allocator>&)[m[K’
+[116.741s]   971 |     [01;36m[Koperator[m[K==(const multiset<_Key, _Compare, _Alloc>& __x,
+[116.744s]       |     [01;36m[K^~~~~~~~[m[K
+[116.746s] [01m[K/usr/include/c++/11/bits/stl_multiset.h:971:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[116.750s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::multiset<_Key, _Compare, _Allocator>[m[K’
+[116.753s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[116.756s]       |                                           [01;36m[K^[m[K
+[116.760s] In file included from [01m[K/usr/include/c++/11/bits/locale_facets.h:48[m[K,
+[116.763s]                  from [01m[K/usr/include/c++/11/bits/basic_ios.h:37[m[K,
+[116.766s]                  from [01m[K/usr/include/c++/11/ios:44[m[K,
+[116.769s]                  from [01m[K/usr/include/c++/11/ostream:38[m[K,
+[116.772s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[116.775s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+[116.778s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[116.781s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[116.783s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[116.786s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:20[m[K:
+[116.788s] [01m[K/usr/include/c++/11/bits/streambuf_iterator.h:226:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)[m[K’
+[116.791s]   226 |     [01;36m[Koperator[m[K==(const istreambuf_iterator<_CharT, _Traits>& __a,
+[116.793s]       |     [01;36m[K^~~~~~~~[m[K
+[116.796s] [01m[K/usr/include/c++/11/bits/streambuf_iterator.h:226:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[116.799s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::istreambuf_iterator<_CharT, _Traits>[m[K’
+[116.802s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[116.805s]       |                                           [01;36m[K^[m[K
+[116.808s] In file included from [01m[K/usr/include/c++/11/list:63[m[K,
+[116.810s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:23[m[K,
+[116.813s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[116.816s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[116.819s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[116.822s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:20[m[K:
+[116.824s] [01m[K/usr/include/c++/11/bits/stl_list.h:2030:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> bool std::operator==(const std::__cxx11::list<_Tp, _Alloc>&, const std::__cxx11::list<_Tp, _Alloc>&)[m[K’
+[116.827s]  2030 |     [01;36m[Koperator[m[K==(const list<_Tp, _Alloc>& __x, const list<_Tp, _Alloc>& __y)
+[116.829s]       |     [01;36m[K^~~~~~~~[m[K
+[116.831s] [01m[K/usr/include/c++/11/bits/stl_list.h:2030:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[116.834s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::list<_Tp, _Alloc>[m[K’
+[116.836s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[116.838s]       |                                           [01;36m[K^[m[K
+[116.841s] In file included from [01m[K/usr/include/c++/11/map:61[m[K,
+[116.843s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:24[m[K,
+[116.846s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[116.848s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[116.851s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[116.853s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:20[m[K:
+[116.856s] [01m[K/usr/include/c++/11/bits/stl_map.h:1463:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator==(const std::map<_Key, _Tp, _Compare, _Allocator>&, const std::map<_Key, _Tp, _Compare, _Allocator>&)[m[K’
+[116.858s]  1463 |     [01;36m[Koperator[m[K==(const map<_Key, _Tp, _Compare, _Alloc>& __x,
+[116.861s]       |     [01;36m[K^~~~~~~~[m[K
+[116.864s] [01m[K/usr/include/c++/11/bits/stl_map.h:1463:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[116.867s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::map<_Key, _Tp, _Compare, _Allocator>[m[K’
+[116.869s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[116.872s]       |                                           [01;36m[K^[m[K
+[116.874s] In file included from [01m[K/usr/include/c++/11/map:62[m[K,
+[116.877s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:24[m[K,
+[116.880s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[116.883s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[116.886s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[116.890s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:20[m[K:
+[116.893s] [01m[K/usr/include/c++/11/bits/stl_multimap.h:1128:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator==(const std::multimap<_Key, _Tp, _Compare, _Allocator>&, const std::multimap<_Key, _Tp, _Compare, _Allocator>&)[m[K’
+[116.896s]  1128 |     [01;36m[Koperator[m[K==(const multimap<_Key, _Tp, _Compare, _Alloc>& __x,
+[116.899s]       |     [01;36m[K^~~~~~~~[m[K
+[116.902s] [01m[K/usr/include/c++/11/bits/stl_multimap.h:1128:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[116.904s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::multimap<_Key, _Tp, _Compare, _Allocator>[m[K’
+[116.908s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[116.910s]       |                                           [01;36m[K^[m[K
+[116.913s] In file included from [01m[K/usr/include/c++/11/unordered_set:47[m[K,
+[116.915s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/context.hpp:26[m[K,
+[116.918s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:34[m[K,
+[116.920s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[116.924s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[116.926s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[116.929s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:20[m[K:
+[116.932s] [01m[K/usr/include/c++/11/bits/unordered_set.h:1804:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Value1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+[116.940s]  1804 |     [01;36m[Koperator[m[K==(const unordered_set<_Value, _Hash, _Pred, _Alloc>& __x,
+[116.945s]       |     [01;36m[K^~~~~~~~[m[K
+[116.948s] [01m[K/usr/include/c++/11/bits/unordered_set.h:1804:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[116.951s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>[m[K’
+[116.954s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[116.957s]       |                                           [01;36m[K^[m[K
+[116.960s] In file included from [01m[K/usr/include/c++/11/unordered_set:47[m[K,
+[116.963s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/context.hpp:26[m[K,
+[116.968s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:34[m[K,
+[116.973s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[116.978s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[116.981s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[116.984s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:20[m[K:
+[116.988s] [01m[K/usr/include/c++/11/bits/unordered_set.h:1818:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Value1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+[116.990s]  1818 |     [01;36m[Koperator[m[K==(const unordered_multiset<_Value, _Hash, _Pred, _Alloc>& __x,
+[116.994s]       |     [01;36m[K^~~~~~~~[m[K
+[116.997s] [01m[K/usr/include/c++/11/bits/unordered_set.h:1818:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[117.005s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>[m[K’
+[117.011s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[117.014s]       |                                           [01;36m[K^[m[K
+[117.017s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23[m[K,
+[117.020s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[117.023s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[117.027s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[117.029s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[117.033s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[117.036s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[117.039s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[117.041s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[117.044s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[117.046s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:20[m[K:
+[117.049s] [01m[K/usr/include/c++/11/optional:1045:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Tp, _Up> std::operator==(const std::optional<_Tp>&, const std::optional<_Up>&)[m[K’
+[117.051s]  1045 |     [01;36m[Koperator[m[K==(const optional<_Tp>& __lhs, const optional<_Up>& __rhs)
+[117.054s]       |     [01;36m[K^~~~~~~~[m[K
+[117.057s] [01m[K/usr/include/c++/11/optional:1045:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[117.060s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+[117.062s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[117.065s]       |                                           [01;36m[K^[m[K
+[117.068s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23[m[K,
+[117.070s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[117.073s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[117.075s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[117.078s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[117.081s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[117.085s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[117.088s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[117.090s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[117.093s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[117.096s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:20[m[K:
+[117.098s] [01m[K/usr/include/c++/11/optional:1105:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr bool std::operator==(const std::optional<_Tp>&, std::nullopt_t)[m[K’
+[117.101s]  1105 |     [01;36m[Koperator[m[K==(const optional<_Tp>& __lhs, nullopt_t) noexcept
+[117.104s]       |     [01;36m[K^~~~~~~~[m[K
+[117.106s] [01m[K/usr/include/c++/11/optional:1105:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[117.109s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+[117.111s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[117.115s]       |                                           [01;36m[K^[m[K
+[117.118s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23[m[K,
+[117.121s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[117.125s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[117.129s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[117.132s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[117.135s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[117.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[117.140s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[117.142s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[117.146s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[117.148s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:20[m[K:
+[117.151s] [01m[K/usr/include/c++/11/optional:1116:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr bool std::operator==(std::nullopt_t, const std::optional<_Tp>&)[m[K’
+[117.153s]  1116 |     [01;36m[Koperator[m[K==(nullopt_t, const optional<_Tp>& __rhs) noexcept
+[117.156s]       |     [01;36m[K^~~~~~~~[m[K
+[117.159s] [01m[K/usr/include/c++/11/optional:1116:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[117.162s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+[117.164s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[117.166s]       |                                           [01;36m[K^[m[K
+[117.170s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23[m[K,
+[117.176s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[117.182s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[117.184s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[117.187s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[117.189s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[117.192s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[117.194s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[117.201s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[117.208s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[117.215s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:20[m[K:
+[117.221s] [01m[K/usr/include/c++/11/optional:1173:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Tp, _Up> std::operator==(const std::optional<_Tp>&, const _Up&)[m[K’
+[117.224s]  1173 |     [01;36m[Koperator[m[K==(const optional<_Tp>& __lhs, const _Up& __rhs)
+[117.227s]       |     [01;36m[K^~~~~~~~[m[K
+[117.233s] [01m[K/usr/include/c++/11/optional:1173:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[117.238s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+[117.242s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[117.245s]       |                                           [01;36m[K^[m[K
+[117.248s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23[m[K,
+[117.251s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[117.254s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[117.258s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[117.262s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[117.264s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[117.267s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[117.270s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[117.272s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[117.275s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[117.277s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:20[m[K:
+[117.280s] [01m[K/usr/include/c++/11/optional:1179:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Up, _Tp> std::operator==(const _Up&, const std::optional<_Tp>&)[m[K’
+[117.282s]  1179 |     [01;36m[Koperator[m[K==(const _Up& __lhs, const optional<_Tp>& __rhs)
+[117.284s]       |     [01;36m[K^~~~~~~~[m[K
+[117.287s] [01m[K/usr/include/c++/11/optional:1179:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[117.289s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+[117.292s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[117.294s]       |                                           [01;36m[K^[m[K
+[117.296s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28[m[K,
+[117.299s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[117.301s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[117.303s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[117.306s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[117.309s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[117.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[117.316s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[117.319s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[117.321s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[117.323s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:20[m[K:
+[117.326s] [01m[K/usr/include/c++/11/variant:1232:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... _Types> constexpr bool std::operator==(const std::variant<_Types ...>&, const std::variant<_Types ...>&)[m[K’
+[117.328s]  1232 |   [01;36m[K_VARIANT_RELATION_FUNCTION_TEMPLATE[m[K(==, equal)
+[117.332s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[117.334s] [01m[K/usr/include/c++/11/variant:1232:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[117.337s] [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:46:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::variant<_Types ...>[m[K’
+[117.340s]    46 |     if (message == std:string("turn_right"[01;36m[K)[m[K)
+[117.343s]       |                                           [01;36m[K^[m[K
+[117.345s] In file included from [01m[K/usr/include/c++/11/unordered_map:40[m[K,
+[117.348s]                  from [01m[K/usr/include/c++/11/functional:61[m[K,
+[117.352s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:16[m[K:
+[117.354s] [01m[K/usr/include/c++/11/bits/allocator.h:204:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::allocator<char>&, const std::allocator<char>&)[m[K’
+[117.357s]   204 |       [01;36m[Koperator[m[K==(const allocator&, const allocator&) _GLIBCXX_NOTHROW
+[117.360s]       |       [01;36m[K^~~~~~~~[m[K
+[117.363s] [01m[K/usr/include/c++/11/bits/allocator.h:204:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ to ‘[01m[Kconst std::allocator<char>&[m[K’
+[117.366s]   204 |       operator==([01;36m[Kconst allocator&[m[K, const allocator&) _GLIBCXX_NOTHROW
+[117.369s]       |                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[117.371s] In file included from [01m[K/usr/include/c++/11/mutex:42[m[K,
+[117.374s]                  from [01m[K/usr/include/c++/11/future:38[m[K,
+[117.377s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[117.380s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[117.382s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:20[m[K:
+[117.385s] [01m[K/usr/include/c++/11/system_error:362:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::error_code&, const std::error_code&)[m[K’
+[117.388s]   362 |   [01;36m[Koperator[m[K==(const error_code& __lhs, const error_code& __rhs) noexcept
+[117.391s]       |   [01;36m[K^~~~~~~~[m[K
+[117.394s] [01m[K/usr/include/c++/11/system_error:362:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ to ‘[01m[Kconst std::error_code&[m[K’
+[117.396s]   362 |   operator==([01;36m[Kconst error_code& __lhs[m[K, const error_code& __rhs) noexcept
+[117.399s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[117.402s] [01m[K/usr/include/c++/11/system_error:368:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::error_code&, const std::error_condition&)[m[K’
+[117.404s]   368 |   [01;36m[Koperator[m[K==(const error_code& __lhs, const error_condition& __rhs) noexcept
+[117.406s]       |   [01;36m[K^~~~~~~~[m[K
+[117.409s] [01m[K/usr/include/c++/11/system_error:368:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ to ‘[01m[Kconst std::error_code&[m[K’
+[117.412s]   368 |   operator==([01;36m[Kconst error_code& __lhs[m[K, const error_condition& __rhs) noexcept
+[117.415s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[117.418s] [01m[K/usr/include/c++/11/system_error:376:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::error_condition&, const std::error_condition&)[m[K’
+[117.420s]   376 |   [01;36m[Koperator[m[K==(const error_condition& __lhs,
+[117.423s]       |   [01;36m[K^~~~~~~~[m[K
+[117.426s] [01m[K/usr/include/c++/11/system_error:376:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ to ‘[01m[Kconst std::error_condition&[m[K’
+[117.429s]   376 |   operator==([01;36m[Kconst error_condition& __lhs[m[K,
+[117.432s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[117.434s] [01m[K/usr/include/c++/11/system_error:408:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::error_condition&, const std::error_code&)[m[K’
+[117.437s]   408 |   [01;36m[Koperator[m[K==(const error_condition& __lhs, const error_code& __rhs) noexcept
+[117.440s]       |   [01;36m[K^~~~~~~~[m[K
+[117.442s] [01m[K/usr/include/c++/11/system_error:408:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ to ‘[01m[Kconst std::error_condition&[m[K’
+[117.444s]   408 |   operator==([01;36m[Kconst error_condition& __lhs[m[K, const error_code& __rhs) noexcept
+[117.447s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[117.449s] In file included from [01m[K/usr/include/c++/11/future:48[m[K,
+[117.451s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[117.453s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[117.456s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:20[m[K:
+[117.458s] [01m[K/usr/include/c++/11/bits/std_thread.h:287:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(std::thread::id, std::thread::id)[m[K’
+[117.461s]   287 |   [01;36m[Koperator[m[K==(thread::id __x, thread::id __y) noexcept
+[117.463s]       |   [01;36m[K^~~~~~~~[m[K
+[117.466s] [01m[K/usr/include/c++/11/bits/std_thread.h:287:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ to ‘[01m[Kstd::thread::id[m[K’
+[117.468s]   287 |   operator==([01;36m[Kthread::id __x[m[K, thread::id __y) noexcept
+[117.471s]       |              [01;36m[K~~~~~~~~~~~^~~[m[K
+[117.473s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28[m[K,
+[117.476s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[117.479s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[117.482s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[117.485s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[117.488s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[117.491s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[117.494s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[117.496s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[117.499s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[117.501s]                  from [01m[K/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/text_to_cmd_vel/src/publisher_member_function.cpp:20[m[K:
+[117.504s] [01m[K/usr/include/c++/11/variant:1239:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr bool std::operator==(std::monostate, std::monostate)[m[K’
+[117.506s]  1239 |   constexpr bool [01;36m[Koperator[m[K==(monostate, monostate) noexcept { return true; }
+[117.508s]       |                  [01;36m[K^~~~~~~~[m[K
+[117.511s] [01m[K/usr/include/c++/11/variant:1239:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ to ‘[01m[Kstd::monostate[m[K’
+[117.514s]  1239 |   constexpr bool operator==([01;36m[Kmonostate[m[K, monostate) noexcept { return true; }
+[117.516s]       |                             [01;36m[K^~~~~~~~~[m[K
+[117.518s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[117.521s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+[117.523s] gmake[1]: *** Waiting for unfinished jobs....
+[126.841s] [ 75%] [32m[1mLinking CXX executable listener[0m
+[132.229s] [ 75%] Built target listener
+[132.233s] gmake: *** [Makefile:146: all] Error 2
+[132.236s] Invoked command in '/mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/build/text_to_cmd_vel' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/examples_rclpy_minimal_subscriber:/root/ros2_ws/install/examples_rclpy_minimal_service:/root/ros2_ws/install/examples_rclpy_minimal_publisher:/root/ros2_ws/install/examples_rclpy_minimal_client:/root/ros2_ws/install/examples_rclpy_minimal_action_server:/root/ros2_ws/install/examples_rclpy_minimal_action_client:/root/ros2_ws/install/examples_rclpy_guard_conditions:/root/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/game_/Desktop/Work/ROBOTECH/lab2/ex10/build/text_to_cmd_vel -- -j16 -l16

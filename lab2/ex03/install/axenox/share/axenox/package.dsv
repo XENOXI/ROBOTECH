@@ -1,0 +1,8 @@
+source;share/axenox/hook/cmake_prefix_path.ps1
+source;share/axenox/hook/cmake_prefix_path.dsv
+source;share/axenox/hook/cmake_prefix_path.sh
+source;share/axenox/local_setup.bash
+source;share/axenox/local_setup.dsv
+source;share/axenox/local_setup.ps1
+source;share/axenox/local_setup.sh
+source;share/axenox/local_setup.zsh

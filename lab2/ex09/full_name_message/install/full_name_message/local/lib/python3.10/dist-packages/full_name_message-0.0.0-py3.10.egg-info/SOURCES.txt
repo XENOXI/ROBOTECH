@@ -1,0 +1,8 @@
+setup.py
+full_name_message/__init__.py
+full_name_message.egg-info/PKG-INFO
+full_name_message.egg-info/SOURCES.txt
+full_name_message.egg-info/dependency_links.txt
+full_name_message.egg-info/top_level.txt
+full_name_message/srv/__init__.py
+full_name_message/srv/_get_full_name.py
