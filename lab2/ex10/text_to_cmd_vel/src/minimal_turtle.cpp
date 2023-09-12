@@ -46,7 +46,7 @@ private:
     if (msg.data=="turn_right")
       result.angular.set__z(-1.5);
     else if (msg.data == "turn_left")
-      result.angular.set__z(-1.5);
+      result.angular.set__z(1.5);
     else if (msg.data == "move_forward")
       result.linear.set__x(1);
     else if (msg.data == "move_backward")
