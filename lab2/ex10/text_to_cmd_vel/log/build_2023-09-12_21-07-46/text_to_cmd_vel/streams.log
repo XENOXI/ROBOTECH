@@ -1,0 +1,26 @@
+[0.026s] Invoking command in '/home/axenox/ros2_ws/src/text_to_cmd_vel/build/text_to_cmd_vel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/axenox/ros2_ws/src/text_to_cmd_vel/build/text_to_cmd_vel -- -j16 -l16
+[0.093s] [35m[1mConsolidate compiler generated dependencies of target minimal_turtle[0m
+[0.119s] [ 50%] [32mBuilding CXX object CMakeFiles/minimal_turtle.dir/src/minimal_turtle.cpp.o[0m
+[6.929s] [100%] [32m[1mLinking CXX executable minimal_turtle[0m
+[7.325s] [100%] Built target minimal_turtle
+[7.335s] Invoked command in '/home/axenox/ros2_ws/src/text_to_cmd_vel/build/text_to_cmd_vel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/axenox/ros2_ws/src/text_to_cmd_vel/build/text_to_cmd_vel -- -j16 -l16
+[7.378s] Invoking command in '/home/axenox/ros2_ws/src/text_to_cmd_vel/build/text_to_cmd_vel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/axenox/ros2_ws/src/text_to_cmd_vel/build/text_to_cmd_vel
+[7.384s] -- Install configuration: ""
+[7.384s] -- Installing: /home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel/lib/text_to_cmd_vel/minimal_turtle
+[7.387s] -- Set runtime path of "/home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel/lib/text_to_cmd_vel/minimal_turtle" to ""
+[7.387s] -- Up-to-date: /home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel/share/ament_index/resource_index/package_run_dependencies/text_to_cmd_vel
+[7.387s] -- Up-to-date: /home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel/share/ament_index/resource_index/parent_prefix_path/text_to_cmd_vel
+[7.388s] -- Up-to-date: /home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel/share/text_to_cmd_vel/environment/ament_prefix_path.sh
+[7.388s] -- Up-to-date: /home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel/share/text_to_cmd_vel/environment/ament_prefix_path.dsv
+[7.388s] -- Up-to-date: /home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel/share/text_to_cmd_vel/environment/path.sh
+[7.388s] -- Up-to-date: /home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel/share/text_to_cmd_vel/environment/path.dsv
+[7.388s] -- Up-to-date: /home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel/share/text_to_cmd_vel/local_setup.bash
+[7.389s] -- Up-to-date: /home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel/share/text_to_cmd_vel/local_setup.sh
+[7.389s] -- Up-to-date: /home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel/share/text_to_cmd_vel/local_setup.zsh
+[7.389s] -- Up-to-date: /home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel/share/text_to_cmd_vel/local_setup.dsv
+[7.389s] -- Installing: /home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel/share/text_to_cmd_vel/package.dsv
+[7.389s] -- Up-to-date: /home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel/share/ament_index/resource_index/packages/text_to_cmd_vel
+[7.390s] -- Up-to-date: /home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel/share/text_to_cmd_vel/cmake/text_to_cmd_velConfig.cmake
+[7.390s] -- Up-to-date: /home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel/share/text_to_cmd_vel/cmake/text_to_cmd_velConfig-version.cmake
+[7.390s] -- Up-to-date: /home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel/share/text_to_cmd_vel/package.xml
+[7.391s] Invoked command in '/home/axenox/ros2_ws/src/text_to_cmd_vel/build/text_to_cmd_vel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/axenox/ros2_ws/src/text_to_cmd_vel/build/text_to_cmd_vel

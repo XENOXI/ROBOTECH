@@ -1,0 +1,124 @@
+[0.000000] (-) TimerEvent: {}
+[0.000447] (text_to_cmd_vel) JobQueued: {'identifier': 'text_to_cmd_vel', 'dependencies': OrderedDict()}
+[0.001484] (text_to_cmd_vel) JobStarted: {'identifier': 'text_to_cmd_vel'}
+[0.017799] (text_to_cmd_vel) JobProgress: {'identifier': 'text_to_cmd_vel', 'progress': 'cmake'}
+[0.018597] (text_to_cmd_vel) JobProgress: {'identifier': 'text_to_cmd_vel', 'progress': 'build'}
+[0.019603] (text_to_cmd_vel) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/axenox/ros2_ws/src/text_to_cmd_vel/build/text_to_cmd_vel', '--', '-j16', '-l16'], 'cwd': '/home/axenox/ros2_ws/src/text_to_cmd_vel/build/text_to_cmd_vel', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'axenox'), ('LC_TIME', 'ru_RU.UTF-8'), ('GIO_MODULE_DIR', '/home/axenox/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/138/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/axenox/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/axenox'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/axenox/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.82.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/138/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/axenox/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/138/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/138/usr/share/code/code'), ('MANAGERPID', '1008'), ('SYSTEMD_EXEC_PID', '1176'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '25670'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/axenox/ros2_ws/src/text_to_cmd_vel/install:/home/axenox/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'axenox'), ('JOURNAL_STREAM', '8:818'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'axenox'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/axenox-note:@/tmp/.ICE-unix/1155,unix/axenox-note:/tmp/.ICE-unix/1155'), ('GTK_EXE_PREFIX', '/snap/code/138/usr'), ('INVOCATION_ID', '927017426e9b4ac79b5d6657bd529acf'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/138/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6DD6A2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0bd08d22c7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/axenox/snap/code/138/.local/share/glib-2.0/schemas'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel:/home/axenox/ros2_ws/install/turtlesim:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/axenox/ros2_ws/src/text_to_cmd_vel/build/text_to_cmd_vel'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/axenox/snap/code/138/.local/share:/home/axenox/snap/code/138:/snap/code/138/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/axenox/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel:/home/axenox/ros2_ws/install/turtlesim:/opt/ros/humble')]), 'shell': False}
+[0.099730] (-) TimerEvent: {}
+[0.106282] (text_to_cmd_vel) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target minimal_turtle\x1b[0m\n'}
+[0.140973] (text_to_cmd_vel) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/minimal_turtle.dir/src/minimal_turtle.cpp.o\x1b[0m\n'}
+[0.199894] (-) TimerEvent: {}
+[0.300343] (-) TimerEvent: {}
+[0.400836] (-) TimerEvent: {}
+[0.501255] (-) TimerEvent: {}
+[0.601776] (-) TimerEvent: {}
+[0.702214] (-) TimerEvent: {}
+[0.802732] (-) TimerEvent: {}
+[0.903160] (-) TimerEvent: {}
+[1.003860] (-) TimerEvent: {}
+[1.104248] (-) TimerEvent: {}
+[1.204642] (-) TimerEvent: {}
+[1.305025] (-) TimerEvent: {}
+[1.405413] (-) TimerEvent: {}
+[1.505814] (-) TimerEvent: {}
+[1.606217] (-) TimerEvent: {}
+[1.706609] (-) TimerEvent: {}
+[1.806995] (-) TimerEvent: {}
+[1.907382] (-) TimerEvent: {}
+[2.007788] (-) TimerEvent: {}
+[2.108167] (-) TimerEvent: {}
+[2.208558] (-) TimerEvent: {}
+[2.308983] (-) TimerEvent: {}
+[2.409351] (-) TimerEvent: {}
+[2.509700] (-) TimerEvent: {}
+[2.610057] (-) TimerEvent: {}
+[2.710461] (-) TimerEvent: {}
+[2.810844] (-) TimerEvent: {}
+[2.911237] (-) TimerEvent: {}
+[3.011666] (-) TimerEvent: {}
+[3.112049] (-) TimerEvent: {}
+[3.212433] (-) TimerEvent: {}
+[3.312802] (-) TimerEvent: {}
+[3.413174] (-) TimerEvent: {}
+[3.513556] (-) TimerEvent: {}
+[3.613928] (-) TimerEvent: {}
+[3.714309] (-) TimerEvent: {}
+[3.814691] (-) TimerEvent: {}
+[3.915077] (-) TimerEvent: {}
+[4.015474] (-) TimerEvent: {}
+[4.115896] (-) TimerEvent: {}
+[4.216288] (-) TimerEvent: {}
+[4.316686] (-) TimerEvent: {}
+[4.417091] (-) TimerEvent: {}
+[4.517514] (-) TimerEvent: {}
+[4.617976] (-) TimerEvent: {}
+[4.718432] (-) TimerEvent: {}
+[4.818895] (-) TimerEvent: {}
+[4.919484] (-) TimerEvent: {}
+[5.019930] (-) TimerEvent: {}
+[5.120317] (-) TimerEvent: {}
+[5.220697] (-) TimerEvent: {}
+[5.321068] (-) TimerEvent: {}
+[5.421444] (-) TimerEvent: {}
+[5.521859] (-) TimerEvent: {}
+[5.622239] (-) TimerEvent: {}
+[5.722618] (-) TimerEvent: {}
+[5.822960] (-) TimerEvent: {}
+[5.923315] (-) TimerEvent: {}
+[6.023681] (-) TimerEvent: {}
+[6.124015] (-) TimerEvent: {}
+[6.224323] (-) TimerEvent: {}
+[6.324650] (-) TimerEvent: {}
+[6.424965] (-) TimerEvent: {}
+[6.525300] (-) TimerEvent: {}
+[6.625603] (-) TimerEvent: {}
+[6.725907] (-) TimerEvent: {}
+[6.826214] (-) TimerEvent: {}
+[6.926526] (-) TimerEvent: {}
+[7.026837] (-) TimerEvent: {}
+[7.127155] (-) TimerEvent: {}
+[7.227477] (-) TimerEvent: {}
+[7.327788] (-) TimerEvent: {}
+[7.428089] (-) TimerEvent: {}
+[7.528393] (-) TimerEvent: {}
+[7.628685] (-) TimerEvent: {}
+[7.729005] (-) TimerEvent: {}
+[7.829367] (-) TimerEvent: {}
+[7.929915] (-) TimerEvent: {}
+[8.030292] (-) TimerEvent: {}
+[8.130844] (-) TimerEvent: {}
+[8.231290] (-) TimerEvent: {}
+[8.331733] (-) TimerEvent: {}
+[8.432133] (-) TimerEvent: {}
+[8.532491] (-) TimerEvent: {}
+[8.564274] (text_to_cmd_vel) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable minimal_turtle\x1b[0m\n'}
+[8.632657] (-) TimerEvent: {}
+[8.733144] (-) TimerEvent: {}
+[8.833639] (-) TimerEvent: {}
+[8.934338] (-) TimerEvent: {}
+[8.957704] (text_to_cmd_vel) StdoutLine: {'line': b'[100%] Built target minimal_turtle\n'}
+[8.977085] (text_to_cmd_vel) CommandEnded: {'returncode': 0}
+[9.007557] (text_to_cmd_vel) JobProgress: {'identifier': 'text_to_cmd_vel', 'progress': 'install'}
+[9.015903] (text_to_cmd_vel) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/axenox/ros2_ws/src/text_to_cmd_vel/build/text_to_cmd_vel'], 'cwd': '/home/axenox/ros2_ws/src/text_to_cmd_vel/build/text_to_cmd_vel', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'axenox'), ('LC_TIME', 'ru_RU.UTF-8'), ('GIO_MODULE_DIR', '/home/axenox/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/138/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/axenox/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/axenox'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/axenox/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.82.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/138/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/axenox/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/138/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/138/usr/share/code/code'), ('MANAGERPID', '1008'), ('SYSTEMD_EXEC_PID', '1176'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '25670'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/axenox/ros2_ws/src/text_to_cmd_vel/install:/home/axenox/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'axenox'), ('JOURNAL_STREAM', '8:818'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'axenox'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/axenox-note:@/tmp/.ICE-unix/1155,unix/axenox-note:/tmp/.ICE-unix/1155'), ('GTK_EXE_PREFIX', '/snap/code/138/usr'), ('INVOCATION_ID', '927017426e9b4ac79b5d6657bd529acf'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/138/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6DD6A2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0bd08d22c7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/axenox/snap/code/138/.local/share/glib-2.0/schemas'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel:/home/axenox/ros2_ws/install/turtlesim:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/axenox/ros2_ws/src/text_to_cmd_vel/build/text_to_cmd_vel'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/axenox/snap/code/138/.local/share:/home/axenox/snap/code/138:/snap/code/138/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/axenox/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel:/home/axenox/ros2_ws/install/turtlesim:/opt/ros/humble')]), 'shell': False}
+[9.022029] (text_to_cmd_vel) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.022276] (text_to_cmd_vel) StdoutLine: {'line': b'-- Installing: /home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel/lib/text_to_cmd_vel/minimal_turtle\n'}
+[9.025375] (text_to_cmd_vel) StdoutLine: {'line': b'-- Set runtime path of "/home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel/lib/text_to_cmd_vel/minimal_turtle" to ""\n'}
+[9.025718] (text_to_cmd_vel) StdoutLine: {'line': b'-- Up-to-date: /home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel/share/ament_index/resource_index/package_run_dependencies/text_to_cmd_vel\n'}
+[9.025850] (text_to_cmd_vel) StdoutLine: {'line': b'-- Up-to-date: /home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel/share/ament_index/resource_index/parent_prefix_path/text_to_cmd_vel\n'}
+[9.025969] (text_to_cmd_vel) StdoutLine: {'line': b'-- Up-to-date: /home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel/share/text_to_cmd_vel/environment/ament_prefix_path.sh\n'}
+[9.026086] (text_to_cmd_vel) StdoutLine: {'line': b'-- Up-to-date: /home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel/share/text_to_cmd_vel/environment/ament_prefix_path.dsv\n'}
+[9.026190] (text_to_cmd_vel) StdoutLine: {'line': b'-- Up-to-date: /home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel/share/text_to_cmd_vel/environment/path.sh\n'}
+[9.026298] (text_to_cmd_vel) StdoutLine: {'line': b'-- Up-to-date: /home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel/share/text_to_cmd_vel/environment/path.dsv\n'}
+[9.026403] (text_to_cmd_vel) StdoutLine: {'line': b'-- Up-to-date: /home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel/share/text_to_cmd_vel/local_setup.bash\n'}
+[9.026513] (text_to_cmd_vel) StdoutLine: {'line': b'-- Up-to-date: /home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel/share/text_to_cmd_vel/local_setup.sh\n'}
+[9.026622] (text_to_cmd_vel) StdoutLine: {'line': b'-- Up-to-date: /home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel/share/text_to_cmd_vel/local_setup.zsh\n'}
+[9.026729] (text_to_cmd_vel) StdoutLine: {'line': b'-- Up-to-date: /home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel/share/text_to_cmd_vel/local_setup.dsv\n'}
+[9.026836] (text_to_cmd_vel) StdoutLine: {'line': b'-- Installing: /home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel/share/text_to_cmd_vel/package.dsv\n'}
+[9.027059] (text_to_cmd_vel) StdoutLine: {'line': b'-- Up-to-date: /home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel/share/ament_index/resource_index/packages/text_to_cmd_vel\n'}
+[9.027170] (text_to_cmd_vel) StdoutLine: {'line': b'-- Up-to-date: /home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel/share/text_to_cmd_vel/cmake/text_to_cmd_velConfig.cmake\n'}
+[9.027281] (text_to_cmd_vel) StdoutLine: {'line': b'-- Up-to-date: /home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel/share/text_to_cmd_vel/cmake/text_to_cmd_velConfig-version.cmake\n'}
+[9.027394] (text_to_cmd_vel) StdoutLine: {'line': b'-- Up-to-date: /home/axenox/ros2_ws/src/text_to_cmd_vel/install/text_to_cmd_vel/share/text_to_cmd_vel/package.xml\n'}
+[9.028366] (text_to_cmd_vel) CommandEnded: {'returncode': 0}
+[9.034511] (-) TimerEvent: {}
+[9.100496] (text_to_cmd_vel) JobEnded: {'identifier': 'text_to_cmd_vel', 'rc': 0}
+[9.101217] (-) EventReactorShutdown: {}

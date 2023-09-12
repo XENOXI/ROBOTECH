@@ -1,3 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.002276] (-) JobUnselected: {'identifier': 'text_to_cmd_vel'}
-[0.003657] (-) EventReactorShutdown: {}
